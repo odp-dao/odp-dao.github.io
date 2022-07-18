@@ -11369,6 +11369,7 @@ class PublishComponent {
         this.lastPublication = "";
         this.lastAppPublication = "";
         this.lastIPNSPublication = "";
+        this.lastResultTokenMeta = "";
         this.publishingHashData = 0;
         this.publishingAppData = 0;
         this.publishingIPNS = 0;
@@ -11448,7 +11449,7 @@ class PublishComponent {
             var pwaManifest = JSON.parse(this.systemSvc.selectedMerchantGroup.pwaManifest);
             var web3Accounts = yield web3.eth.requestAccounts();
             var mintPrice = parseInt(yield odpStoreContract.methods.currentCreatePrice().call());
-            var createNewStoreMethodCall = (yield odpStoreContract.methods.createNewStore(this.odpStoreNameValue, this.lastAppPublication));
+            var createNewStoreMethodCall = (yield odpStoreContract.methods.createNewStore(this.odpStoreNameValue, this.lastResultTokenMeta));
             var estimatedGas = parseInt(yield createNewStoreMethodCall.estimateGas({ from: web3Accounts[0], value: mintPrice * 1.1, gasPrice: gasPrice, gasLimit: "1000000" }));
             var estimatedGasCost = estimatedGas * gasPrice;
             var mintTx = yield createNewStoreMethodCall.send({ from: web3Accounts[0], value: mintPrice + estimatedGasCost, gasPrice: gasPrice, gasLimit: "1000000" });
@@ -11470,7 +11471,7 @@ class PublishComponent {
             var web3Accounts = yield web3.eth.requestAccounts();
             var tokenFromCodename = parseInt(yield odpStoreContract.methods.codeName_to_tokenId(this.odpStoreNameValue).call());
             var currentUpdatePrice = parseInt(yield odpStoreContract.methods.currentChangeCodeNamePrice().call());
-            var updateURIMethodCall = (yield odpStoreContract.methods.updateTokenURI(this.lastAppPublication, tokenFromCodename.toString()));
+            var updateURIMethodCall = (yield odpStoreContract.methods.updateTokenURI(this.lastResultTokenMeta, tokenFromCodename.toString()));
             var mintTx = yield updateURIMethodCall.send({ from: web3Accounts[0], value: currentUpdatePrice, gasPrice: gasPrice, gasLimit: "1000000" });
             console.log(mintTx);
             setTimeout(() => {
@@ -11646,6 +11647,7 @@ class PublishComponent {
                                 console.log(result);
                                 lastResultTokenMeta = result;
                                 console.log("PUBLISHED TOKEN META HASH: " + lastResultTokenMeta.cid.toString());
+                                this.lastResultTokenMeta = lastResultTokenMeta.cid.toString();
                                 this.publishingNFT = 2;
                             }
                         }
