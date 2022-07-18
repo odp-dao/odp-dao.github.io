@@ -257,7 +257,7 @@ class UploadInterceptor {
         });
     }
     intercept(req, next) {
-        if (req.url.startsWith("/api/Sys/upload") && this.systemSvc.isStaticAppOnly) {
+        if (req.url.startsWith("./api/Sys/upload") && this.systemSvc.isStaticAppOnly) {
             var _file = req.body.get("file");
             return _staticStackInterceptor__WEBPACK_IMPORTED_MODULE_1__.StaticStackInterceptor.staticStackResponseAsync(req, this.getIpfsMeta(_file));
         }
@@ -7816,7 +7816,7 @@ class MffUploadFileComponent {
                 _formData.append("file", _file);
                 this.progress = 0;
                 this.text = "";
-                this.httpClient.post("/api/Sys/upload", _formData, {
+                this.httpClient.post("./api/Sys/upload", _formData, {
                     reportProgress: true,
                     observe: 'events'
                 }).pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_3__.timeout)(5 * 60 * 1000))
