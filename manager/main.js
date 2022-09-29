@@ -290,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 class ApiConfiguration {
     constructor() {
-        this.rootUrl = '.';
+        this.rootUrl = '';
     }
 }
 ApiConfiguration.ɵfac = function ApiConfiguration_Factory(t) { return new (t || ApiConfiguration)(); };
@@ -12902,7 +12902,7 @@ class PublishComponent {
                 try {
                     var _ipfsNode = yield src_app_static_stack_ipfs__WEBPACK_IMPORTED_MODULE_0__.SSIpfs.getNode();
                     var scriptElm = yield src_app_static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_7__.SSOrbitdb.GetOrbitDbInstance(_ipfsNode);
-                    logDatahashChannel = yield src_app_static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_7__.SSOrbitdb.GetLogInstancePool("hashdata");
+                    logDatahashChannel = yield src_app_static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_7__.SSOrbitdb.GetLogInstancePool(this.systemSvc.selectedMerchant.id + "_hashdata");
                     datahashChannel = logDatahashChannel.id;
                     console.log("dataHashChannel: " + datahashChannel);
                 }
@@ -14695,7 +14695,7 @@ class WizardNewMerchantComponent {
         return (0,tslib__WEBPACK_IMPORTED_MODULE_8__.__awaiter)(this, void 0, void 0, function* () {
             var _ipfsNode = yield src_app_static_stack_ipfs__WEBPACK_IMPORTED_MODULE_0__.SSIpfs.getNode();
             var scriptElm = yield src_app_static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_1__.SSOrbitdb.GetOrbitDbInstance(_ipfsNode);
-            var newLogChannel = yield src_app_static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_1__.SSOrbitdb.GetLogInstancePool(channelName);
+            var newLogChannel = yield src_app_static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_1__.SSOrbitdb.GetLogInstancePool(merchant.id + "_" + channelName);
             var delinetEndpoint = newLogChannel.id;
             var keys = yield this.cryptoSvc.generateNewKeys();
             merchant.delinetEndpoint = delinetEndpoint;
