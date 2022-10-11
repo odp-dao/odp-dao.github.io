@@ -290,7 +290,7 @@ __webpack_require__.r(__webpack_exports__);
  */
 class ApiConfiguration {
     constructor() {
-        this.rootUrl = '';
+        this.rootUrl = '.';
     }
 }
 ApiConfiguration.ɵfac = function ApiConfiguration_Factory(t) { return new (t || ApiConfiguration)(); };
