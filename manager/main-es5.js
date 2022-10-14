@@ -11490,7 +11490,7 @@
         if (rf & 1) {
           var _r15 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "img", 24);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "img", 25);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_img_6_Template_img_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r15);
@@ -11508,7 +11508,7 @@
         if (rf & 1) {
           var _r17 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "img", 25);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "img", 26);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_img_7_Template_img_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r17);
@@ -11530,13 +11530,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_14_mat_icon_1_Template(rf, ctx) {
+      function CategoryListItemComponent_div_15_mat_icon_1_Template(rf, ctx) {
         if (rf & 1) {
           var _r21 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 29);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_14_mat_icon_1_Template_mat_icon_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_15_mat_icon_1_Template_mat_icon_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r21);
 
             var ctx_r20 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
@@ -11550,13 +11550,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_14_mat_icon_2_Template(rf, ctx) {
+      function CategoryListItemComponent_div_15_mat_icon_2_Template(rf, ctx) {
         if (rf & 1) {
           var _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 29);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_14_mat_icon_2_Template_mat_icon_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_15_mat_icon_2_Template_mat_icon_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r23);
 
             var ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
@@ -11570,13 +11570,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_14_Template(rf, ctx) {
+      function CategoryListItemComponent_div_15_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 26);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 27);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, CategoryListItemComponent_div_14_mat_icon_1_Template, 2, 0, "mat-icon", 27);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, CategoryListItemComponent_div_15_mat_icon_1_Template, 2, 0, "mat-icon", 28);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_14_mat_icon_2_Template, 2, 0, "mat-icon", 27);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_15_mat_icon_2_Template, 2, 0, "mat-icon", 28);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
         }
@@ -11594,9 +11594,9 @@
         }
       }
 
-      function CategoryListItemComponent_mat_spinner_16_Template(rf, ctx) {
+      function CategoryListItemComponent_mat_spinner_17_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](0, "mat-spinner", 29);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](0, "mat-spinner", 30);
         }
 
         if (rf & 2) {
@@ -11604,9 +11604,9 @@
         }
       }
 
-      function CategoryListItemComponent_mat_icon_17_Template(rf, ctx) {
+      function CategoryListItemComponent_mat_icon_18_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 31);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1, "more_vert");
 
@@ -11616,13 +11616,13 @@
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]();
 
-          var _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵreference"](19);
+          var _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵreference"](20);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("matMenuTriggerFor", _r5);
         }
       }
 
-      function CategoryListItemComponent_div_28_span_1_Template(rf, ctx) {
+      function CategoryListItemComponent_div_29_span_1_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "span");
 
@@ -11640,7 +11640,7 @@
         }
       }
 
-      function CategoryListItemComponent_div_28_span_2_Template(rf, ctx) {
+      function CategoryListItemComponent_div_29_span_2_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "span");
 
@@ -11658,13 +11658,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_28_Template(rf, ctx) {
+      function CategoryListItemComponent_div_29_Template(rf, ctx) {
         if (rf & 1) {
           var _r27 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 31);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 32);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_28_Template_div_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_29_Template_div_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r27);
 
             var ctx_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]();
@@ -11672,9 +11672,9 @@
             return ctx_r26.changePriceSvc.changeItemPrice(ctx_r26.item);
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, CategoryListItemComponent_div_28_span_1_Template, 2, 1, "span", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, CategoryListItemComponent_div_29_span_1_Template, 2, 1, "span", 23);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_28_span_2_Template, 2, 1, "span", 22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_29_span_2_Template, 2, 1, "span", 23);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
         }
@@ -11692,25 +11692,25 @@
         }
       }
 
-      function CategoryListItemComponent_input_29_Template(rf, ctx) {
+      function CategoryListItemComponent_input_30_Template(rf, ctx) {
         if (rf & 1) {
           var _r29 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "input", 32);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "input", 33);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("change", function CategoryListItemComponent_input_29_Template_input_change_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("change", function CategoryListItemComponent_input_30_Template_input_change_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r29);
 
             var ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]();
 
             return ctx_r28.changePriceSvc.changedPrice();
-          })("ngModelChange", function CategoryListItemComponent_input_29_Template_input_ngModelChange_0_listener($event) {
+          })("ngModelChange", function CategoryListItemComponent_input_30_Template_input_ngModelChange_0_listener($event) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r29);
 
             var ctx_r30 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]();
 
             return ctx_r30.changePriceSvc.changingPrice = $event;
-          })("blur", function CategoryListItemComponent_input_29_Template_input_blur_0_listener() {
+          })("blur", function CategoryListItemComponent_input_30_Template_input_blur_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r29);
 
             var ctx_r31 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]();
@@ -11728,13 +11728,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_31_button_1_Template(rf, ctx) {
+      function CategoryListItemComponent_div_32_button_1_Template(rf, ctx) {
         if (rf & 1) {
           var _r37 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 37);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 38);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_31_button_1_Template_button_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_32_button_1_Template_button_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r37);
 
             var ctx_r36 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
@@ -11748,9 +11748,9 @@
         }
       }
 
-      function CategoryListItemComponent_div_31_button_2_Template(rf, ctx) {
+      function CategoryListItemComponent_div_32_button_2_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 38);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 39);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1, "Activated");
 
@@ -11758,9 +11758,9 @@
         }
       }
 
-      function CategoryListItemComponent_div_31_button_3_Template(rf, ctx) {
+      function CategoryListItemComponent_div_32_button_3_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 39);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 40);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1, "Paused");
 
@@ -11768,13 +11768,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_31_button_4_Template(rf, ctx) {
+      function CategoryListItemComponent_div_32_button_4_Template(rf, ctx) {
         if (rf & 1) {
           var _r39 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 40);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 41);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_31_button_4_Template_button_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_32_button_4_Template_button_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r39);
 
             var ctx_r38 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
@@ -11788,17 +11788,17 @@
         }
       }
 
-      function CategoryListItemComponent_div_31_Template(rf, ctx) {
+      function CategoryListItemComponent_div_32_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, CategoryListItemComponent_div_31_button_1_Template, 2, 0, "button", 33);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, CategoryListItemComponent_div_32_button_1_Template, 2, 0, "button", 34);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_31_button_2_Template, 2, 0, "button", 34);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_32_button_2_Template, 2, 0, "button", 35);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](3, CategoryListItemComponent_div_31_button_3_Template, 2, 0, "button", 35);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](3, CategoryListItemComponent_div_32_button_3_Template, 2, 0, "button", 36);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](4, CategoryListItemComponent_div_31_button_4_Template, 2, 0, "button", 36);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](4, CategoryListItemComponent_div_32_button_4_Template, 2, 0, "button", 37);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
         }
@@ -11824,13 +11824,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_33_mat_icon_1_Template(rf, ctx) {
+      function CategoryListItemComponent_div_34_mat_icon_1_Template(rf, ctx) {
         if (rf & 1) {
           var _r43 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 29);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_33_mat_icon_1_Template_mat_icon_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_34_mat_icon_1_Template_mat_icon_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r43);
 
             var ctx_r42 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
@@ -11844,13 +11844,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_33_mat_icon_2_Template(rf, ctx) {
+      function CategoryListItemComponent_div_34_mat_icon_2_Template(rf, ctx) {
         if (rf & 1) {
           var _r45 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 28);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 29);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_33_mat_icon_2_Template_mat_icon_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_34_mat_icon_2_Template_mat_icon_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r45);
 
             var ctx_r44 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
@@ -11864,13 +11864,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_33_Template(rf, ctx) {
+      function CategoryListItemComponent_div_34_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 26);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 27);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, CategoryListItemComponent_div_33_mat_icon_1_Template, 2, 0, "mat-icon", 27);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](1, CategoryListItemComponent_div_34_mat_icon_1_Template, 2, 0, "mat-icon", 28);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_33_mat_icon_2_Template, 2, 0, "mat-icon", 27);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_34_mat_icon_2_Template, 2, 0, "mat-icon", 28);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
         }
@@ -11888,9 +11888,9 @@
         }
       }
 
-      function CategoryListItemComponent_mat_spinner_35_Template(rf, ctx) {
+      function CategoryListItemComponent_mat_spinner_36_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](0, "mat-spinner", 29);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](0, "mat-spinner", 30);
         }
 
         if (rf & 2) {
@@ -11898,9 +11898,9 @@
         }
       }
 
-      function CategoryListItemComponent_mat_icon_36_Template(rf, ctx) {
+      function CategoryListItemComponent_mat_icon_37_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "mat-icon", 31);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1, "more_vert");
 
@@ -11910,15 +11910,15 @@
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]();
 
-          var _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵreference"](19);
+          var _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵreference"](20);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("matMenuTriggerFor", _r5);
         }
       }
 
-      function CategoryListItemComponent_div_41_div_2_span_8_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_div_2_span_8_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "span", 57);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "span", 58);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1, "MANDATORY");
 
@@ -11926,9 +11926,9 @@
         }
       }
 
-      function CategoryListItemComponent_div_41_div_2_span_9_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_div_2_span_9_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "span", 58);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "span", 59);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1, "OPTIONAL");
 
@@ -11936,13 +11936,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_41_div_2_div_18_button_13_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_div_2_div_18_button_13_Template(rf, ctx) {
         if (rf & 1) {
           var _r58 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 37);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 38);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_41_div_2_div_18_button_13_Template_button_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_42_div_2_div_18_button_13_Template_button_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r58);
 
             var op_r51 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]().$implicit;
@@ -11958,9 +11958,9 @@
         }
       }
 
-      function CategoryListItemComponent_div_41_div_2_div_18_button_14_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_div_2_div_18_button_14_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 38);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 39);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1, "Activated");
 
@@ -11968,9 +11968,9 @@
         }
       }
 
-      function CategoryListItemComponent_div_41_div_2_div_18_button_15_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_div_2_div_18_button_15_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 39);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 40);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](1, "Paused");
 
@@ -11978,13 +11978,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_41_div_2_div_18_button_16_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_div_2_div_18_button_16_Template(rf, ctx) {
         if (rf & 1) {
           var _r61 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 40);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "button", 41);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_41_div_2_div_18_button_16_Template_button_click_0_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_div_42_div_2_div_18_button_16_Template_button_click_0_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵrestoreView"](_r61);
 
             var op_r51 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]().$implicit;
@@ -12000,17 +12000,17 @@
         }
       }
 
-      function CategoryListItemComponent_div_41_div_2_div_18_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_div_2_div_18_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 59);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 60);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](1, "div", 60);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](1, "div", 61);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](2, "div", 61);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](2, "div", 62);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](3, "div", 47);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](3, "div", 48);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](4, "div", 62);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](4, "div", 63);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](5);
 
@@ -12018,33 +12018,11 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "div", 63);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](6, "div", 64);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](7, "div", 64);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](7, "div", 65);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](8, "input", 65);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](9, "div", 66);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](10, "div", 67);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](11, "div", 68);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](12, "div", 69);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](13, CategoryListItemComponent_div_41_div_2_div_18_button_13_Template, 2, 0, "button", 33);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](14, CategoryListItemComponent_div_41_div_2_div_18_button_14_Template, 2, 0, "button", 34);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](15, CategoryListItemComponent_div_41_div_2_div_18_button_15_Template, 2, 0, "button", 35);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](16, CategoryListItemComponent_div_41_div_2_div_18_button_16_Template, 2, 0, "button", 36);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](8, "input", 66);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
@@ -12052,9 +12030,31 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](17, "div", 70);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](9, "div", 67);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](18, "hr", 71);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](10, "div", 68);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](11, "div", 69);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](12, "div", 70);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](13, CategoryListItemComponent_div_42_div_2_div_18_button_13_Template, 2, 0, "button", 34);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](14, CategoryListItemComponent_div_42_div_2_div_18_button_14_Template, 2, 0, "button", 35);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](15, CategoryListItemComponent_div_42_div_2_div_18_button_15_Template, 2, 0, "button", 36);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](16, CategoryListItemComponent_div_42_div_2_div_18_button_16_Template, 2, 0, "button", 37);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](17, "div", 71);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](18, "hr", 72);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
@@ -12086,19 +12086,19 @@
         }
       }
 
-      function CategoryListItemComponent_div_41_div_2_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_div_2_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 43);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 44);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](1, "div", 44);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](1, "div", 45);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](2, "div", 45);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](2, "div", 46);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](3, "div", 46);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](3, "div", 47);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](4, "div", 47);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](4, "div", 48);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](5, "div", 48);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](5, "div", 49);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](6);
 
@@ -12106,21 +12106,21 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](7, "div", 49);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](7, "div", 50);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](8, CategoryListItemComponent_div_41_div_2_span_8_Template, 2, 0, "span", 50);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](8, CategoryListItemComponent_div_42_div_2_span_8_Template, 2, 0, "span", 51);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](9, CategoryListItemComponent_div_41_div_2_span_9_Template, 2, 0, "span", 51);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](9, CategoryListItemComponent_div_42_div_2_span_9_Template, 2, 0, "span", 52);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](10, "div", 52);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "div", 53);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](10, "div", 53);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](12, "div", 54);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "div", 54);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](12, "div", 55);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](13, "span");
 
@@ -12130,9 +12130,9 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](15, "div", 55);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](15, "div", 56);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](16, "mat-icon", 30);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](16, "mat-icon", 31);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](17, "more_vert");
 
@@ -12146,7 +12146,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](18, CategoryListItemComponent_div_41_div_2_div_18_Template, 19, 5, "div", 56);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](18, CategoryListItemComponent_div_42_div_2_div_18_Template, 19, 5, "div", 57);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
         }
@@ -12156,7 +12156,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
 
-          var _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵreference"](19);
+          var _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵreference"](20);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](6);
 
@@ -12184,13 +12184,13 @@
         }
       }
 
-      function CategoryListItemComponent_div_41_Template(rf, ctx) {
+      function CategoryListItemComponent_div_42_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](1, "div", 41);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](1, "div", 42);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_41_div_2_Template, 19, 7, "div", 42);
+          _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, CategoryListItemComponent_div_42_div_2_Template, 19, 7, "div", 43);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
@@ -12490,9 +12490,9 @@
         inputs: {
           item: "item"
         },
-        decls: 42,
+        decls: 43,
         vars: 15,
-        consts: [["fxLayout", "column", 1, "content"], ["fxLayout.lt-md", "column", "fxLayout.gt-sm", "row"], ["fxFlex.gt-sm", "50", "fxFlex.lt-md", "100"], ["fxLayout", "row wrap", "fxFlex.gt-sm", "70", "fxFlex.lt-md", "90"], ["fxFlex", "30"], [1, "img-item"], ["class", "img", "src", "../../../assets/svgs/empty-image.svg", 3, "click", 4, "ngIf"], ["class", "img filled", 3, "src", "click", 4, "ngIf"], ["fxFlex.lt-md", "70", "fxLayout", "column", 1, "text-item", 3, "click"], ["matTooltipPosition", "above", 1, "heading4", 3, "matTooltip"], ["fxFlex", "10", "fxFlex.lt-md", "10", "fxLayoutAlign", "end start", "fxHide.gt-sm", ""], ["class", "toggle", 4, "ngIf"], ["class", "spinner", 3, "diameter", 4, "ngIf"], [3, "matMenuTriggerFor", 4, "ngIf"], ["menu", "matMenu"], ["mat-menu-item", "", 3, "click"], ["mat-menu-item", ""], ["fxLayout", "row", "fxFlex.gt-sm", "50", "fxFlex.lt-md", "100", 1, "price-status"], ["fxFlex.lt-md", "50", "fxFlex.gt-sm", "40", "fxLayoutAlign", "start start"], ["class", "price light-grey-border-color ", 3, "click", 4, "ngIf"], ["disabled", "loadDelete", "class", "white-80-background-color light-grey-border-color input-price", "type", "text", 3, "ngModel", "change", "ngModelChange", "blur", 4, "ngIf"], ["fxFlex.lt-md", "50", "fxFlex.gt-sm", "50", "fxLayoutAlign", "end start", 1, "btns"], [4, "ngIf"], ["fxFlex.gt-sm", "10", "fxLayoutAlign", "end start", "fxHide.lt-md", ""], ["src", "../../../assets/svgs/empty-image.svg", 1, "img", 3, "click"], [1, "img", "filled", 3, "src", "click"], [1, "toggle"], ["class", "primary-color", 3, "click", 4, "ngIf"], [1, "primary-color", 3, "click"], [1, "spinner", 3, "diameter"], [3, "matMenuTriggerFor"], [1, "price", "light-grey-border-color", 3, "click"], ["disabled", "loadDelete", "type", "text", 1, "white-80-background-color", "light-grey-border-color", "input-price", 3, "ngModel", "change", "ngModelChange", "blur"], ["class", "button-status btn btn-pause btn-pause-matte primary-border-color body5-semibold primary-color", "mat-button", "", 3, "click", 4, "ngIf"], ["class", "button-status btn btn-activate white-60-color primary-border-color primary-background-color body5-semibold primary-color", "mat-raised-button", "", 4, "ngIf"], ["class", "button-status btn btn-pause white-60-color primary-border-color primary-background-color body5-semibold primary-color", "mat-raised-button", "", 4, "ngIf"], ["class", "button-status btn btn-activate btn-pause-matte primary-border-color primary-border-color body5-semibold primary-color", "mat-button", "", 3, "click", 4, "ngIf"], ["mat-button", "", 1, "button-status", "btn", "btn-pause", "btn-pause-matte", "primary-border-color", "body5-semibold", "primary-color", 3, "click"], ["mat-raised-button", "", 1, "button-status", "btn", "btn-activate", "white-60-color", "primary-border-color", "primary-background-color", "body5-semibold", "primary-color"], ["mat-raised-button", "", 1, "button-status", "btn", "btn-pause", "white-60-color", "primary-border-color", "primary-background-color", "body5-semibold", "primary-color"], ["mat-button", "", 1, "button-status", "btn", "btn-activate", "btn-pause-matte", "primary-border-color", "primary-border-color", "body5-semibold", "primary-color", 3, "click"], ["fxLayout", "column", "fxFlex", "100"], ["class", "line", 4, "ngFor", "ngForOf"], [1, "line"], ["fxLayout", "row", 1, "ogp", "extra-light-grey-background-color"], ["fxFlex", "70", "fxLayoutAlign", "start center"], ["fxFlex", "70"], ["fxFlex", "20"], ["fxFlex", "80", 1, "heading3-regular"], ["fxFlex", "30", "fxLayoutAlign", "start start"], ["class", "body3-semibold dark-grey-background-color white-80-color mandatory", 4, "ngIf"], ["class", "light-grey-background-color black-color mandatory", 4, "ngIf"], ["fxFlex", "30", "fxLayoutAlign", "end center"], ["fxFlex", "100", "fxLayoutAlign", "end start"], ["fxFlex", "90", "fxLayoutAlign", "start start"], ["fxFlex", "10", "fxLayoutAlign", "end start"], ["class", "sub-itens", "fxLayout.lt-md", "column", "fxLayout.gt-sm", "row", 4, "ngFor", "ngForOf"], [1, "body3-semibold", "dark-grey-background-color", "white-80-color", "mandatory"], [1, "light-grey-background-color", "black-color", "mandatory"], ["fxLayout.lt-md", "column", "fxLayout.gt-sm", "row", 1, "sub-itens"], ["fxFlex.lt-md", "100", "fxFlex.gt-sm", "70", "fxLayout.gt-sm", "row"], ["fxFlex.lt-md", "50", "fxFlex.gt-sm", "70"], ["fxFlex", "30", "fxFlex.gt-sm", "70", 1, "body1"], ["fxFlex.lt-md", "50", "fxFlex.gt-sm", "30", "fxLayoutAlign", "start center"], ["fxFlex", "100"], [1, "grey-border-color", "input-price"], ["fxFlex.lt-md", "100", "fxFlex.gt-sm", "30"], ["fxFlex", "100", "fxLayoutAlign", "start center", "ngClass.lt-md", "sub-item-input"], ["fxFlex.lt-md", "10"], ["fxFlex", "90", "fxFlex.lt-md", "80"], ["fxHide.gt-sm", "", 1, "hr"], [1, "light-grey-color"]],
+        consts: [["fxLayout", "column", 1, "content"], ["fxLayout.lt-md", "column", "fxLayout.gt-sm", "row"], ["fxFlex.gt-sm", "50", "fxFlex.lt-md", "100"], ["fxLayout", "row wrap", "fxFlex.gt-sm", "70", "fxFlex.lt-md", "90"], ["fxFlex", "30"], [1, "img-item"], ["class", "img", "src", "../../../assets/svgs/empty-image.svg", 3, "click", 4, "ngIf"], ["class", "img filled", 3, "src", "click", 4, "ngIf"], ["fxFlex", "5"], ["fxFlex.lt-md", "65", "fxLayout", "column", "fxLayoutAlign", "start start", 1, "text-item", 3, "click"], ["matTooltipPosition", "above", 1, "heading4", 3, "matTooltip"], ["fxFlex", "10", "fxFlex.lt-md", "10", "fxLayoutAlign", "end start", "fxHide.gt-sm", ""], ["class", "toggle", 4, "ngIf"], ["class", "spinner", 3, "diameter", 4, "ngIf"], [3, "matMenuTriggerFor", 4, "ngIf"], ["menu", "matMenu"], ["mat-menu-item", "", 3, "click"], ["mat-menu-item", ""], ["fxLayout", "row", "fxFlex.gt-sm", "50", "fxFlex.lt-md", "100", 1, "price-status"], ["fxFlex.lt-md", "50", "fxFlex.gt-sm", "40", "fxLayoutAlign", "start start"], ["class", "price light-grey-border-color ", 3, "click", 4, "ngIf"], ["disabled", "loadDelete", "class", "white-80-background-color light-grey-border-color input-price", "type", "text", 3, "ngModel", "change", "ngModelChange", "blur", 4, "ngIf"], ["fxFlex.lt-md", "50", "fxFlex.gt-sm", "50", "fxLayoutAlign", "end start", 1, "btns"], [4, "ngIf"], ["fxFlex.gt-sm", "10", "fxLayoutAlign", "end start", "fxHide.lt-md", ""], ["src", "../../../assets/svgs/empty-image.svg", 1, "img", 3, "click"], [1, "img", "filled", 3, "src", "click"], [1, "toggle"], ["class", "primary-color", 3, "click", 4, "ngIf"], [1, "primary-color", 3, "click"], [1, "spinner", 3, "diameter"], [3, "matMenuTriggerFor"], [1, "price", "light-grey-border-color", 3, "click"], ["disabled", "loadDelete", "type", "text", 1, "white-80-background-color", "light-grey-border-color", "input-price", 3, "ngModel", "change", "ngModelChange", "blur"], ["class", "button-status btn btn-pause btn-pause-matte primary-border-color body5-semibold primary-color", "mat-button", "", 3, "click", 4, "ngIf"], ["class", "button-status btn btn-activate white-60-color primary-border-color primary-background-color body5-semibold primary-color", "mat-raised-button", "", 4, "ngIf"], ["class", "button-status btn btn-pause white-60-color primary-border-color primary-background-color body5-semibold primary-color", "mat-raised-button", "", 4, "ngIf"], ["class", "button-status btn btn-activate btn-pause-matte primary-border-color primary-border-color body5-semibold primary-color", "mat-button", "", 3, "click", 4, "ngIf"], ["mat-button", "", 1, "button-status", "btn", "btn-pause", "btn-pause-matte", "primary-border-color", "body5-semibold", "primary-color", 3, "click"], ["mat-raised-button", "", 1, "button-status", "btn", "btn-activate", "white-60-color", "primary-border-color", "primary-background-color", "body5-semibold", "primary-color"], ["mat-raised-button", "", 1, "button-status", "btn", "btn-pause", "white-60-color", "primary-border-color", "primary-background-color", "body5-semibold", "primary-color"], ["mat-button", "", 1, "button-status", "btn", "btn-activate", "btn-pause-matte", "primary-border-color", "primary-border-color", "body5-semibold", "primary-color", 3, "click"], ["fxLayout", "column", "fxFlex", "100"], ["class", "line", 4, "ngFor", "ngForOf"], [1, "line"], ["fxLayout", "row", 1, "ogp", "extra-light-grey-background-color"], ["fxFlex", "70", "fxLayoutAlign", "start center"], ["fxFlex", "70"], ["fxFlex", "20"], ["fxFlex", "80", 1, "heading3-regular"], ["fxFlex", "30", "fxLayoutAlign", "start start"], ["class", "body3-semibold dark-grey-background-color white-80-color mandatory", 4, "ngIf"], ["class", "light-grey-background-color black-color mandatory", 4, "ngIf"], ["fxFlex", "30", "fxLayoutAlign", "end center"], ["fxFlex", "100", "fxLayoutAlign", "end start"], ["fxFlex", "90", "fxLayoutAlign", "start start"], ["fxFlex", "10", "fxLayoutAlign", "end start"], ["class", "sub-itens", "fxLayout.lt-md", "column", "fxLayout.gt-sm", "row", 4, "ngFor", "ngForOf"], [1, "body3-semibold", "dark-grey-background-color", "white-80-color", "mandatory"], [1, "light-grey-background-color", "black-color", "mandatory"], ["fxLayout.lt-md", "column", "fxLayout.gt-sm", "row", 1, "sub-itens"], ["fxFlex.lt-md", "100", "fxFlex.gt-sm", "70", "fxLayout.gt-sm", "row"], ["fxFlex.lt-md", "50", "fxFlex.gt-sm", "70"], ["fxFlex", "30", "fxFlex.gt-sm", "70", 1, "body1"], ["fxFlex.lt-md", "50", "fxFlex.gt-sm", "30", "fxLayoutAlign", "start center"], ["fxFlex", "100"], [1, "grey-border-color", "input-price"], ["fxFlex.lt-md", "100", "fxFlex.gt-sm", "30"], ["fxFlex", "100", "fxLayoutAlign", "start center", "ngClass.lt-md", "sub-item-input"], ["fxFlex.lt-md", "10"], ["fxFlex", "90", "fxFlex.lt-md", "80"], ["fxHide.gt-sm", "", 1, "hr"], [1, "light-grey-color"]],
         template: function CategoryListItemComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "div", 0);
@@ -12515,67 +12515,65 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](8, "div", 8);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_Template_div_click_8_listener() {
-              return ctx.editItem();
-            });
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](8, "div", 8);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](9, "div", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](11, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](12);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](13, "div", 10);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](14, CategoryListItemComponent_div_14_Template, 3, 2, "div", 11);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](15, "div");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](16, CategoryListItemComponent_mat_spinner_16_Template, 1, 1, "mat-spinner", 12);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](17, CategoryListItemComponent_mat_icon_17_Template, 2, 1, "mat-icon", 13);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](18, "mat-menu", null, 14);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](20, "button", 15);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_Template_button_click_20_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_Template_div_click_9_listener() {
               return ctx.editItem();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](21, "Edit item");
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](10, "div", 10);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](11);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](22, "button", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](12, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_Template_button_click_22_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](14, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](15, CategoryListItemComponent_div_15_Template, 3, 2, "div", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](16, "div");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](17, CategoryListItemComponent_mat_spinner_17_Template, 1, 1, "mat-spinner", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](18, CategoryListItemComponent_mat_icon_18_Template, 2, 1, "mat-icon", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](19, "mat-menu", null, 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](21, "button", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_Template_button_click_21_listener() {
+              return ctx.editItem();
+            });
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](22, "Edit item");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](23, "button", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_Template_button_click_23_listener() {
               return ctx.deleteItem();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](23, "Delete item");
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](24, "Delete item");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](24, "button", 16);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](25, "button", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](25, "Duplicate item");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](26, "Duplicate item");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
@@ -12583,41 +12581,45 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](26, "div", 17);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](27, "div", 18);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](28, CategoryListItemComponent_div_28_Template, 3, 2, "div", 19);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](28, "div", 19);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](29, CategoryListItemComponent_input_29_Template, 1, 1, "input", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](29, CategoryListItemComponent_div_29_Template, 3, 2, "div", 20);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](30, "div", 21);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](31, CategoryListItemComponent_div_31_Template, 5, 4, "div", 22);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](30, CategoryListItemComponent_input_30_Template, 1, 1, "input", 21);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](32, "div", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](31, "div", 22);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](33, CategoryListItemComponent_div_33_Template, 3, 2, "div", 11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](32, CategoryListItemComponent_div_32_Template, 5, 4, "div", 23);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](34, "div");
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](35, CategoryListItemComponent_mat_spinner_35_Template, 1, 1, "mat-spinner", 12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](33, "div", 24);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](36, CategoryListItemComponent_mat_icon_36_Template, 2, 1, "mat-icon", 13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](34, CategoryListItemComponent_div_34_Template, 3, 2, "div", 12);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](37, "mat-menu", null, 14);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](35, "div");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](39, "button", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](36, CategoryListItemComponent_mat_spinner_36_Template, 1, 1, "mat-spinner", 13);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_Template_button_click_39_listener() {
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](37, CategoryListItemComponent_mat_icon_37_Template, 2, 1, "mat-icon", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](38, "mat-menu", null, 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](40, "button", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵlistener"]("click", function CategoryListItemComponent_Template_button_click_40_listener() {
               return ctx.editItem();
             });
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](40, "Edit");
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtext"](41, "Edit");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
@@ -12631,7 +12633,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](41, CategoryListItemComponent_div_41_Template, 3, 1, "div", 22);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](42, CategoryListItemComponent_div_42_Template, 3, 1, "div", 23);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
           }
@@ -12645,7 +12647,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", ctx.uploadedImg);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("matTooltip", ctx.item.id);
 
@@ -12698,7 +12700,7 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", ctx.showOptions);
           }
         },
-        directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_13__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_13__.DefaultFlexDirective, _angular_common__WEBPACK_IMPORTED_MODULE_14__.NgIf, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_15__.MatTooltip, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_13__.DefaultLayoutAlignDirective, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_16__.DefaultShowHideDirective, _angular_material_menu__WEBPACK_IMPORTED_MODULE_17__.MatMenu, _angular_material_menu__WEBPACK_IMPORTED_MODULE_17__.MatMenuItem, _angular_material_icon__WEBPACK_IMPORTED_MODULE_18__.MatIcon, _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_19__.MatSpinner, _angular_material_menu__WEBPACK_IMPORTED_MODULE_17__.MatMenuTrigger, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.NgModel, _angular_material_button__WEBPACK_IMPORTED_MODULE_21__.MatButton, _angular_common__WEBPACK_IMPORTED_MODULE_14__.NgForOf, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_16__.DefaultClassDirective],
+        directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_13__.DefaultLayoutDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_13__.DefaultFlexDirective, _angular_common__WEBPACK_IMPORTED_MODULE_14__.NgIf, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_13__.DefaultLayoutAlignDirective, _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_15__.MatTooltip, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_16__.DefaultShowHideDirective, _angular_material_menu__WEBPACK_IMPORTED_MODULE_17__.MatMenu, _angular_material_menu__WEBPACK_IMPORTED_MODULE_17__.MatMenuItem, _angular_material_icon__WEBPACK_IMPORTED_MODULE_18__.MatIcon, _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_19__.MatSpinner, _angular_material_menu__WEBPACK_IMPORTED_MODULE_17__.MatMenuTrigger, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_20__.NgModel, _angular_material_button__WEBPACK_IMPORTED_MODULE_21__.MatButton, _angular_common__WEBPACK_IMPORTED_MODULE_14__.NgForOf, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_16__.DefaultClassDirective],
         pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_14__.AsyncPipe],
         styles: [".btn[_ngcontent-%COMP%] {\n  font-size: 12px;\n}\n\n.btn-pause[_ngcontent-%COMP%] {\n  border-radius: 5px 0px 0px 5px;\n}\n\n.btn-activate[_ngcontent-%COMP%] {\n  border-radius: 0px 5px 5px 0px;\n}\n\n.btn-pause-matte[_ngcontent-%COMP%] {\n  opacity: 0.5;\n}\n\n.img-item[_ngcontent-%COMP%] {\n  width: 85px;\n  height: 70px;\n  padding-left: 20px;\n}\n\n.img[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  border-radius: 5px;\n}\n\n.filled[_ngcontent-%COMP%] {\n  -o-object-fit: contain;\n     object-fit: contain;\n}\n\n.hr[_ngcontent-%COMP%] {\n  padding: 0px 10px;\n}\n\n.text-item[_ngcontent-%COMP%] {\n  padding-left: 10px;\n}\n\n@media (max-width: 581px) {\n  .text-item[_ngcontent-%COMP%] {\n    padding-left: 25px;\n  }\n}\n\n.hNHAX[_ngcontent-%COMP%] {\n  --sizeWithBorder: calc(12px + 10px);\n  position: absolute;\n  right: calc(100% + 10px - var(--sizeWithBorder) / 2);\n  top: 50%;\n  transform: translateY(-50%);\n  display: inline-block;\n  height: var(--sizeWithBorder);\n  width: var(--sizeWithBorder);\n  background-size: 12px;\n  background-color: #50a773;\n  border-radius: 100%;\n  border: 5px solid white;\n}\n\n.menu-category-garnish__content[_ngcontent-%COMP%]:before {\n  content: \"\";\n  position: absolute;\n  right: calc(100% + 1px);\n  top: 50%;\n  transform: translateY(-50%);\n  display: inline-block;\n  height: 18px;\n  width: 18px;\n  background-size: 8px;\n  background-color: #50a773;\n  border-radius: 100%;\n  border: 5px solid #fff;\n}\n\n@media (max-width: 1640px) {\n  .btns[_ngcontent-%COMP%] {\n    padding-right: 15px;\n  }\n}\n\n.sub-itens[_ngcontent-%COMP%] {\n  padding-top: 30px;\n}\n\n.sub-item-input[_ngcontent-%COMP%] {\n  padding-top: 30px;\n}\n\n.hr[_ngcontent-%COMP%] {\n  padding: 15px;\n}\n\n.content[_ngcontent-%COMP%] {\n  padding-top: 15px;\n  padding-bottom: 15px;\n  padding: 20px;\n}\n\n.input-price[_ngcontent-%COMP%] {\n  height: 40px;\n  border-radius: 5px;\n  max-width: 100px;\n}\n\n.price[_ngcontent-%COMP%] {\n  padding: 10px 5px;\n  width: 100px;\n  vertical-align: middle;\n  border-radius: 5px;\n  font-size: 13px;\n}\n\n.mandatory[_ngcontent-%COMP%] {\n  padding: 5px;\n  border-radius: 5px;\n}\n\n.ogp[_ngcontent-%COMP%] {\n  padding-top: 20px;\n  padding-bottom: 20px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNhdGVnb3J5LWxpc3QtaXRlbS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGVBQUE7QUFDSjs7QUFFQTtFQUNJLDhCQUFBO0FBQ0o7O0FBQ0E7RUFDSSw4QkFBQTtBQUVKOztBQUFBO0VBQ0ksWUFBQTtBQUdKOztBQURBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQUlKOztBQUZBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQUtKOztBQUhBO0VBQ0ksc0JBQUE7S0FBQSxtQkFBQTtBQU1KOztBQUpBO0VBQ0ksaUJBQUE7QUFPSjs7QUFMQTtFQUNJLGtCQUFBO0FBUUo7O0FBUEk7RUFGSjtJQUdRLGtCQUFBO0VBVU47QUFDRjs7QUFFQTtFQUNJLG1DQUFBO0VBQ0Esa0JBQUE7RUFDQSxvREFBQTtFQUNBLFFBQUE7RUFDQSwyQkFBQTtFQUNBLHFCQUFBO0VBQ0EsNkJBQUE7RUFDQSw0QkFBQTtFQUNBLHFCQUFBO0VBQ0EseUJBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0FBQ0o7O0FBQ0E7RUFDSSxXQUFBO0VBQ0Esa0JBQUE7RUFDQSx1QkFBQTtFQUNBLFFBQUE7RUFFQSwyQkFBQTtFQUNBLHFCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxvQkFBQTtFQUNBLHlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtBQUVKOztBQUNJO0VBREo7SUFFUSxtQkFBQTtFQUdOO0FBQ0Y7O0FBREE7RUFDSSxpQkFBQTtBQUlKOztBQUZBO0VBQ0ksaUJBQUE7QUFLSjs7QUFIQTtFQUNJLGFBQUE7QUFNSjs7QUFKQTtFQUNJLGlCQUFBO0VBQ0Esb0JBQUE7RUFDQSxhQUFBO0FBT0o7O0FBRkE7RUFDSSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtBQUtKOztBQUhBO0VBQ0ksaUJBQUE7RUFDQSxZQUFBO0VBQ0Esc0JBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7QUFNSjs7QUFKQTtFQUNJLFlBQUE7RUFDQSxrQkFBQTtBQU9KOztBQUxBO0VBQ0ksaUJBQUE7RUFDQSxvQkFBQTtBQVFKIiwiZmlsZSI6ImNhdGVnb3J5LWxpc3QtaXRlbS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5idG4ge1xuICAgIGZvbnQtc2l6ZTogMTJweDtcbn1cblxuLmJ0bi1wYXVzZSB7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4IDBweCAwcHggNXB4O1xufVxuLmJ0bi1hY3RpdmF0ZSB7XG4gICAgYm9yZGVyLXJhZGl1czogMHB4IDVweCA1cHggMHB4O1xufVxuLmJ0bi1wYXVzZS1tYXR0ZSB7XG4gICAgb3BhY2l0eTogMC41O1xufVxuLmltZy1pdGVte1xuICAgIHdpZHRoOiA4NXB4O1xuICAgIGhlaWdodDogNzBweDtcbiAgICBwYWRkaW5nLWxlZnQ6IDIwcHg7XG59XG4uaW1ne1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG59XG4uZmlsbGVke1xuICAgIG9iamVjdC1maXQ6IGNvbnRhaW47XG59XG4uaHIge1xuICAgIHBhZGRpbmc6IDBweCAxMHB4O1xufVxuLnRleHQtaXRlbSB7XG4gICAgcGFkZGluZy1sZWZ0OiAxMHB4O1xuICAgIEBtZWRpYSAobWF4LXdpZHRoOiA1ODFweCkge1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDI1cHg7XG4gICAgfVxufVxuLy8gdWw6OmJlZm9yZSB7XG4vLyAgICAgQG1lZGlhIChtaW4td2lkdGg6IDEwMjRweCkge1xuLy8gICAgICAgICBjb250ZW50OiBcIlwiO1xuLy8gICAgIH1cbi8vICAgICB3aWR0aDogMXB4O1xuLy8gICAgIGhlaWdodDogY2FsYygxMDAlIC0gMzJweCk7XG4vLyAgICAgcG9zaXRpb246IGFic29sdXRlO1xuLy8gICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyMjAsIDIyMCwgMjIwKTtcbi8vICAgICBsZWZ0OiAxODZweDtcbi8vIH1cbi5oTkhBWCB7XG4gICAgLS1zaXplV2l0aEJvcmRlcjogY2FsYygxMnB4ICsgMTBweCk7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHJpZ2h0OiBjYWxjKDEwMCUgKyAxMHB4IC0gdmFyKC0tc2l6ZVdpdGhCb3JkZXIpIC8gMik7XG4gICAgdG9wOiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpO1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBoZWlnaHQ6IHZhcigtLXNpemVXaXRoQm9yZGVyKTtcbiAgICB3aWR0aDogdmFyKC0tc2l6ZVdpdGhCb3JkZXIpO1xuICAgIGJhY2tncm91bmQtc2l6ZTogMTJweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoODAsIDE2NywgMTE1KTtcbiAgICBib3JkZXItcmFkaXVzOiAxMDAlO1xuICAgIGJvcmRlcjogNXB4IHNvbGlkIHdoaXRlO1xufVxuLm1lbnUtY2F0ZWdvcnktZ2FybmlzaF9fY29udGVudDpiZWZvcmUge1xuICAgIGNvbnRlbnQ6IFwiXCI7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHJpZ2h0OiBjYWxjKDEwMCUgKyAxcHgpO1xuICAgIHRvcDogNTAlO1xuICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC01MCUpO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgtNTAlKTtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgaGVpZ2h0OiAxOHB4O1xuICAgIHdpZHRoOiAxOHB4O1xuICAgIGJhY2tncm91bmQtc2l6ZTogOHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICM1MGE3NzM7XG4gICAgYm9yZGVyLXJhZGl1czogMTAwJTtcbiAgICBib3JkZXI6IDVweCBzb2xpZCAjZmZmO1xufVxuLmJ0bnMge1xuICAgIEBtZWRpYSAobWF4LXdpZHRoOiAxNjQwcHgpIHtcbiAgICAgICAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgICB9XG59XG4uc3ViLWl0ZW5ze1xuICAgIHBhZGRpbmctdG9wOiAzMHB4O1xufVxuLnN1Yi1pdGVtLWlucHV0e1xuICAgIHBhZGRpbmctdG9wOiAzMHB4O1xufVxuLmhye1xuICAgIHBhZGRpbmc6IDE1cHg7XG59XG4uY29udGVudCB7XG4gICAgcGFkZGluZy10b3A6IDE1cHg7XG4gICAgcGFkZGluZy1ib3R0b206IDE1cHg7XG4gICAgcGFkZGluZzogMjBweDtcbn1cbi5wcmljZS1zdGF0dXMge1xuICAgIC8vIHBhZGRpbmc6IDIwcHg7XG59XG4uaW5wdXQtcHJpY2Uge1xuICAgIGhlaWdodDogNDBweDtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgbWF4LXdpZHRoOiAxMDBweDtcbn1cbi5wcmljZSB7XG4gICAgcGFkZGluZzogMTBweCA1cHg7XG4gICAgd2lkdGg6IDEwMHB4O1xuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIGZvbnQtc2l6ZTogMTNweDtcbn1cbi5tYW5kYXRvcnl7XG4gICAgcGFkZGluZzogNXB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbn1cbi5vZ3Age1xuICAgIHBhZGRpbmctdG9wOiAyMHB4O1xuICAgIHBhZGRpbmctYm90dG9tOiAyMHB4O1xufSJdfQ== */"]
       });
@@ -15597,49 +15599,49 @@
 
       function LeftBarMenuComponent_div_0_div_1_div_1_img_3_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "img", 18);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "img", 19);
         }
       }
 
       function LeftBarMenuComponent_div_0_div_1_div_1_img_4_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "img", 19);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "img", 20);
         }
 
         if (rf & 2) {
-          var ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](4);
+          var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("src", ctx_r11.imgLogo, _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsanitizeUrl"]);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("src", ctx_r12.imgLogo, _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsanitizeUrl"]);
         }
       }
 
       function LeftBarMenuComponent_div_0_div_1_div_1_Template(rf, ctx) {
         if (rf & 1) {
-          var _r13 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
+          var _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 13);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function LeftBarMenuComponent_div_0_div_1_div_1_Template_div_click_0_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r14);
 
-            var ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](3);
+            var ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](3);
 
-            return ctx_r12.toogleShowText();
+            return ctx_r13.toogleShowText();
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "div", 13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](1, "div", 14);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "div", 14);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "div", 15);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](3, LeftBarMenuComponent_div_0_div_1_div_1_img_3_Template, 1, 0, "img", 15);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](3, LeftBarMenuComponent_div_0_div_1_div_1_img_3_Template, 1, 0, "img", 16);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](4, LeftBarMenuComponent_div_0_div_1_div_1_img_4_Template, 1, 1, "img", 16);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](4, LeftBarMenuComponent_div_0_div_1_div_1_img_4_Template, 1, 1, "img", 17);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "div", 17);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](5, "div", 18);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](6);
 
@@ -15649,21 +15651,21 @@
         }
 
         if (rf & 2) {
-          var ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](3);
+          var ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](3);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("@growAnimation", undefined);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", !ctx_r9.imgLogo);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", !ctx_r10.imgLogo);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r9.imgLogo);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r10.imgLogo);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", ctx_r9.systemSvc.selectedMerchant.name, " ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", ctx_r10.systemSvc.selectedMerchant.name, " ");
         }
       }
 
@@ -15671,7 +15673,7 @@
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](1, LeftBarMenuComponent_div_0_div_1_div_1_Template, 7, 4, "div", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](1, LeftBarMenuComponent_div_0_div_1_div_1_Template, 7, 4, "div", 12);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
         }
@@ -15687,7 +15689,7 @@
 
       function LeftBarMenuComponent_div_0_div_6_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1, " Menu ");
 
@@ -15701,21 +15703,7 @@
 
       function LeftBarMenuComponent_div_0_div_12_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 20);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](1, 21);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        }
-
-        if (rf & 2) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("@growAnimation", undefined);
-        }
-      }
-
-      function LeftBarMenuComponent_div_0_div_17_Template(rf, ctx) {
-        if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](1, 22);
 
@@ -15727,9 +15715,9 @@
         }
       }
 
-      function LeftBarMenuComponent_div_0_div_22_Template(rf, ctx) {
+      function LeftBarMenuComponent_div_0_div_17_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](1, 23);
 
@@ -15741,9 +15729,9 @@
         }
       }
 
-      function LeftBarMenuComponent_div_0_div_29_Template(rf, ctx) {
+      function LeftBarMenuComponent_div_0_div_22_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](1, 24);
 
@@ -15755,9 +15743,9 @@
         }
       }
 
-      function LeftBarMenuComponent_div_0_div_34_Template(rf, ctx) {
+      function LeftBarMenuComponent_div_0_div_29_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](1, 25);
 
@@ -15769,9 +15757,9 @@
         }
       }
 
-      function LeftBarMenuComponent_div_0_div_39_Template(rf, ctx) {
+      function LeftBarMenuComponent_div_0_div_34_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 20);
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 21);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](1, 26);
 
@@ -15780,6 +15768,38 @@
 
         if (rf & 2) {
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("@growAnimation", undefined);
+        }
+      }
+
+      function LeftBarMenuComponent_div_0_div_39_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 21);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵi18n"](1, 27);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("@growAnimation", undefined);
+        }
+      }
+
+      function LeftBarMenuComponent_div_0_div_40_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 28);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          var ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"](2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtextInterpolate1"](" ", ctx_r9.systemSvc.version, " ");
         }
       }
 
@@ -15812,7 +15832,7 @@
 
       function LeftBarMenuComponent_div_0_Template(rf, ctx) {
         if (rf & 1) {
-          var _r15 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
+          var _r16 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵgetCurrentView"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](0, "div", 1);
 
@@ -15823,11 +15843,11 @@
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](3, "button", 4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function LeftBarMenuComponent_div_0_Template_button_click_3_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r16);
 
-            var ctx_r14 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
+            var ctx_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
 
-            return ctx_r14.toogleShowText();
+            return ctx_r15.toogleShowText();
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](4, "mat-icon");
@@ -15931,11 +15951,11 @@
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](35, "div", 10);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function LeftBarMenuComponent_div_0_Template_div_click_35_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r16);
 
-            var ctx_r16 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
+            var ctx_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
 
-            return ctx_r16.systemSvc.logout();
+            return ctx_r17.systemSvc.logout();
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](36, "button", 8);
@@ -15952,6 +15972,8 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](40, LeftBarMenuComponent_div_0_div_40_Template, 2, 1, "div", 11);
+
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
         }
 
@@ -15960,7 +15982,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵclassProp"]("mat-elevation-z5", true);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("@openCloseMenu", ctx_r0.showText ? "open" : "closed")("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction2"](17, _c12, ctx_r0.showText, !ctx_r0.showText));
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("@openCloseMenu", ctx_r0.showText ? "open" : "closed")("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction2"](18, _c12, ctx_r0.showText, !ctx_r0.showText));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
 
@@ -15972,7 +15994,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](20, _c13));
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](21, _c13));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
 
@@ -15980,7 +16002,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](21, _c14));
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](22, _c14));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
 
@@ -15988,7 +16010,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](22, _c15));
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](23, _c15));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
 
@@ -15996,7 +16018,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](23, _c16));
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](24, _c16));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
 
@@ -16004,7 +16026,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](24, _c17));
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpureFunction0"](25, _c17));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](4);
 
@@ -16013,6 +16035,10 @@
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](5);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r0.showText);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"](1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r0.systemSvc.version);
         }
       }
 
@@ -16208,11 +16234,11 @@
             i18n_10 = " Logout ";
           }
 
-          return [["class", "leftbar", "fxFlex", "", "fxLayout", "column", 3, "ngClass", "mat-elevation-z5", 4, "ngIf"], ["fxFlex", "", "fxLayout", "column", 1, "leftbar", 3, "ngClass"], ["class", "menu_item", "fxLayout", "row", "fxLayoutAlign", "start center", 4, "ngIf"], ["fxLayout", "row", "fxLayoutAlign", "start center", 1, "menu_item"], ["mat-icon-button", "", 3, "click"], ["class", "menu_text", 4, "ngIf"], [1, "leftbar_space", "menu_item"], ["fxLayout", "row", "fxLayoutAlign", "start center", 1, "menu_item", 3, "routerLink"], ["mat-icon-button", ""], ["fxFlex", ""], ["fxLayout", "row", "fxLayoutAlign", "start center", 1, "menu_item", 3, "click"], ["class", "menu_text", 3, "click", 4, "ngIf"], [1, "menu_text", 3, "click"], [1, "logo"], [1, "logo-img"], ["class", "icoapp", "src", "assets/imgs/logo.png", 4, "ngIf"], ["class", "icoapp", 3, "src", 4, "ngIf"], [1, "name-logo"], ["src", "assets/imgs/logo.png", 1, "icoapp"], [1, "icoapp", 3, "src"], [1, "menu_text"], i18n_0, i18n_2, i18n_4, i18n_6, i18n_8, i18n_10];
+          return [["class", "leftbar", "fxFlex", "", "fxLayout", "column", 3, "ngClass", "mat-elevation-z5", 4, "ngIf"], ["fxFlex", "", "fxLayout", "column", 1, "leftbar", 3, "ngClass"], ["class", "menu_item", "fxLayout", "row", "fxLayoutAlign", "start center", 4, "ngIf"], ["fxLayout", "row", "fxLayoutAlign", "start center", 1, "menu_item"], ["mat-icon-button", "", 3, "click"], ["class", "menu_text", 4, "ngIf"], [1, "leftbar_space", "menu_item"], ["fxLayout", "row", "fxLayoutAlign", "start center", 1, "menu_item", 3, "routerLink"], ["mat-icon-button", ""], ["fxFlex", ""], ["fxLayout", "row", "fxLayoutAlign", "start center", 1, "menu_item", 3, "click"], ["class", "sysver", 4, "ngIf"], ["class", "menu_text", 3, "click", 4, "ngIf"], [1, "menu_text", 3, "click"], [1, "logo"], [1, "logo-img"], ["class", "icoapp", "src", "assets/imgs/logo.png", 4, "ngIf"], ["class", "icoapp", 3, "src", 4, "ngIf"], [1, "name-logo"], ["src", "assets/imgs/logo.png", 1, "icoapp"], [1, "icoapp", 3, "src"], [1, "menu_text"], i18n_0, i18n_2, i18n_4, i18n_6, i18n_8, i18n_10, [1, "sysver"]];
         },
         template: function LeftBarMenuComponent_Template(rf, ctx) {
           if (rf & 1) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](0, LeftBarMenuComponent_div_0_Template, 40, 25, "div", 0);
+            _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](0, LeftBarMenuComponent_div_0_Template, 41, 26, "div", 0);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵpipe"](1, "async");
           }
@@ -16223,7 +16249,7 @@
         },
         directives: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_9__.DefaultFlexDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_9__.DefaultLayoutDirective, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgClass, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_10__.DefaultClassDirective, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_9__.DefaultLayoutAlignDirective, _angular_material_button__WEBPACK_IMPORTED_MODULE_11__.MatButton, _angular_material_icon__WEBPACK_IMPORTED_MODULE_12__.MatIcon, _angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterLink],
         pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.AsyncPipe],
-        styles: [".leftbar[_ngcontent-%COMP%] {\n  background-color: rgba(0, 0, 0, 0.1);\n  overflow-x: hidden;\n}\n.leftbar_space[_ngcontent-%COMP%] {\n  height: 0;\n}\n.menu_text[_ngcontent-%COMP%] {\n  padding-right: 15px;\n  cursor: pointer;\n}\n.menu_item[_ngcontent-%COMP%] {\n  border-bottom: 1px solid rgba(0, 0, 0, 0.1);\n}\n.logo[_ngcontent-%COMP%] {\n  padding: 10px 0px 10px 15px;\n}\n.logo-img[_ngcontent-%COMP%] {\n  height: 125px;\n  width: 125px;\n  border-radius: 70px;\n}\nimg[_ngcontent-%COMP%] {\n  width: 100%;\n}\n.name-logo[_ngcontent-%COMP%] {\n  text-align: center;\n  padding: 0px 0px 20px 15px;\n  font-weight: 700;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlZnQtYmFyLW1lbnUuY29tcG9uZW50Lmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxvQ0FBQTtFQUNBLGtCQUFBO0FBQ0o7QUFNQTtFQUNJLFNBQUE7QUFKSjtBQU9BO0VBQ0ksbUJBQUE7RUFDQSxlQUFBO0FBTEo7QUFRQTtFQUNJLDJDQUFBO0FBTko7QUFTQTtFQUNJLDJCQUFBO0FBUEo7QUFVQTtFQUNJLGFBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7QUFSSjtBQVdBO0VBQ0ksV0FBQTtBQVRKO0FBWUE7RUFDSSxrQkFBQTtFQUNBLDBCQUFBO0VBQ0EsZ0JBQUE7QUFWSiIsImZpbGUiOiJsZWZ0LWJhci1tZW51LmNvbXBvbmVudC5sZXNzIiwic291cmNlc0NvbnRlbnQiOlsiLmxlZnRiYXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwwLDAsMC4xKTtcbiAgICBvdmVyZmxvdy14OmhpZGRlbjtcbn1cblxuLnNlbGVjdGVkIHtcbiAgICBcbn1cblxuLmxlZnRiYXJfc3BhY2Uge1xuICAgIGhlaWdodDogMDtcbn1cblxuLm1lbnVfdGV4dCB7XG4gICAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59XG5cbi5tZW51X2l0ZW0ge1xuICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCByZ2JhKDAsMCwwLDAuMSk7XG59XG5cbi5sb2dve1xuICAgIHBhZGRpbmc6IDEwcHggMHB4IDEwcHggMTVweDtcbn1cblxuLmxvZ28taW1ne1xuICAgIGhlaWdodDogMTI1cHg7IFxuICAgIHdpZHRoOiAxMjVweDsgXG4gICAgYm9yZGVyLXJhZGl1czogNzBweDtcbn1cblxuaW1ne1xuICAgIHdpZHRoOiAxMDAlO1xufVxuXG4ubmFtZS1sb2dve1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjsgXG4gICAgcGFkZGluZzogMHB4IDBweCAyMHB4IDE1cHg7IFxuICAgIGZvbnQtd2VpZ2h0OiA3MDA7XG59Il19 */"],
+        styles: [".leftbar[_ngcontent-%COMP%] {\n  background-color: rgba(0, 0, 0, 0.1);\n  overflow-x: hidden;\n}\n.leftbar_space[_ngcontent-%COMP%] {\n  height: 0;\n}\n.menu_text[_ngcontent-%COMP%] {\n  padding-right: 15px;\n  cursor: pointer;\n}\n.sysver[_ngcontent-%COMP%] {\n  font-size: 8px;\n}\n.menu_item[_ngcontent-%COMP%] {\n  border-bottom: 1px solid rgba(0, 0, 0, 0.1);\n}\n.logo[_ngcontent-%COMP%] {\n  padding: 10px 0px 10px 15px;\n}\n.logo-img[_ngcontent-%COMP%] {\n  width: 125px;\n  border-radius: 70px;\n}\nimg[_ngcontent-%COMP%] {\n  width: 100%;\n}\n.name-logo[_ngcontent-%COMP%] {\n  text-align: center;\n  padding: 0px 0px 20px 15px;\n  font-weight: 700;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxlZnQtYmFyLW1lbnUuY29tcG9uZW50Lmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxvQ0FBQTtFQUNBLGtCQUFBO0FBQ0o7QUFNQTtFQUNJLFNBQUE7QUFKSjtBQU9BO0VBQ0ksbUJBQUE7RUFDQSxlQUFBO0FBTEo7QUFRQTtFQUNJLGNBQUE7QUFOSjtBQVNBO0VBQ0ksMkNBQUE7QUFQSjtBQVVBO0VBQ0ksMkJBQUE7QUFSSjtBQVdBO0VBRUksWUFBQTtFQUNBLG1CQUFBO0FBVko7QUFhQTtFQUNJLFdBQUE7QUFYSjtBQWNBO0VBQ0ksa0JBQUE7RUFDQSwwQkFBQTtFQUNBLGdCQUFBO0FBWkoiLCJmaWxlIjoibGVmdC1iYXItbWVudS5jb21wb25lbnQubGVzcyIsInNvdXJjZXNDb250ZW50IjpbIi5sZWZ0YmFyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsMCwwLDAuMSk7XG4gICAgb3ZlcmZsb3cteDpoaWRkZW47XG59XG5cbi5zZWxlY3RlZCB7XG4gICAgXG59XG5cbi5sZWZ0YmFyX3NwYWNlIHtcbiAgICBoZWlnaHQ6IDA7XG59XG5cbi5tZW51X3RleHQge1xuICAgIHBhZGRpbmctcmlnaHQ6IDE1cHg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xufVxuXG4uc3lzdmVyIHtcbiAgICBmb250LXNpemU6IDhweDtcbn1cblxuLm1lbnVfaXRlbSB7XG4gICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHJnYmEoMCwwLDAsMC4xKTtcbn1cblxuLmxvZ297XG4gICAgcGFkZGluZzogMTBweCAwcHggMTBweCAxNXB4O1xufVxuXG4ubG9nby1pbWd7XG4gICAgLy8gaGVpZ2h0OiAxMjVweDsgXG4gICAgd2lkdGg6IDEyNXB4OyBcbiAgICBib3JkZXItcmFkaXVzOiA3MHB4O1xufVxuXG5pbWd7XG4gICAgd2lkdGg6IDEwMCU7XG59XG5cbi5uYW1lLWxvZ297XG4gICAgdGV4dC1hbGlnbjogY2VudGVyOyBcbiAgICBwYWRkaW5nOiAwcHggMHB4IDIwcHggMTVweDsgXG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcbn0iXX0= */"],
         data: {
           animation: [src_app_shared_animations__WEBPACK_IMPORTED_MODULE_0__.animGrowAnimation, src_app_shared_animations__WEBPACK_IMPORTED_MODULE_0__.animGrowMenuAnimation]
         }
@@ -18855,7 +18881,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵi18nExp"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind2"](14, 16, ctx.storedOrder.order.delivery.deliveryDateTime, "HH:mm"));
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵi18nExp"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind2"](14, 16, ctx.storedOrder.order == null ? null : ctx.storedOrder.order.delivery == null ? null : ctx.storedOrder.order.delivery.deliveryDateTime, "HH:mm"));
 
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵi18nApply"](12);
 
@@ -20763,16 +20789,16 @@
 
       function AuthComponent_button_21_Template(rf, ctx) {
         if (rf & 1) {
-          var _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+          var _r7 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "button", 22);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function AuthComponent_button_21_Template_button_click_0_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r7);
 
-            var ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+            var ctx_r6 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
 
-            return ctx_r5.doLogin();
+            return ctx_r6.doLogin();
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵi18n"](1, 23);
@@ -20787,16 +20813,16 @@
 
       function AuthComponent_button_22_Template(rf, ctx) {
         if (rf & 1) {
-          var _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
+          var _r9 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵgetCurrentView"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "button", 22);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵlistener"]("click", function AuthComponent_button_22_Template_button_click_0_listener() {
-            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r8);
+            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵrestoreView"](_r9);
 
-            var ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+            var ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
 
-            return ctx_r7.doLoginWithWallet();
+            return ctx_r8.doLoginWithWallet();
           });
 
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵi18n"](1, 24);
@@ -20823,7 +20849,35 @@
         }
       }
 
-      function AuthComponent_button_26_Template(rf, ctx) {
+      function AuthComponent_div_26_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 15);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "small");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](3, "Ver.:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        }
+
+        if (rf & 2) {
+          var ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"]("", ctx_r4.systemSvc.version, " ");
+        }
+      }
+
+      function AuthComponent_button_27_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "button", 26);
 
@@ -20967,8 +21021,8 @@
       _AuthComponent.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
         type: _AuthComponent,
         selectors: [["app-auth"]],
-        decls: 27,
-        vars: 16,
+        decls: 28,
+        vars: 17,
         consts: function consts() {
           var i18n_0;
 
@@ -21139,7 +21193,9 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](25, AuthComponent_div_25_Template, 3, 0, "div", 17);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](26, AuthComponent_button_26_Template, 2, 0, "button", 18);
+            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](26, AuthComponent_div_26_Template, 5, 1, "div", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](27, AuthComponent_button_27_Template, 2, 0, "button", 18);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
 
@@ -21159,7 +21215,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction1"](12, _c16, ctx.systemSvc.isStaticAppOnly ? "none" : "block"));
+            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction1"](13, _c16, ctx.systemSvc.isStaticAppOnly ? "none" : "block"));
 
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
 
@@ -21167,7 +21223,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction1"](14, _c16, ctx.systemSvc.isStaticAppOnly ? "none" : "block"));
+            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction1"](15, _c16, ctx.systemSvc.isStaticAppOnly ? "none" : "block"));
 
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
 
@@ -21188,6 +21244,10 @@
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.systemSvc.isStaticAppOnly);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.systemSvc.version);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
 
@@ -26404,7 +26464,7 @@
       }();
 
       _PublishComponent.ipfsW3GWList = 'https://gw.crustapps.net/;https://crustwebsites.net/;https://crustipfs.xyz/;https://ipfs-gw.decloud.foundation/;https://ipfs.opendelivery.app/;CUSTOM GATEWAY';
-      _PublishComponent.ipfsOdpCustomerAppPublication = "Qmd4BNZnLf9Fwj2bkNWDjqxhFL7FCUrKFHd1swn5wonmJ1"; //Qmd4BNZnLf9Fwj2bkNWDjqxhFL7FCUrKFHd1swn5wonmJ1 "QmXGEvrWhs6P5R2SJ8QnsNZbhgrMPzfoieryDjqUjSiN6M";// "Qmec5wW8AosWUnzEi3ou2a9niPFwDaWSr71LemJrGaZvvv";
+      _PublishComponent.ipfsOdpCustomerAppPublication = "QmSaGVrUwpFVD4hLrUMctJeTeSWGKxwcqncE7FRu9i83ED"; //Qmd4BNZnLf9Fwj2bkNWDjqxhFL7FCUrKFHd1swn5wonmJ1 "QmXGEvrWhs6P5R2SJ8QnsNZbhgrMPzfoieryDjqUjSiN6M";// "Qmec5wW8AosWUnzEi3ou2a9niPFwDaWSr71LemJrGaZvvv";
 
       _PublishComponent.odpStoreNamesContractAddress = "0xa126495c83e5ebcb98a7e71f02449dc8434f804b";
       _PublishComponent.odpStoreNamesContractAbi = [{
@@ -28742,7 +28802,11 @@
                         delinetEndpoint: this.formMerchant.delinetendpoint,
                         delinetPublicKey: "",
                         delinetPrivateKey: "",
-                        merchantGroupId: this.systemSvc.selectedMerchantGroup.id
+                        merchantGroupId: this.systemSvc.selectedMerchantGroup.id,
+                        acceptDeliveryOrder: true,
+                        acceptScheduledOrder: true,
+                        acceptTableOrder: true,
+                        acceptTakeoutOrder: true
                       };
 
                       if (!(this.selectedOptChannel == this.channelOptions[0])) {
@@ -29969,6 +30033,7 @@
           this.publicKey = null;
           this.privateKey = null;
           _static_stack_authentication__WEBPACK_IMPORTED_MODULE_0__.SSAuthentication.cryptoService = this;
+          _CryptoService.Instance = this;
         }
         /*
         Convert a string into an ArrayBuffer
@@ -30433,7 +30498,7 @@
       /* harmony import */
 
 
-      var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var tslib__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! tslib */
       3786);
       /* harmony import */
@@ -30451,7 +30516,7 @@
       /* harmony import */
 
 
-      var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! rxjs */
       79441);
       /* harmony import */
@@ -30460,13 +30525,19 @@
       var src_app_static_stack_uuid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
       /*! src/app/static-stack/uuid */
       41534);
+      /* harmony import */
+
+
+      var src_app_services_crypto_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! src/app/services/crypto.service */
+      2410);
 
       var _DelinetClient = /*#__PURE__*/function () {
         function _DelinetClient(_endpoint, _privateKey, _publicKey) {
           _classCallCheck(this, _DelinetClient);
 
           this._swarms = ['/dns4/intense-lake-89842.herokuapp.com/tcp/443/wss/p2p-webrtc-star/'];
-          this._onEventReceivedSubject = new rxjs__WEBPACK_IMPORTED_MODULE_3__.Subject();
+          this._onEventReceivedSubject = new rxjs__WEBPACK_IMPORTED_MODULE_4__.Subject();
           this.onEventReceived = this._onEventReceivedSubject.asObservable();
           this._isRunning = false;
           this._isUsingDelinetEndpoint = false;
@@ -30484,7 +30555,7 @@
         _createClass(_DelinetClient, [{
           key: "initialize",
           value: function initialize() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee41() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee41() {
               var _this53 = this;
 
               return regeneratorRuntime.wrap(function _callee41$(_context43) {
@@ -30492,7 +30563,7 @@
                   switch (_context43.prev = _context43.next) {
                     case 0:
                       setInterval(function () {
-                        return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(_this53, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee40() {
+                        return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(_this53, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee40() {
                           return regeneratorRuntime.wrap(function _callee40$(_context42) {
                             while (1) {
                               switch (_context42.prev = _context42.next) {
@@ -30525,7 +30596,7 @@
         }, {
           key: "mainLoopRoutine",
           value: function mainLoopRoutine() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee42() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee42() {
               return regeneratorRuntime.wrap(function _callee42$(_context44) {
                 while (1) {
                   switch (_context44.prev = _context44.next) {
@@ -30613,7 +30684,7 @@
               console.log("loading odb: " + this.endpoint);
               return new Promise(function (resolve, reject) {
                 _this54.OrbitDb.createInstance(_this54._ipfsNode).then(function (_odb) {
-                  return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(_this54, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee43() {
+                  return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(_this54, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee43() {
                     var _this55 = this;
 
                     return regeneratorRuntime.wrap(function _callee43$(_context45) {
@@ -30686,33 +30757,117 @@
         }, {
           key: "fetchLogEvents",
           value: function fetchLogEvents() {
-            var _this56 = this;
+            var _a, _b;
 
-            this._logEvents.iterator({
-              limit: -1,
-              gt: this._lastHashFetched
-            }).collect().map(function (e) {
-              var _a, _b;
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee44() {
+              var _evs, index, e, _event, cry, encChunks, chunks, payloadStr, idx, encChunk, chunk;
 
-              if ((_b = (_a = e.payload) === null || _a === void 0 ? void 0 : _a.value) === null || _b === void 0 ? void 0 : _b.id) {
-                var _event = e.payload.value;
-                console.log("::>", _event);
+              return regeneratorRuntime.wrap(function _callee44$(_context46) {
+                while (1) {
+                  switch (_context46.prev = _context46.next) {
+                    case 0:
+                      _evs = this._logEvents.iterator({
+                        limit: -1,
+                        gt: this._lastHashFetched
+                      }).collect().map(function (e) {
+                        return e;
+                      });
+                      index = 0;
 
-                if (_this56.fetchedLogEvents.indexOf(_event.id) < 0) {
-                  try {
-                    _this56.processEvent(_event);
-                  } catch (error) {
-                    console.log(error);
+                    case 2:
+                      if (!(index < _evs.length)) {
+                        _context46.next = 33;
+                        break;
+                      }
+
+                      e = _evs[index];
+
+                      if (!((_b = (_a = e.payload) === null || _a === void 0 ? void 0 : _a.value) === null || _b === void 0 ? void 0 : _b.id)) {
+                        _context46.next = 30;
+                        break;
+                      }
+
+                      _event = e.payload.value;
+
+                      if (!(_event.payload.encryptedChunks && this.privateKey)) {
+                        _context46.next = 28;
+                        break;
+                      }
+
+                      cry = src_app_services_crypto_service__WEBPACK_IMPORTED_MODULE_3__.CryptoService.Instance;
+
+                      if (!_event.payload.encryptedChunks) {
+                        _context46.next = 28;
+                        break;
+                      }
+
+                      if (cry.privateKey) {
+                        _context46.next = 13;
+                        break;
+                      }
+
+                      _context46.next = 12;
+                      return cry.importPrivateKey(this.privateKey);
+
+                    case 12:
+                      cry.privateKey = _context46.sent;
+
+                    case 13:
+                      encChunks = _event.payload.encryptedChunks;
+                      chunks = [];
+                      payloadStr = "";
+                      idx = 0;
+
+                    case 17:
+                      if (!(idx < encChunks.length)) {
+                        _context46.next = 27;
+                        break;
+                      }
+
+                      encChunk = encChunks[idx];
+                      _context46.next = 21;
+                      return cry.decrypt(encChunk);
+
+                    case 21:
+                      chunk = _context46.sent;
+                      chunks.push(chunk);
+                      payloadStr += chunk;
+
+                    case 24:
+                      idx++;
+                      _context46.next = 17;
+                      break;
+
+                    case 27:
+                      _event.payload = JSON.parse(payloadStr);
+
+                    case 28:
+                      console.log("::>", _event);
+
+                      if (this.fetchedLogEvents.indexOf(_event.id) < 0) {
+                        try {
+                          this.processEvent(_event);
+                        } catch (error) {
+                          console.log(error);
+                        }
+
+                        ;
+                        this.fetchedLogEvents.push(_event.id);
+                        this._lastHashFetched = e.hash;
+                      }
+
+                    case 30:
+                      index++;
+                      _context46.next = 2;
+                      break;
+
+                    case 33:
+                    case "end":
+                      return _context46.stop();
                   }
-
-                  ;
-
-                  _this56.fetchedLogEvents.push(_event.id);
-
-                  _this56._lastHashFetched = e.hash;
                 }
-              }
-            });
+              }, _callee44, this);
+            }));
           }
         }, {
           key: "processEvent",
@@ -30724,18 +30879,18 @@
         }, {
           key: "loadIpfs",
           value: function loadIpfs() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee44() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee45() {
               var ipfsNode;
-              return regeneratorRuntime.wrap(function _callee44$(_context46) {
+              return regeneratorRuntime.wrap(function _callee45$(_context47) {
                 while (1) {
-                  switch (_context46.prev = _context46.next) {
+                  switch (_context47.prev = _context47.next) {
                     case 0:
-                      _context46.next = 2;
+                      _context47.next = 2;
                       return src_app_static_stack_ipfs__WEBPACK_IMPORTED_MODULE_0__.SSIpfs.Ipfs();
 
                     case 2:
-                      _context46.next = 4;
-                      return _context46.sent.create({
+                      _context47.next = 4;
+                      return _context47.sent.create({
                         repo: 'delinet_client_ipfs',
                         pubsub: true,
                         EXPERIMENTAL: {
@@ -30749,38 +30904,11 @@
                       });
 
                     case 4:
-                      ipfsNode = _context46.sent;
+                      ipfsNode = _context47.sent;
                       this._isIpfsLoaded = true;
                       this._ipfsNode = ipfsNode;
 
                     case 7:
-                    case "end":
-                      return _context46.stop();
-                  }
-                }
-              }, _callee44, this);
-            }));
-          }
-        }, {
-          key: "checkOrbitDbLib",
-          value: function checkOrbitDbLib() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee45() {
-              var orbitdbScriptElement;
-              return regeneratorRuntime.wrap(function _callee45$(_context47) {
-                while (1) {
-                  switch (_context47.prev = _context47.next) {
-                    case 0:
-                      _context47.next = 2;
-                      return src_app_static_stack_loadlib__WEBPACK_IMPORTED_MODULE_1__.SSLoadLib.loadJSLib("orbitdblib", "libs/orbitdb.min.js");
-
-                    case 2:
-                      orbitdbScriptElement = _context47.sent;
-
-                      if (orbitdbScriptElement != null) {
-                        this.OrbitDb = window.OrbitDB;
-                      }
-
-                    case 4:
                     case "end":
                       return _context47.stop();
                   }
@@ -30789,16 +30917,43 @@
             }));
           }
         }, {
-          key: "sendEvent",
-          value: function sendEvent(evt) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee46() {
-              var hash;
+          key: "checkOrbitDbLib",
+          value: function checkOrbitDbLib() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee46() {
+              var orbitdbScriptElement;
               return regeneratorRuntime.wrap(function _callee46$(_context48) {
                 while (1) {
                   switch (_context48.prev = _context48.next) {
                     case 0:
+                      _context48.next = 2;
+                      return src_app_static_stack_loadlib__WEBPACK_IMPORTED_MODULE_1__.SSLoadLib.loadJSLib("orbitdblib", "libs/orbitdb.min.js");
+
+                    case 2:
+                      orbitdbScriptElement = _context48.sent;
+
+                      if (orbitdbScriptElement != null) {
+                        this.OrbitDb = window.OrbitDB;
+                      }
+
+                    case 4:
+                    case "end":
+                      return _context48.stop();
+                  }
+                }
+              }, _callee46, this);
+            }));
+          }
+        }, {
+          key: "sendEvent",
+          value: function sendEvent(evt) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee47() {
+              var hash;
+              return regeneratorRuntime.wrap(function _callee47$(_context49) {
+                while (1) {
+                  switch (_context49.prev = _context49.next) {
+                    case 0:
                       if (!this._isOrbitDbLoaded) {
-                        _context48.next = 11;
+                        _context49.next = 11;
                         break;
                       }
 
@@ -30813,13 +30968,13 @@
                       }
 
                       ;
-                      _context48.next = 7;
+                      _context49.next = 7;
                       return this._logEvents.add(evt);
 
                     case 7:
-                      hash = _context48.sent;
+                      hash = _context49.sent;
                       console.log(hash);
-                      _context48.next = 12;
+                      _context49.next = 12;
                       break;
 
                     case 11:
@@ -30827,19 +30982,19 @@
 
                     case 12:
                     case "end":
-                      return _context48.stop();
+                      return _context49.stop();
                   }
                 }
-              }, _callee46, this);
+              }, _callee47, this);
             }));
           }
         }, {
           key: "sendAckToEvent",
           value: function sendAckToEvent(eventId) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee47() {
-              return regeneratorRuntime.wrap(function _callee47$(_context49) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_5__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee48() {
+              return regeneratorRuntime.wrap(function _callee48$(_context50) {
                 while (1) {
-                  switch (_context49.prev = _context49.next) {
+                  switch (_context50.prev = _context50.next) {
                     case 0:
                       if (!this._isOrbitDbLoaded) {
                         console.log("DELINET ACK TO: " + eventId);
@@ -30847,10 +31002,10 @@
 
                     case 1:
                     case "end":
-                      return _context49.stop();
+                      return _context50.stop();
                   }
                 }
-              }, _callee47, this);
+              }, _callee48, this);
             }));
           }
         }]);
@@ -30962,13 +31117,13 @@
         _createClass(_OAdDelinetChannel, [{
           key: "initialize",
           value: function initialize() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee49() {
-              var _this57 = this;
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee50() {
+              var _this56 = this;
 
               var config, httpClient;
-              return regeneratorRuntime.wrap(function _callee49$(_context51) {
+              return regeneratorRuntime.wrap(function _callee50$(_context52) {
                 while (1) {
-                  switch (_context51.prev = _context51.next) {
+                  switch (_context52.prev = _context52.next) {
                     case 0:
                       this.systemSvc = _system_service__WEBPACK_IMPORTED_MODULE_3__.SystemService.Instance;
                       config = new src_app_api_api_configuration__WEBPACK_IMPORTED_MODULE_0__.ApiConfiguration();
@@ -30985,48 +31140,48 @@
                           if (evt.eventType == "order") {
                             src_app_shared_integrator_db__WEBPACK_IMPORTED_MODULE_4__._DB.localorders.put(evt.payload, evt.payload.id);
                           } else {
-                            _this57._onNewEventsSubject.next([evt.payload]);
+                            _this56._onNewEventsSubject.next([evt.payload]);
                           }
                         }
                       });
                       setInterval(function () {
-                        return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(_this57, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee48() {
-                          return regeneratorRuntime.wrap(function _callee48$(_context50) {
+                        return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(_this56, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee49() {
+                          return regeneratorRuntime.wrap(function _callee49$(_context51) {
                             while (1) {
-                              switch (_context50.prev = _context50.next) {
+                              switch (_context51.prev = _context51.next) {
                                 case 0:
                                   if (this._isRunning) {
-                                    _context50.next = 3;
+                                    _context51.next = 3;
                                     break;
                                   }
 
-                                  _context50.next = 3;
+                                  _context51.next = 3;
                                   return this.mainLoopRoutine();
 
                                 case 3:
                                 case "end":
-                                  return _context50.stop();
+                                  return _context51.stop();
                               }
                             }
-                          }, _callee48, this);
+                          }, _callee49, this);
                         }));
                       }, 5000);
 
                     case 8:
                     case "end":
-                      return _context51.stop();
+                      return _context52.stop();
                   }
                 }
-              }, _callee49, this);
+              }, _callee50, this);
             }));
           }
         }, {
           key: "mainLoopRoutine",
           value: function mainLoopRoutine() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee50() {
-              return regeneratorRuntime.wrap(function _callee50$(_context52) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee51() {
+              return regeneratorRuntime.wrap(function _callee51$(_context53) {
                 while (1) {
-                  switch (_context52.prev = _context52.next) {
+                  switch (_context53.prev = _context53.next) {
                     case 0:
                       this._isRunning = true;
 
@@ -31048,32 +31203,32 @@
 
                     case 3:
                     case "end":
-                      return _context52.stop();
+                      return _context53.stop();
                   }
                 }
-              }, _callee50, this);
+              }, _callee51, this);
             }));
           }
         }, {
           key: "acknowledge",
           value: function acknowledge(events) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee51() {
-              var _this58 = this;
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee52() {
+              var _this57 = this;
 
-              return regeneratorRuntime.wrap(function _callee51$(_context53) {
+              return regeneratorRuntime.wrap(function _callee52$(_context54) {
                 while (1) {
-                  switch (_context53.prev = _context53.next) {
+                  switch (_context54.prev = _context54.next) {
                     case 0:
                       events.forEach(function (_event) {
-                        _this58.delinetClient.sendAckToEvent(_event.id);
+                        _this57.delinetClient.sendAckToEvent(_event.id);
                       });
 
                     case 1:
                     case "end":
-                      return _context53.stop();
+                      return _context54.stop();
                   }
                 }
-              }, _callee51);
+              }, _callee52);
             }));
           }
         }, {
@@ -31085,43 +31240,43 @@
         }, {
           key: "getOrder",
           value: function getOrder(id) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee52() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee53() {
               var _orderDetail;
 
-              return regeneratorRuntime.wrap(function _callee52$(_context54) {
+              return regeneratorRuntime.wrap(function _callee53$(_context55) {
                 while (1) {
-                  switch (_context54.prev = _context54.next) {
+                  switch (_context55.prev = _context55.next) {
                     case 0:
-                      _context54.next = 2;
+                      _context55.next = 2;
                       return src_app_shared_integrator_db__WEBPACK_IMPORTED_MODULE_4__._DB.localorders.get(id);
 
                     case 2:
-                      _orderDetail = _context54.sent;
-                      return _context54.abrupt("return", _orderDetail);
+                      _orderDetail = _context55.sent;
+                      return _context55.abrupt("return", _orderDetail);
 
                     case 4:
                     case "end":
-                      return _context54.stop();
+                      return _context55.stop();
                   }
                 }
-              }, _callee52);
+              }, _callee53);
             }));
           }
         }, {
           key: "changeStatus",
           value: function changeStatus(orderId, code) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee53() {
-              var _this59 = this;
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee54() {
+              var _this58 = this;
 
               var ret, newsuid, newEvt;
-              return regeneratorRuntime.wrap(function _callee53$(_context55) {
+              return regeneratorRuntime.wrap(function _callee54$(_context56) {
                 while (1) {
-                  switch (_context55.prev = _context55.next) {
+                  switch (_context56.prev = _context56.next) {
                     case 0:
                       ret = false;
-                      _context55.prev = 1;
-                      _context55.t0 = code;
-                      _context55.next = _context55.t0 === "confirm" ? 5 : _context55.t0 === "startPreparation" ? 12 : _context55.t0 === "readyToPickup" ? 14 : _context55.t0 === "dispatch" ? 16 : _context55.t0 === "requestCancellation" ? 18 : _context55.t0 === "acceptCancellation" ? 20 : _context55.t0 === "denyCancellation" ? 22 : 24;
+                      _context56.prev = 1;
+                      _context56.t0 = code;
+                      _context56.next = _context56.t0 === "confirm" ? 5 : _context56.t0 === "startPreparation" ? 12 : _context56.t0 === "readyToPickup" ? 14 : _context56.t0 === "dispatch" ? 16 : _context56.t0 === "requestCancellation" ? 18 : _context56.t0 === "acceptCancellation" ? 20 : _context56.t0 === "denyCancellation" ? 22 : 24;
                       break;
 
                     case 5:
@@ -31139,67 +31294,67 @@
                         },
                         id: newsuid
                       };
-                      _context55.next = 9;
+                      _context56.next = 9;
                       return this.delinetClient.sendEvent(newEvt);
 
                     case 9:
                       setTimeout(function () {
                         //newEvt.id=this.name+"_"+newEvt.id;
-                        _this59._onNewEventsSubject.next([newEvt.payload]);
+                        _this58._onNewEventsSubject.next([newEvt.payload]);
                       }, 500);
                       ret = true;
-                      return _context55.abrupt("break", 25);
+                      return _context56.abrupt("break", 25);
 
                     case 12:
                       //await this.orderSvc.postApiOrderV10IdStartPreparation(orderId).toPromise();
                       ret = true;
-                      return _context55.abrupt("break", 25);
+                      return _context56.abrupt("break", 25);
 
                     case 14:
                       //await this.orderSvc.postApiOrderV10IdReadyToPickup(orderId).toPromise();
                       ret = true;
-                      return _context55.abrupt("break", 25);
+                      return _context56.abrupt("break", 25);
 
                     case 16:
                       //await this.orderSvc.postApiOrderV10IdDispatch(orderId).toPromise();
                       ret = true;
-                      return _context55.abrupt("break", 25);
+                      return _context56.abrupt("break", 25);
 
                     case 18:
                       //await this.orderSvc.postApiOrderV10IdRequestCancellation(orderId).toPromise();
                       ret = true;
-                      return _context55.abrupt("break", 25);
+                      return _context56.abrupt("break", 25);
 
                     case 20:
                       //await this.orderSvc.postApiOrderV10IdAcceptCancellation(orderId).toPromise();
                       ret = true;
-                      return _context55.abrupt("break", 25);
+                      return _context56.abrupt("break", 25);
 
                     case 22:
                       //await this.orderSvc.postApiOrderV10IdDenyCancellation(orderId).toPromise();
                       ret = true;
-                      return _context55.abrupt("break", 25);
+                      return _context56.abrupt("break", 25);
 
                     case 24:
-                      return _context55.abrupt("break", 25);
+                      return _context56.abrupt("break", 25);
 
                     case 25:
-                      _context55.next = 29;
+                      _context56.next = 29;
                       break;
 
                     case 27:
-                      _context55.prev = 27;
-                      _context55.t1 = _context55["catch"](1);
+                      _context56.prev = 27;
+                      _context56.t1 = _context56["catch"](1);
 
                     case 29:
-                      return _context55.abrupt("return", ret);
+                      return _context56.abrupt("return", ret);
 
                     case 30:
                     case "end":
-                      return _context55.stop();
+                      return _context56.stop();
                   }
                 }
-              }, _callee53, this, [[1, 27]]);
+              }, _callee54, this, [[1, 27]]);
             }));
           }
         }, {
@@ -31295,11 +31450,11 @@
         _createClass(_OAdWebApi, [{
           key: "initialize",
           value: function initialize() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee54() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee55() {
               var config, httpClient;
-              return regeneratorRuntime.wrap(function _callee54$(_context56) {
+              return regeneratorRuntime.wrap(function _callee55$(_context57) {
                 while (1) {
-                  switch (_context56.prev = _context56.next) {
+                  switch (_context57.prev = _context57.next) {
                     case 0:
                       config = new src_app_api_api_configuration__WEBPACK_IMPORTED_MODULE_1__.ApiConfiguration();
                       config.rootUrl = this.endpoint;
@@ -31312,81 +31467,81 @@
 
                     case 4:
                     case "end":
-                      return _context56.stop();
+                      return _context57.stop();
                   }
                 }
-              }, _callee54, this);
+              }, _callee55, this);
             }));
           }
         }, {
           key: "poolingLoopRoutine",
           value: function poolingLoopRoutine() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee55() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee56() {
               var _eventsArray, a;
 
-              return regeneratorRuntime.wrap(function _callee55$(_context57) {
+              return regeneratorRuntime.wrap(function _callee56$(_context58) {
                 while (1) {
-                  switch (_context57.prev = _context57.next) {
+                  switch (_context58.prev = _context58.next) {
                     case 0:
-                      _context57.prev = 0;
-                      _context57.next = 3;
+                      _context58.prev = 0;
+                      _context58.next = 3;
                       return this.orderSvc.getApiOrderV10EventsPooling({
                         Types: "",
                         Groups: ""
                       }).toPromise();
 
                     case 3:
-                      _eventsArray = _context57.sent;
+                      _eventsArray = _context58.sent;
 
                       this._onNewEventsSubject.next(_eventsArray);
 
-                      _context57.next = 10;
+                      _context58.next = 10;
                       break;
 
                     case 7:
-                      _context57.prev = 7;
-                      _context57.t0 = _context57["catch"](0);
-                      a = _context57.t0;
+                      _context58.prev = 7;
+                      _context58.t0 = _context58["catch"](0);
+                      a = _context58.t0;
 
                     case 10:
                     case "end":
-                      return _context57.stop();
+                      return _context58.stop();
                   }
                 }
-              }, _callee55, this, [[0, 7]]);
+              }, _callee56, this, [[0, 7]]);
             }));
           }
         }, {
           key: "acknowledge",
           value: function acknowledge(events) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee56() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee57() {
               var _ackList, ackRet;
 
-              return regeneratorRuntime.wrap(function _callee56$(_context58) {
+              return regeneratorRuntime.wrap(function _callee57$(_context59) {
                 while (1) {
-                  switch (_context58.prev = _context58.next) {
+                  switch (_context59.prev = _context59.next) {
                     case 0:
                       _ackList = linq__WEBPACK_IMPORTED_MODULE_0___default().from(events).select(function (p) {
                         return p.id;
                       }).toArray();
 
                       if (!(_ackList.length > 0)) {
-                        _context58.next = 5;
+                        _context59.next = 5;
                         break;
                       }
 
-                      _context58.next = 4;
+                      _context59.next = 4;
                       return this.orderSvc.postApiOrderV10EventsAcknowledgment(_ackList).toPromise();
 
                     case 4:
-                      ackRet = _context58.sent;
+                      ackRet = _context59.sent;
 
                     case 5:
                     case "end":
-                      return _context58.stop();
+                      return _context59.stop();
                   }
                 }
-              }, _callee56, this);
+              }, _callee57, this);
             }));
           }
         }, {
@@ -31397,119 +31552,119 @@
         }, {
           key: "getOrder",
           value: function getOrder(id) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee57() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee58() {
               var _orderDetail;
 
-              return regeneratorRuntime.wrap(function _callee57$(_context59) {
+              return regeneratorRuntime.wrap(function _callee58$(_context60) {
                 while (1) {
-                  switch (_context59.prev = _context59.next) {
+                  switch (_context60.prev = _context60.next) {
                     case 0:
-                      _context59.next = 2;
+                      _context60.next = 2;
                       return this.orderSvc.getApiOrderV10Id(id).toPromise();
 
                     case 2:
-                      _orderDetail = _context59.sent;
-                      return _context59.abrupt("return", _orderDetail);
+                      _orderDetail = _context60.sent;
+                      return _context60.abrupt("return", _orderDetail);
 
                     case 4:
                     case "end":
-                      return _context59.stop();
+                      return _context60.stop();
                   }
                 }
-              }, _callee57, this);
+              }, _callee58, this);
             }));
           }
         }, {
           key: "changeStatus",
           value: function changeStatus(orderId, code) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee58() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee59() {
               var ret;
-              return regeneratorRuntime.wrap(function _callee58$(_context60) {
+              return regeneratorRuntime.wrap(function _callee59$(_context61) {
                 while (1) {
-                  switch (_context60.prev = _context60.next) {
+                  switch (_context61.prev = _context61.next) {
                     case 0:
                       ret = false;
-                      _context60.prev = 1;
-                      _context60.t0 = code;
-                      _context60.next = _context60.t0 === "confirm" ? 5 : _context60.t0 === "startPreparation" ? 9 : _context60.t0 === "readyToPickup" ? 13 : _context60.t0 === "dispatch" ? 17 : _context60.t0 === "requestCancellation" ? 21 : _context60.t0 === "acceptCancellation" ? 25 : _context60.t0 === "denyCancellation" ? 29 : 33;
+                      _context61.prev = 1;
+                      _context61.t0 = code;
+                      _context61.next = _context61.t0 === "confirm" ? 5 : _context61.t0 === "startPreparation" ? 9 : _context61.t0 === "readyToPickup" ? 13 : _context61.t0 === "dispatch" ? 17 : _context61.t0 === "requestCancellation" ? 21 : _context61.t0 === "acceptCancellation" ? 25 : _context61.t0 === "denyCancellation" ? 29 : 33;
                       break;
 
                     case 5:
-                      _context60.next = 7;
+                      _context61.next = 7;
                       return this.orderSvc.postApiOrderV10IdConfirm(orderId).toPromise();
 
                     case 7:
                       ret = true;
-                      return _context60.abrupt("break", 34);
+                      return _context61.abrupt("break", 34);
 
                     case 9:
-                      _context60.next = 11;
+                      _context61.next = 11;
                       return this.orderSvc.postApiOrderV10IdStartPreparation(orderId).toPromise();
 
                     case 11:
                       ret = true;
-                      return _context60.abrupt("break", 34);
+                      return _context61.abrupt("break", 34);
 
                     case 13:
-                      _context60.next = 15;
+                      _context61.next = 15;
                       return this.orderSvc.postApiOrderV10IdReadyToPickup(orderId).toPromise();
 
                     case 15:
                       ret = true;
-                      return _context60.abrupt("break", 34);
+                      return _context61.abrupt("break", 34);
 
                     case 17:
-                      _context60.next = 19;
+                      _context61.next = 19;
                       return this.orderSvc.postApiOrderV10IdDispatch(orderId).toPromise();
 
                     case 19:
                       ret = true;
-                      return _context60.abrupt("break", 34);
+                      return _context61.abrupt("break", 34);
 
                     case 21:
-                      _context60.next = 23;
+                      _context61.next = 23;
                       return this.orderSvc.postApiOrderV10IdRequestCancellation(orderId).toPromise();
 
                     case 23:
                       ret = true;
-                      return _context60.abrupt("break", 34);
+                      return _context61.abrupt("break", 34);
 
                     case 25:
-                      _context60.next = 27;
+                      _context61.next = 27;
                       return this.orderSvc.postApiOrderV10IdAcceptCancellation(orderId).toPromise();
 
                     case 27:
                       ret = true;
-                      return _context60.abrupt("break", 34);
+                      return _context61.abrupt("break", 34);
 
                     case 29:
-                      _context60.next = 31;
+                      _context61.next = 31;
                       return this.orderSvc.postApiOrderV10IdDenyCancellation(orderId).toPromise();
 
                     case 31:
                       ret = true;
-                      return _context60.abrupt("break", 34);
+                      return _context61.abrupt("break", 34);
 
                     case 33:
-                      return _context60.abrupt("break", 34);
+                      return _context61.abrupt("break", 34);
 
                     case 34:
-                      _context60.next = 38;
+                      _context61.next = 38;
                       break;
 
                     case 36:
-                      _context60.prev = 36;
-                      _context60.t1 = _context60["catch"](1);
+                      _context61.prev = 36;
+                      _context61.t1 = _context61["catch"](1);
 
                     case 38:
-                      return _context60.abrupt("return", ret);
+                      return _context61.abrupt("return", ret);
 
                     case 39:
                     case "end":
-                      return _context60.stop();
+                      return _context61.stop();
                   }
                 }
-              }, _callee58, this, [[1, 36]]);
+              }, _callee59, this, [[1, 36]]);
             }));
           }
         }]);
@@ -31611,13 +31766,13 @@
         _createClass(_OAdWebSocket, [{
           key: "initialize",
           value: function initialize() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee59() {
-              var _this60 = this;
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee60() {
+              var _this59 = this;
 
               var config, httpClient, scheme, port, ws;
-              return regeneratorRuntime.wrap(function _callee59$(_context61) {
+              return regeneratorRuntime.wrap(function _callee60$(_context62) {
                 while (1) {
-                  switch (_context61.prev = _context61.next) {
+                  switch (_context62.prev = _context62.next) {
                     case 0:
                       config = new src_app_api_api_configuration__WEBPACK_IMPORTED_MODULE_1__.ApiConfiguration();
                       config.rootUrl = this.endpoint;
@@ -31635,45 +31790,12 @@
                           if (d) {
                             console.log(d);
 
-                            _this60._onNewEventsSubject.next([d]);
+                            _this59._onNewEventsSubject.next([d]);
                           }
                         } catch (error) {}
                       });
 
                     case 8:
-                    case "end":
-                      return _context61.stop();
-                  }
-                }
-              }, _callee59, this);
-            }));
-          }
-        }, {
-          key: "acknowledge",
-          value: function acknowledge(events) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee60() {
-              var _ackList, ackRet;
-
-              return regeneratorRuntime.wrap(function _callee60$(_context62) {
-                while (1) {
-                  switch (_context62.prev = _context62.next) {
-                    case 0:
-                      _ackList = linq__WEBPACK_IMPORTED_MODULE_0___default().from(events).select(function (p) {
-                        return p.id;
-                      }).toArray();
-
-                      if (!(_ackList.length > 0)) {
-                        _context62.next = 5;
-                        break;
-                      }
-
-                      _context62.next = 4;
-                      return this.orderSvc.postApiOrderV10EventsAcknowledgment(_ackList).toPromise();
-
-                    case 4:
-                      ackRet = _context62.sent;
-
-                    case 5:
                     case "end":
                       return _context62.stop();
                   }
@@ -31682,23 +31804,31 @@
             }));
           }
         }, {
-          key: "getOrder",
-          value: function getOrder(id) {
+          key: "acknowledge",
+          value: function acknowledge(events) {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee61() {
-              var _orderDetail;
+              var _ackList, ackRet;
 
               return regeneratorRuntime.wrap(function _callee61$(_context63) {
                 while (1) {
                   switch (_context63.prev = _context63.next) {
                     case 0:
-                      _context63.next = 2;
-                      return this.orderSvc.getApiOrderV10Id(id).toPromise();
+                      _ackList = linq__WEBPACK_IMPORTED_MODULE_0___default().from(events).select(function (p) {
+                        return p.id;
+                      }).toArray();
 
-                    case 2:
-                      _orderDetail = _context63.sent;
-                      return _context63.abrupt("return", _orderDetail);
+                      if (!(_ackList.length > 0)) {
+                        _context63.next = 5;
+                        break;
+                      }
+
+                      _context63.next = 4;
+                      return this.orderSvc.postApiOrderV10EventsAcknowledgment(_ackList).toPromise();
 
                     case 4:
+                      ackRet = _context63.sent;
+
+                    case 5:
                     case "end":
                       return _context63.stop();
                   }
@@ -31707,96 +31837,121 @@
             }));
           }
         }, {
-          key: "changeStatus",
-          value: function changeStatus(orderId, code) {
+          key: "getOrder",
+          value: function getOrder(id) {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee62() {
-              var ret;
+              var _orderDetail;
+
               return regeneratorRuntime.wrap(function _callee62$(_context64) {
                 while (1) {
                   switch (_context64.prev = _context64.next) {
                     case 0:
-                      ret = false;
-                      _context64.prev = 1;
-                      _context64.t0 = code;
-                      _context64.next = _context64.t0 === "confirm" ? 5 : _context64.t0 === "startPreparation" ? 9 : _context64.t0 === "readyToPickup" ? 13 : _context64.t0 === "dispatch" ? 17 : _context64.t0 === "requestCancellation" ? 21 : _context64.t0 === "acceptCancellation" ? 25 : _context64.t0 === "denyCancellation" ? 29 : 33;
-                      break;
+                      _context64.next = 2;
+                      return this.orderSvc.getApiOrderV10Id(id).toPromise();
 
-                    case 5:
-                      _context64.next = 7;
-                      return this.orderSvc.postApiOrderV10IdConfirm(orderId).toPromise();
+                    case 2:
+                      _orderDetail = _context64.sent;
+                      return _context64.abrupt("return", _orderDetail);
 
-                    case 7:
-                      ret = true;
-                      return _context64.abrupt("break", 34);
-
-                    case 9:
-                      _context64.next = 11;
-                      return this.orderSvc.postApiOrderV10IdStartPreparation(orderId).toPromise();
-
-                    case 11:
-                      ret = true;
-                      return _context64.abrupt("break", 34);
-
-                    case 13:
-                      _context64.next = 15;
-                      return this.orderSvc.postApiOrderV10IdReadyToPickup(orderId).toPromise();
-
-                    case 15:
-                      ret = true;
-                      return _context64.abrupt("break", 34);
-
-                    case 17:
-                      _context64.next = 19;
-                      return this.orderSvc.postApiOrderV10IdDispatch(orderId).toPromise();
-
-                    case 19:
-                      ret = true;
-                      return _context64.abrupt("break", 34);
-
-                    case 21:
-                      _context64.next = 23;
-                      return this.orderSvc.postApiOrderV10IdRequestCancellation(orderId).toPromise();
-
-                    case 23:
-                      ret = true;
-                      return _context64.abrupt("break", 34);
-
-                    case 25:
-                      _context64.next = 27;
-                      return this.orderSvc.postApiOrderV10IdAcceptCancellation(orderId).toPromise();
-
-                    case 27:
-                      ret = true;
-                      return _context64.abrupt("break", 34);
-
-                    case 29:
-                      _context64.next = 31;
-                      return this.orderSvc.postApiOrderV10IdDenyCancellation(orderId).toPromise();
-
-                    case 31:
-                      ret = true;
-                      return _context64.abrupt("break", 34);
-
-                    case 33:
-                      return _context64.abrupt("break", 34);
-
-                    case 34:
-                      _context64.next = 38;
-                      break;
-
-                    case 36:
-                      _context64.prev = 36;
-                      _context64.t1 = _context64["catch"](1);
-
-                    case 38:
-                      return _context64.abrupt("return", ret);
-
-                    case 39:
+                    case 4:
                     case "end":
                       return _context64.stop();
                   }
                 }
-              }, _callee62, this, [[1, 36]]);
+              }, _callee62, this);
+            }));
+          }
+        }, {
+          key: "changeStatus",
+          value: function changeStatus(orderId, code) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee63() {
+              var ret;
+              return regeneratorRuntime.wrap(function _callee63$(_context65) {
+                while (1) {
+                  switch (_context65.prev = _context65.next) {
+                    case 0:
+                      ret = false;
+                      _context65.prev = 1;
+                      _context65.t0 = code;
+                      _context65.next = _context65.t0 === "confirm" ? 5 : _context65.t0 === "startPreparation" ? 9 : _context65.t0 === "readyToPickup" ? 13 : _context65.t0 === "dispatch" ? 17 : _context65.t0 === "requestCancellation" ? 21 : _context65.t0 === "acceptCancellation" ? 25 : _context65.t0 === "denyCancellation" ? 29 : 33;
+                      break;
+
+                    case 5:
+                      _context65.next = 7;
+                      return this.orderSvc.postApiOrderV10IdConfirm(orderId).toPromise();
+
+                    case 7:
+                      ret = true;
+                      return _context65.abrupt("break", 34);
+
+                    case 9:
+                      _context65.next = 11;
+                      return this.orderSvc.postApiOrderV10IdStartPreparation(orderId).toPromise();
+
+                    case 11:
+                      ret = true;
+                      return _context65.abrupt("break", 34);
+
+                    case 13:
+                      _context65.next = 15;
+                      return this.orderSvc.postApiOrderV10IdReadyToPickup(orderId).toPromise();
+
+                    case 15:
+                      ret = true;
+                      return _context65.abrupt("break", 34);
+
+                    case 17:
+                      _context65.next = 19;
+                      return this.orderSvc.postApiOrderV10IdDispatch(orderId).toPromise();
+
+                    case 19:
+                      ret = true;
+                      return _context65.abrupt("break", 34);
+
+                    case 21:
+                      _context65.next = 23;
+                      return this.orderSvc.postApiOrderV10IdRequestCancellation(orderId).toPromise();
+
+                    case 23:
+                      ret = true;
+                      return _context65.abrupt("break", 34);
+
+                    case 25:
+                      _context65.next = 27;
+                      return this.orderSvc.postApiOrderV10IdAcceptCancellation(orderId).toPromise();
+
+                    case 27:
+                      ret = true;
+                      return _context65.abrupt("break", 34);
+
+                    case 29:
+                      _context65.next = 31;
+                      return this.orderSvc.postApiOrderV10IdDenyCancellation(orderId).toPromise();
+
+                    case 31:
+                      ret = true;
+                      return _context65.abrupt("break", 34);
+
+                    case 33:
+                      return _context65.abrupt("break", 34);
+
+                    case 34:
+                      _context65.next = 38;
+                      break;
+
+                    case 36:
+                      _context65.prev = 36;
+                      _context65.t1 = _context65["catch"](1);
+
+                    case 38:
+                      return _context65.abrupt("return", ret);
+
+                    case 39:
+                    case "end":
+                      return _context65.stop();
+                  }
+                }
+              }, _callee63, this, [[1, 36]]);
             }));
           }
         }, {
@@ -31907,11 +32062,12 @@
       3209);
 
       var _IntegratorService = /*#__PURE__*/function () {
-        function _IntegratorService(orderSvc, systemSvc) {
+        function _IntegratorService(orderSvc, systemSvc, itemSvc) {
           _classCallCheck(this, _IntegratorService);
 
           this.orderSvc = orderSvc;
           this.systemSvc = systemSvc;
+          this.itemSvc = itemSvc;
           this._processedEvents = {};
           this.listPooling = [];
           this.listOrder = [];
@@ -31948,23 +32104,23 @@
         _createClass(_IntegratorService, [{
           key: "initialize",
           value: function initialize() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee65() {
-              var _this61 = this;
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee66() {
+              var _this60 = this;
 
               var config, i, element, adapter;
-              return regeneratorRuntime.wrap(function _callee65$(_context67) {
+              return regeneratorRuntime.wrap(function _callee66$(_context68) {
                 while (1) {
-                  switch (_context67.prev = _context67.next) {
+                  switch (_context68.prev = _context68.next) {
                     case 0:
-                      _context67.next = 2;
+                      _context68.next = 2;
                       return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.open();
 
                     case 2:
-                      _context67.next = 4;
+                      _context68.next = 4;
                       return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.orders.toArray();
 
                     case 4:
-                      this.listOrder = _context67.sent;
+                      this.listOrder = _context68.sent;
 
                       this._onOrdersListLoadedSubject.next(this.listOrder);
 
@@ -31977,51 +32133,51 @@
 
                     case 9:
                       if (!(i < config.length)) {
-                        _context67.next = 29;
+                        _context68.next = 29;
                         break;
                       }
 
                       element = config[i];
                       console.log("Init adapter: " + element.name);
-                      _context67.t0 = config[i].type;
-                      _context67.next = _context67.t0 === "webapi" ? 15 : _context67.t0 === "websocket" ? 18 : _context67.t0 === "delinet" ? 21 : 24;
+                      _context68.t0 = config[i].type;
+                      _context68.next = _context68.t0 === "webapi" ? 15 : _context68.t0 === "websocket" ? 18 : _context68.t0 === "delinet" ? 21 : 24;
                       break;
 
                     case 15:
                       adapter = new _adapters_order_webapi_o_ad_web_api__WEBPACK_IMPORTED_MODULE_2__.OAdWebApi(config[i]);
                       this.activeAdapters.push(adapter);
-                      return _context67.abrupt("break", 25);
+                      return _context68.abrupt("break", 25);
 
                     case 18:
                       adapter = new _adapters_order_websocket_o_ad_web_socket__WEBPACK_IMPORTED_MODULE_4__.OAdWebSocket(config[i]);
                       this.activeAdapters.push(adapter);
-                      return _context67.abrupt("break", 25);
+                      return _context68.abrupt("break", 25);
 
                     case 21:
                       adapter = new _adapters_order_delinet_o_ad_delinet__WEBPACK_IMPORTED_MODULE_5__.OAdDelinetChannel(config[i]);
                       this.activeAdapters.push(adapter);
-                      return _context67.abrupt("break", 25);
+                      return _context68.abrupt("break", 25);
 
                     case 24:
-                      return _context67.abrupt("break", 25);
+                      return _context68.abrupt("break", 25);
 
                     case 25:
                       adapter.onNewEvents.subscribe(function (_events) {
-                        return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(_this61, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee63() {
+                        return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(_this60, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee64() {
                           var index, newGuid, dto, a;
-                          return regeneratorRuntime.wrap(function _callee63$(_context65) {
+                          return regeneratorRuntime.wrap(function _callee64$(_context66) {
                             while (1) {
-                              switch (_context65.prev = _context65.next) {
+                              switch (_context66.prev = _context66.next) {
                                 case 0:
                                   index = 0;
 
                                 case 1:
                                   if (!(index < _events.length)) {
-                                    _context65.next = 15;
+                                    _context66.next = 15;
                                     break;
                                   }
 
-                                  _context65.prev = 2;
+                                  _context66.prev = 2;
                                   newGuid = adapter.name + "_" + _events[index].id;
                                   dto = {
                                     adapter: adapter.name,
@@ -32029,59 +32185,59 @@
                                     id: newGuid,
                                     source: adapter.sourceName
                                   };
-                                  _context65.next = 7;
+                                  _context66.next = 7;
                                   return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.tempEvents.add(dto, dto.id);
 
                                 case 7:
-                                  _context65.next = 12;
+                                  _context66.next = 12;
                                   break;
 
                                 case 9:
-                                  _context65.prev = 9;
-                                  _context65.t0 = _context65["catch"](2);
-                                  a = _context65.t0;
+                                  _context66.prev = 9;
+                                  _context66.t0 = _context66["catch"](2);
+                                  a = _context66.t0;
 
                                 case 12:
                                   index++;
-                                  _context65.next = 1;
+                                  _context66.next = 1;
                                   break;
 
                                 case 15:
-                                  _context65.next = 17;
+                                  _context66.next = 17;
                                   return adapter.acknowledge(_events);
 
                                 case 17:
-                                  _context65.next = 19;
+                                  _context66.next = 19;
                                   return this.processEvent();
 
                                 case 19:
                                 case "end":
-                                  return _context65.stop();
+                                  return _context66.stop();
                               }
                             }
-                          }, _callee63, this, [[2, 9]]);
+                          }, _callee64, this, [[2, 9]]);
                         }));
                       });
 
                     case 26:
                       i++;
-                      _context67.next = 9;
+                      _context68.next = 9;
                       break;
 
                     case 29:
                       setInterval(function () {
-                        return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(_this61, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee64() {
+                        return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(_this60, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee65() {
                           var countDown, percent;
-                          return regeneratorRuntime.wrap(function _callee64$(_context66) {
+                          return regeneratorRuntime.wrap(function _callee65$(_context67) {
                             while (1) {
-                              switch (_context66.prev = _context66.next) {
+                              switch (_context67.prev = _context67.next) {
                                 case 0:
                                   if (!(this.isPoolingLoopRoutineActive && this.secondsElapsedFromLastPooling > this.poolingDelaySeconds && !this.isRunningPooling)) {
-                                    _context66.next = 3;
+                                    _context67.next = 3;
                                     break;
                                   }
 
-                                  _context66.next = 3;
+                                  _context67.next = 3;
                                   return this.doPooling();
 
                                 case 3:
@@ -32099,53 +32255,53 @@
 
                                 case 4:
                                 case "end":
-                                  return _context66.stop();
+                                  return _context67.stop();
                               }
                             }
-                          }, _callee64, this);
+                          }, _callee65, this);
                         }));
                       }, 200);
 
                     case 30:
                     case "end":
-                      return _context67.stop();
+                      return _context68.stop();
                   }
                 }
-              }, _callee65, this);
+              }, _callee66, this);
             }));
           }
         }, {
           key: "doPooling",
           value: function doPooling() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee66() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee67() {
               var i;
-              return regeneratorRuntime.wrap(function _callee66$(_context68) {
+              return regeneratorRuntime.wrap(function _callee67$(_context69) {
                 while (1) {
-                  switch (_context68.prev = _context68.next) {
+                  switch (_context69.prev = _context69.next) {
                     case 0:
                       this.secondsElapsedFromLastPooling = 0;
                       i = 0;
 
                     case 2:
                       if (!(i < this.activeAdapters.length)) {
-                        _context68.next = 8;
+                        _context69.next = 8;
                         break;
                       }
 
-                      _context68.next = 5;
+                      _context69.next = 5;
                       return this.activeAdapters[i].doPooling();
 
                     case 5:
                       i++;
-                      _context68.next = 2;
+                      _context69.next = 2;
                       break;
 
                     case 8:
                     case "end":
-                      return _context68.stop();
+                      return _context69.stop();
                   }
                 }
-              }, _callee66, this);
+              }, _callee67, this);
             }));
           }
         }, {
@@ -32167,80 +32323,80 @@
         }, {
           key: "processEvent",
           value: function processEvent() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee67() {
-              var _this62 = this;
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee68() {
+              var _this61 = this;
 
               var _storedEvents, _loop6, i, adapter, dbpEvent, _localStoredOrder, idx, newUuid, dto, obj, dicDriver;
 
-              return regeneratorRuntime.wrap(function _callee67$(_context70) {
+              return regeneratorRuntime.wrap(function _callee68$(_context71) {
                 while (1) {
-                  switch (_context70.prev = _context70.next) {
+                  switch (_context71.prev = _context71.next) {
                     case 0:
                       if (this.isRunningProcessEvent) {
-                        _context70.next = 21;
+                        _context71.next = 21;
                         break;
                       }
 
                       this.isRunningProcessEvent = true;
-                      _context70.prev = 2;
-                      _context70.next = 5;
+                      _context71.prev = 2;
+                      _context71.next = 5;
                       return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.tempEvents.toArray();
 
                     case 5:
-                      _storedEvents = _context70.sent;
+                      _storedEvents = _context71.sent;
                       _loop6 = /*#__PURE__*/regeneratorRuntime.mark(function _loop6(i) {
                         var _storedEvent, _orderDetail;
 
-                        return regeneratorRuntime.wrap(function _loop6$(_context69) {
+                        return regeneratorRuntime.wrap(function _loop6$(_context70) {
                           while (1) {
-                            switch (_context69.prev = _context69.next) {
+                            switch (_context70.prev = _context70.next) {
                               case 0:
                                 _storedEvent = _storedEvents[i];
-                                adapter = _this62.getAdapter(_storedEvent.adapter);
+                                adapter = _this61.getAdapter(_storedEvent.adapter);
 
                                 if (!(adapter != null)) {
-                                  _context69.next = 68;
+                                  _context70.next = 68;
                                   break;
                                 }
 
-                                _this62._onEventFromPoolSubject.next(_storedEvent);
+                                _this61._onEventFromPoolSubject.next(_storedEvent);
 
-                                _context69.next = 6;
+                                _context70.next = 6;
                                 return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.events.get(_storedEvent.id);
 
                               case 6:
-                                dbpEvent = _context69.sent;
+                                dbpEvent = _context70.sent;
 
                                 if (dbpEvent) {
-                                  _context69.next = 68;
+                                  _context70.next = 68;
                                   break;
                                 }
 
-                                _context69.next = 10;
+                                _context70.next = 10;
                                 return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.events.put(_storedEvent, _storedEvent.id);
 
                               case 10:
-                                _localStoredOrder = linq__WEBPACK_IMPORTED_MODULE_0__.from(_this62.listOrder).where(function (o) {
+                                _localStoredOrder = linq__WEBPACK_IMPORTED_MODULE_0__.from(_this61.listOrder).where(function (o) {
                                   return o.order.id == _storedEvent.event.orderId && o.source == adapter.sourceName;
                                 }).defaultIfEmpty(null).firstOrDefault();
-                                idx = _this62.listOrder.indexOf(_localStoredOrder);
+                                idx = _this61.listOrder.indexOf(_localStoredOrder);
 
                                 if (!_storedEvent.event.code) {
-                                  _context69.next = 68;
+                                  _context70.next = 68;
                                   break;
                                 }
 
-                                _context69.prev = 13;
-                                _context69.t0 = _storedEvent.event.code;
-                                _context69.next = _context69.t0 === "PLC" ? 17 : _context69.t0 === "RPS" ? 17 : _context69.t0 === "CFM" ? 27 : _context69.t0 === "RTP" ? 27 : _context69.t0 === "DSP" ? 27 : _context69.t0 === "CON" ? 27 : _context69.t0 === "ADR" ? 33 : _context69.t0 === "GTO" ? 39 : _context69.t0 === "AAO" ? 39 : _context69.t0 === "CLT" ? 39 : _context69.t0 === "AAD" ? 39 : _context69.t0 === "CCR" ? 46 : _context69.t0 === "CCA" ? 52 : _context69.t0 === "CCD" ? 52 : 58;
+                                _context70.prev = 13;
+                                _context70.t0 = _storedEvent.event.code;
+                                _context70.next = _context70.t0 === "PLC" ? 17 : _context70.t0 === "RPS" ? 17 : _context70.t0 === "CFM" ? 27 : _context70.t0 === "RTP" ? 27 : _context70.t0 === "DSP" ? 27 : _context70.t0 === "CON" ? 27 : _context70.t0 === "ADR" ? 33 : _context70.t0 === "GTO" ? 39 : _context70.t0 === "AAO" ? 39 : _context70.t0 === "CLT" ? 39 : _context70.t0 === "AAD" ? 39 : _context70.t0 === "CCR" ? 46 : _context70.t0 === "CCA" ? 52 : _context70.t0 === "CCD" ? 52 : 58;
                                 break;
 
                               case 17:
-                                _context69.next = 19;
+                                _context70.next = 19;
                                 return adapter.getOrder(_storedEvent.event.orderId);
 
                               case 19:
-                                _orderDetail = _context69.sent;
+                                _orderDetail = _context70.sent;
                                 newUuid = src_app_static_stack_uuid__WEBPACK_IMPORTED_MODULE_3__.SSUuid.GenerateV4();
                                 dto = {
                                   order: _orderDetail,
@@ -32253,48 +32409,48 @@
                                 };
 
                                 if (_localStoredOrder == null) {
-                                  _this62.listOrder.push(dto);
+                                  _this61.listOrder.push(dto);
 
-                                  _this62._onAddedOrderSubject.next(dto);
+                                  _this61._onAddedOrderSubject.next(dto);
                                 } else {
                                   _localStoredOrder.status = _storedEvent.event.code;
 
-                                  _this62.updateOrderEvent(_localStoredOrder, _storedEvent.event);
+                                  _this61.updateOrderEvent(_localStoredOrder, _storedEvent.event);
 
-                                  _this62._onUpdatedOrderSubject.next(_localStoredOrder);
+                                  _this61._onUpdatedOrderSubject.next(_localStoredOrder);
                                 }
 
-                                _context69.next = 25;
+                                _context70.next = 25;
                                 return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.orders.put(dto, dto.id);
 
                               case 25:
-                                _this62._onOrdersListUpdatedSubject.next(_this62.listOrder);
+                                _this61._onOrdersListUpdatedSubject.next(_this61.listOrder);
 
-                                return _context69.abrupt("break", 59);
+                                return _context70.abrupt("break", 59);
 
                               case 27:
                                 if (!(_localStoredOrder != null)) {
-                                  _context69.next = 32;
+                                  _context70.next = 32;
                                   break;
                                 }
 
                                 _localStoredOrder.status = _storedEvent.event.code;
 
-                                _this62.updateOrderEvent(_localStoredOrder, _storedEvent.event);
+                                _this61.updateOrderEvent(_localStoredOrder, _storedEvent.event);
 
-                                _context69.next = 32;
-                                return _this62.persistEventChanges(_localStoredOrder);
+                                _context70.next = 32;
+                                return _this61.persistEventChanges(_localStoredOrder);
 
                               case 32:
-                                return _context69.abrupt("break", 59);
+                                return _context70.abrupt("break", 59);
 
                               case 33:
                                 if (!(_localStoredOrder != null)) {
-                                  _context69.next = 38;
+                                  _context70.next = 38;
                                   break;
                                 }
 
-                                _this62.updateOrderEvent(_localStoredOrder, _storedEvent.event);
+                                _this61.updateOrderEvent(_localStoredOrder, _storedEvent.event);
 
                                 try {
                                   if (_storedEvent.event.metadata != null) {
@@ -32317,19 +32473,19 @@
                                   }
                                 } catch (error) {}
 
-                                _context69.next = 38;
-                                return _this62.persistEventChanges(_localStoredOrder);
+                                _context70.next = 38;
+                                return _this61.persistEventChanges(_localStoredOrder);
 
                               case 38:
-                                return _context69.abrupt("break", 59);
+                                return _context70.abrupt("break", 59);
 
                               case 39:
                                 if (!(_localStoredOrder != null)) {
-                                  _context69.next = 45;
+                                  _context70.next = 45;
                                   break;
                                 }
 
-                                _this62.updateOrderEvent(_localStoredOrder, _storedEvent.event);
+                                _this61.updateOrderEvent(_localStoredOrder, _storedEvent.event);
 
                                 dicDriver = {
                                   GTO: "going to store",
@@ -32342,67 +32498,67 @@
                                   _localStoredOrder.driver.status = dicDriver[_storedEvent.event.code];
                                 } catch (error) {}
 
-                                _context69.next = 45;
-                                return _this62.persistEventChanges(_localStoredOrder);
+                                _context70.next = 45;
+                                return _this61.persistEventChanges(_localStoredOrder);
 
                               case 45:
-                                return _context69.abrupt("break", 59);
+                                return _context70.abrupt("break", 59);
 
                               case 46:
                                 if (!(_localStoredOrder != null)) {
-                                  _context69.next = 51;
+                                  _context70.next = 51;
                                   break;
                                 }
 
                                 _localStoredOrder.consumerRequestCancellation = true;
 
-                                _this62.updateOrderEvent(_localStoredOrder, _storedEvent.event);
+                                _this61.updateOrderEvent(_localStoredOrder, _storedEvent.event);
 
-                                _context69.next = 51;
-                                return _this62.persistEventChanges(_localStoredOrder);
+                                _context70.next = 51;
+                                return _this61.persistEventChanges(_localStoredOrder);
 
                               case 51:
-                                return _context69.abrupt("break", 59);
+                                return _context70.abrupt("break", 59);
 
                               case 52:
                                 if (!(_localStoredOrder != null)) {
-                                  _context69.next = 57;
+                                  _context70.next = 57;
                                   break;
                                 }
 
                                 _localStoredOrder.consumerRequestCancellation = false;
 
-                                _this62.updateOrderEvent(_localStoredOrder, _storedEvent.event);
+                                _this61.updateOrderEvent(_localStoredOrder, _storedEvent.event);
 
-                                _context69.next = 57;
-                                return _this62.persistEventChanges(_localStoredOrder);
+                                _context70.next = 57;
+                                return _this61.persistEventChanges(_localStoredOrder);
 
                               case 57:
-                                return _context69.abrupt("break", 59);
+                                return _context70.abrupt("break", 59);
 
                               case 58:
-                                return _context69.abrupt("break", 59);
+                                return _context70.abrupt("break", 59);
 
                               case 59:
-                                _context69.next = 61;
+                                _context70.next = 61;
                                 return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.tempEvents["delete"](_storedEvent.id);
 
                               case 61:
-                                _context69.next = 68;
+                                _context70.next = 68;
                                 break;
 
                               case 63:
-                                _context69.prev = 63;
-                                _context69.t1 = _context69["catch"](13);
+                                _context70.prev = 63;
+                                _context70.t1 = _context70["catch"](13);
 
-                                _this62._OnErrorSubject.next(_context69.t1);
+                                _this61._OnErrorSubject.next(_context70.t1);
 
                                 console.log("Error processing " + _storedEvent.event.code + " Event");
-                                console.log(_context69.t1);
+                                console.log(_context70.t1);
 
                               case 68:
                               case "end":
-                                return _context69.stop();
+                                return _context70.stop();
                             }
                           }
                         }, _loop6, null, [[13, 63]]);
@@ -32411,24 +32567,24 @@
 
                     case 8:
                       if (!(i < _storedEvents.length)) {
-                        _context70.next = 13;
+                        _context71.next = 13;
                         break;
                       }
 
-                      return _context70.delegateYield(_loop6(i), "t0", 10);
+                      return _context71.delegateYield(_loop6(i), "t0", 10);
 
                     case 10:
                       i++;
-                      _context70.next = 8;
+                      _context71.next = 8;
                       break;
 
                     case 13:
-                      _context70.next = 17;
+                      _context71.next = 17;
                       break;
 
                     case 15:
-                      _context70.prev = 15;
-                      _context70.t1 = _context70["catch"](2);
+                      _context71.prev = 15;
+                      _context71.t1 = _context71["catch"](2);
 
                     case 17:
                       this.isRunningProcessEvent = false;
@@ -32436,11 +32592,11 @@
                       if (this.isWaitingToProcessEvent) {
                         this.isWaitingToProcessEvent = false;
                         setTimeout(function () {
-                          _this62.processEvent();
+                          _this61.processEvent();
                         }, 1);
                       }
 
-                      _context70.next = 22;
+                      _context71.next = 22;
                       break;
 
                     case 21:
@@ -32448,10 +32604,10 @@
 
                     case 22:
                     case "end":
-                      return _context70.stop();
+                      return _context71.stop();
                   }
                 }
-              }, _callee67, this, [[2, 15]]);
+              }, _callee68, this, [[2, 15]]);
             }));
           }
         }, {
@@ -32468,15 +32624,15 @@
         }, {
           key: "persistEventChanges",
           value: function persistEventChanges(_localStoredOrder) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee68() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee69() {
               var p;
-              return regeneratorRuntime.wrap(function _callee68$(_context71) {
+              return regeneratorRuntime.wrap(function _callee69$(_context72) {
                 while (1) {
-                  switch (_context71.prev = _context71.next) {
+                  switch (_context72.prev = _context72.next) {
                     case 0:
                       this._onUpdatedOrderSubject.next(_localStoredOrder);
 
-                      _context71.next = 3;
+                      _context72.next = 3;
                       return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.orders.put(_localStoredOrder, _localStoredOrder.id);
 
                     case 3:
@@ -32494,24 +32650,24 @@
 
                     case 5:
                     case "end":
-                      return _context71.stop();
+                      return _context72.stop();
                   }
                 }
-              }, _callee68, this);
+              }, _callee69, this);
             }));
           }
         }, {
           key: "changeStatus",
           value: function changeStatus(storedOrderId, status) {
-            var _this63 = this;
+            var _this62 = this;
 
             var p = new Promise(function (resolve, reject) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(_this63, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee69() {
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(_this62, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee70() {
                 var _localOrderDetail, adapter, changedStatus;
 
-                return regeneratorRuntime.wrap(function _callee69$(_context72) {
+                return regeneratorRuntime.wrap(function _callee70$(_context73) {
                   while (1) {
-                    switch (_context72.prev = _context72.next) {
+                    switch (_context73.prev = _context73.next) {
                       case 0:
                         _localOrderDetail = linq__WEBPACK_IMPORTED_MODULE_0__.from(this.listOrder).where(function (o) {
                           return o.id == storedOrderId;
@@ -32521,18 +32677,18 @@
                         adapter = this.getAdapter(_localOrderDetail.adapter);
 
                         if (!(adapter != null)) {
-                          _context72.next = 19;
+                          _context73.next = 19;
                           break;
                         }
 
-                        _context72.next = 7;
+                        _context73.next = 7;
                         return adapter.changeStatus(_localOrderDetail.order.id, status);
 
                       case 7:
-                        changedStatus = _context72.sent;
+                        changedStatus = _context73.sent;
 
                         if (!changedStatus) {
-                          _context72.next = 16;
+                          _context73.next = 16;
                           break;
                         }
 
@@ -32543,20 +32699,20 @@
 
                         this._onUpdatedOrderSubject.next(_localOrderDetail);
 
-                        _context72.next = 13;
+                        _context73.next = 13;
                         return _shared_integrator_db__WEBPACK_IMPORTED_MODULE_1__._DB.orders.put(_localOrderDetail, storedOrderId);
 
                       case 13:
                         this._onOrdersListUpdatedSubject.next(this.listOrder);
 
-                        _context72.next = 17;
+                        _context73.next = 17;
                         break;
 
                       case 16:
                         reject();
 
                       case 17:
-                        _context72.next = 20;
+                        _context73.next = 20;
                         break;
 
                       case 19:
@@ -32564,10 +32720,10 @@
 
                       case 20:
                       case "end":
-                        return _context72.stop();
+                        return _context73.stop();
                     }
                   }
-                }, _callee69, this);
+                }, _callee70, this);
               }));
             });
             return p;
@@ -32589,7 +32745,7 @@
       }();
 
       _IntegratorService.ɵfac = function IntegratorService_Factory(t) {
-        return new (t || _IntegratorService)(_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵinject"](src_app_api_services__WEBPACK_IMPORTED_MODULE_6__.OrderService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵinject"](_system_service__WEBPACK_IMPORTED_MODULE_7__.SystemService));
+        return new (t || _IntegratorService)(_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵinject"](src_app_api_services__WEBPACK_IMPORTED_MODULE_6__.OrderService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵinject"](_system_service__WEBPACK_IMPORTED_MODULE_7__.SystemService), _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵinject"](src_app_api_services__WEBPACK_IMPORTED_MODULE_6__.ItemService));
       };
 
       _IntegratorService.ɵprov = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdefineInjectable"]({
@@ -32707,7 +32863,7 @@
       var _SystemService = /*#__PURE__*/function () {
         function _SystemService( //Injections
         sysSvc, cryptoSvc, router, dialog) {
-          var _this64 = this;
+          var _this63 = this;
 
           _classCallCheck(this, _SystemService);
 
@@ -32715,6 +32871,7 @@
           this.cryptoSvc = cryptoSvc;
           this.router = router;
           this.dialog = dialog;
+          this.version = "";
           this._isSystemReady = new rxjs__WEBPACK_IMPORTED_MODULE_8__.Subject();
           this.isSystemReadyAsync = this._isSystemReady.asObservable();
           this.isStaticAppOnly = false;
@@ -32737,10 +32894,10 @@
 
 
           setTimeout(function () {
-            _this64._isSystemReady.next(false);
+            _this63._isSystemReady.next(false);
 
             setTimeout(function () {
-              _this64._loadSystem();
+              _this63._loadSystem();
             }, src_environments_environment__WEBPACK_IMPORTED_MODULE_0__.environment.production ? 0 : 500); //Delay loadSystem if in production mode to test splash screen
           }, 1);
         }
@@ -32825,108 +32982,109 @@
         }, {
           key: "_loadSystem",
           value: function _loadSystem() {
-            var _this65 = this;
+            var _this64 = this;
 
             this.sysSvc.getApiSysVer().subscribe(function (d) {
               console.log(d);
+              _this64.version = d;
 
               if (d && d.startsWith('static:')) {
-                _this65.loadStaticStack();
+                _this64.loadStaticStack();
               } else {
-                _this65.loadApiStack();
+                _this64.loadApiStack();
               }
             });
           }
         }, {
           key: "loadCommonShared",
           value: function loadCommonShared() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee70() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee71() {
               var ipfsNode, scriptElm, datahashChannel;
-              return regeneratorRuntime.wrap(function _callee70$(_context73) {
+              return regeneratorRuntime.wrap(function _callee71$(_context74) {
                 while (1) {
-                  switch (_context73.prev = _context73.next) {
+                  switch (_context74.prev = _context74.next) {
                     case 0:
-                      _context73.next = 2;
+                      _context74.next = 2;
                       return this.loadLocalPersistedChooses();
 
                     case 2:
                       if (!(this.selectedMerchantGroup == null)) {
-                        _context73.next = 6;
+                        _context74.next = 6;
                         break;
                       }
 
                       this.router.navigate(['/choose-merchant-group']);
-                      _context73.next = 26;
+                      _context74.next = 26;
                       break;
 
                     case 6:
                       if (!this.isStaticAppOnly) {
-                        _context73.next = 26;
+                        _context74.next = 26;
                         break;
                       }
 
-                      _context73.prev = 7;
-                      _context73.next = 10;
+                      _context74.prev = 7;
+                      _context74.next = 10;
                       return _static_stack_ipfs__WEBPACK_IMPORTED_MODULE_3__.SSIpfs.getNode();
 
                     case 10:
-                      ipfsNode = _context73.sent;
-                      _context73.next = 13;
+                      ipfsNode = _context74.sent;
+                      _context74.next = 13;
                       return _static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_4__.SSOrbitdb.GetOrbitDbInstance(ipfsNode);
 
                     case 13:
-                      scriptElm = _context73.sent;
-                      _context73.next = 16;
+                      scriptElm = _context74.sent;
+                      _context74.next = 16;
                       return _static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_4__.SSOrbitdb.GetLogInstancePool(this.selectedMerchant.id + "_hashdata");
 
                     case 16:
-                      this.logDatahashChannel = _context73.sent;
+                      this.logDatahashChannel = _context74.sent;
                       datahashChannel = this.logDatahashChannel.id;
                       console.log("Started dataHashChannel: " + datahashChannel);
                       this.logDatahashChannel.load();
-                      _context73.next = 26;
+                      _context74.next = 26;
                       break;
 
                     case 22:
-                      _context73.prev = 22;
-                      _context73.t0 = _context73["catch"](7);
+                      _context74.prev = 22;
+                      _context74.t0 = _context74["catch"](7);
                       console.log("ERROR GETTING ORBIT INSTANCE...");
-                      console.log(_context73.t0);
+                      console.log(_context74.t0);
 
                     case 26:
                     case "end":
-                      return _context73.stop();
+                      return _context74.stop();
                   }
                 }
-              }, _callee70, this, [[7, 22]]);
+              }, _callee71, this, [[7, 22]]);
             }));
           }
         }, {
           key: "loadApiStack",
           value: function loadApiStack() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee71() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee72() {
               var oauthRes;
-              return regeneratorRuntime.wrap(function _callee71$(_context74) {
+              return regeneratorRuntime.wrap(function _callee72$(_context75) {
                 while (1) {
-                  switch (_context74.prev = _context74.next) {
+                  switch (_context75.prev = _context75.next) {
                     case 0:
                       this.isStaticAppOnly = false;
                       oauthRes = localStorage.getItem("oauthresponse");
 
                       if (!(oauthRes != null)) {
-                        _context74.next = 10;
+                        _context75.next = 10;
                         break;
                       }
 
                       this.OauthToken = JSON.parse(oauthRes);
                       this.isAuthenticated = true;
-                      _context74.next = 7;
+                      _context75.next = 7;
                       return this.loadCommonShared();
 
                     case 7:
                       this._isSystemReady.next(true);
 
-                      _context74.next = 12;
+                      _context75.next = 12;
                       break;
 
                     case 10:
@@ -32936,60 +33094,6 @@
 
                     case 12:
                     case "end":
-                      return _context74.stop();
-                  }
-                }
-              }, _callee71, this);
-            }));
-          }
-        }, {
-          key: "loadStaticStack",
-          value: function loadStaticStack() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee72() {
-              var ipfsNode, sessionIdentity, orbitdbInstance;
-              return regeneratorRuntime.wrap(function _callee72$(_context75) {
-                while (1) {
-                  switch (_context75.prev = _context75.next) {
-                    case 0:
-                      this.isStaticAppOnly = true;
-                      _context75.next = 3;
-                      return _static_stack_ipfs__WEBPACK_IMPORTED_MODULE_3__.SSIpfs.getNode();
-
-                    case 3:
-                      ipfsNode = _context75.sent;
-                      sessionIdentity = sessionStorage.getItem("wallet_getId");
-
-                      if (!(sessionIdentity == null)) {
-                        _context75.next = 9;
-                        break;
-                      }
-
-                      this.router.navigate(['/auth']);
-
-                      this._isSystemReady.next(true);
-
-                      return _context75.abrupt("return");
-
-                    case 9:
-                      _context75.next = 11;
-                      return _static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_4__.SSOrbitdb.GetOrbitDbInstance(ipfsNode);
-
-                    case 11:
-                      orbitdbInstance = _context75.sent;
-                      this.OauthToken = {
-                        "accessToken": sessionIdentity,
-                        "type": "keypair",
-                        "expiresIn": 0
-                      };
-                      this.isAuthenticated = true;
-                      _context75.next = 16;
-                      return this.loadCommonShared();
-
-                    case 16:
-                      this._isSystemReady.next(true);
-
-                    case 17:
-                    case "end":
                       return _context75.stop();
                   }
                 }
@@ -32997,16 +33101,70 @@
             }));
           }
         }, {
-          key: "reload",
-          value: function reload() {
+          key: "loadStaticStack",
+          value: function loadStaticStack() {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee73() {
+              var ipfsNode, sessionIdentity, orbitdbInstance;
               return regeneratorRuntime.wrap(function _callee73$(_context76) {
                 while (1) {
                   switch (_context76.prev = _context76.next) {
                     case 0:
+                      this.isStaticAppOnly = true;
+                      _context76.next = 3;
+                      return _static_stack_ipfs__WEBPACK_IMPORTED_MODULE_3__.SSIpfs.getNode();
+
+                    case 3:
+                      ipfsNode = _context76.sent;
+                      sessionIdentity = sessionStorage.getItem("wallet_getId");
+
+                      if (!(sessionIdentity == null)) {
+                        _context76.next = 9;
+                        break;
+                      }
+
+                      this.router.navigate(['/auth']);
+
+                      this._isSystemReady.next(true);
+
+                      return _context76.abrupt("return");
+
+                    case 9:
+                      _context76.next = 11;
+                      return _static_stack_orbitdb__WEBPACK_IMPORTED_MODULE_4__.SSOrbitdb.GetOrbitDbInstance(ipfsNode);
+
+                    case 11:
+                      orbitdbInstance = _context76.sent;
+                      this.OauthToken = {
+                        "accessToken": sessionIdentity,
+                        "type": "keypair",
+                        "expiresIn": 0
+                      };
+                      this.isAuthenticated = true;
+                      _context76.next = 16;
+                      return this.loadCommonShared();
+
+                    case 16:
+                      this._isSystemReady.next(true);
+
+                    case 17:
+                    case "end":
+                      return _context76.stop();
+                  }
+                }
+              }, _callee73, this);
+            }));
+          }
+        }, {
+          key: "reload",
+          value: function reload() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee74() {
+              return regeneratorRuntime.wrap(function _callee74$(_context77) {
+                while (1) {
+                  switch (_context77.prev = _context77.next) {
+                    case 0:
                       this._isSystemReady.next(false);
 
-                      _context76.next = 3;
+                      _context77.next = 3;
                       return new Promise(function (r) {
                         return setTimeout(r, 64);
                       });
@@ -33016,10 +33174,10 @@
 
                     case 4:
                     case "end":
-                      return _context76.stop();
+                      return _context77.stop();
                   }
                 }
-              }, _callee73, this);
+              }, _callee74, this);
             }));
           }
         }, {
@@ -33043,23 +33201,23 @@
         }, {
           key: "loadLocalPersistedChooses",
           value: function loadLocalPersistedChooses() {
-            var _this66 = this;
+            var _this65 = this;
 
             return new Promise(function (resolve, reject) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(_this66, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee74() {
-                var _this67 = this;
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(_this65, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee75() {
+                var _this66 = this;
 
                 var __selectedMerchant;
 
-                return regeneratorRuntime.wrap(function _callee74$(_context77) {
+                return regeneratorRuntime.wrap(function _callee75$(_context78) {
                   while (1) {
-                    switch (_context77.prev = _context77.next) {
+                    switch (_context78.prev = _context78.next) {
                       case 0:
                         ["system.selectedMerchantGroup", "system.selectedMerchant"].forEach(function (field) {
                           var _fieldValue = localStorage.getItem(field);
 
                           if (_fieldValue != null) {
-                            _this67["_" + field.split('.')[1]] = JSON.parse(_fieldValue);
+                            _this66["_" + field.split('.')[1]] = JSON.parse(_fieldValue);
                           }
                         });
                         __selectedMerchant = localStorage.getItem("system.selectedMerchant");
@@ -33067,17 +33225,17 @@
 
                       case 3:
                       case "end":
-                        return _context77.stop();
+                        return _context78.stop();
                     }
                   }
-                }, _callee74);
+                }, _callee75);
               }));
             });
           }
         }, {
           key: "logout",
           value: function logout() {
-            var _this68 = this;
+            var _this67 = this;
 
             var dialogData = {
               title: "Confirm Logout",
@@ -33090,13 +33248,13 @@
             });
             dialogRef.afterClosed().subscribe(function (ok) {
               if (ok) {
-                _this68.selectedMerchant = null;
-                _this68.selectedMerchantGroup = null;
-                _this68.isAuthenticated = false;
-                _this68.OauthToken = null;
+                _this67.selectedMerchant = null;
+                _this67.selectedMerchantGroup = null;
+                _this67.isAuthenticated = false;
+                _this67.OauthToken = null;
                 sessionStorage.clear();
 
-                _this68.router.navigate(['/auth']);
+                _this67.router.navigate(['/auth']);
               }
             });
             return;
@@ -33346,20 +33504,20 @@
         var _super31 = _createSuper(_IntegratorDb);
 
         function _IntegratorDb() {
-          var _this69;
+          var _this68;
 
           _classCallCheck(this, _IntegratorDb);
 
-          _this69 = _super31.call(this, 'integratordb');
+          _this68 = _super31.call(this, 'integratordb');
 
-          _this69.version(3).stores({
+          _this68.version(3).stores({
             events: 'id',
             orders: 'id',
             tempEvents: 'id',
             localorders: 'id'
           });
 
-          return _this69;
+          return _this68;
         }
 
         return _createClass(_IntegratorDb);
@@ -33672,31 +33830,31 @@
         _createClass(_SSAuthentication, null, [{
           key: "getOauthTokenAsync",
           value: function getOauthTokenAsync(dtoOauthRequest) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee75() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee76() {
               var _timestamp, _accessToken;
 
-              return regeneratorRuntime.wrap(function _callee75$(_context78) {
+              return regeneratorRuntime.wrap(function _callee76$(_context79) {
                 while (1) {
-                  switch (_context78.prev = _context78.next) {
+                  switch (_context79.prev = _context79.next) {
                     case 0:
-                      _context78.next = 2;
+                      _context79.next = 2;
                       return this.cryptoService.importPrivateKey(dtoOauthRequest.clientSecret);
 
                     case 2:
-                      this.cryptoService.privateKey = _context78.sent;
-                      _context78.next = 5;
+                      this.cryptoService.privateKey = _context79.sent;
+                      _context79.next = 5;
                       return this.cryptoService.importPublicKey(dtoOauthRequest.clientSecret);
 
                     case 5:
-                      this.cryptoService.publicKey = _context78.sent;
+                      this.cryptoService.publicKey = _context79.sent;
                       _timestamp = new Date().toISOString();
-                      _context78.next = 9;
+                      _context79.next = 9;
                       return this.cryptoService.encrypt(_timestamp);
 
                     case 9:
-                      _accessToken = _context78.sent;
+                      _accessToken = _context79.sent;
                       localStorage.setItem("oauthrequest", JSON.stringify(dtoOauthRequest));
-                      return _context78.abrupt("return", {
+                      return _context79.abrupt("return", {
                         "accessToken": _accessToken,
                         "type": "keypair",
                         "expiresIn": 0
@@ -33704,10 +33862,10 @@
 
                     case 12:
                     case "end":
-                      return _context78.stop();
+                      return _context79.stop();
                   }
                 }
-              }, _callee75, this);
+              }, _callee76, this);
             }));
           }
         }]);
@@ -33780,17 +33938,17 @@
         var _super32 = _createSuper(_EthIdentityProvider);
 
         function _EthIdentityProvider() {
-          var _this70;
+          var _this69;
 
           var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
           _classCallCheck(this, _EthIdentityProvider);
 
-          _this70 = _super32.call(this);
-          _this70.provider = window.ethereum ? new ethers__WEBPACK_IMPORTED_MODULE_1__.Web3Provider(window.ethereum) : new ethers__WEBPACK_IMPORTED_MODULE_2__.JsonRpcProvider("https://polygon-rpc.com/");
-          _this70.wallet = window.ethereum ? _this70.provider.getSigner() : ethers__WEBPACK_IMPORTED_MODULE_3__.Wallet.createRandom();
-          _this70.wallet = options.wallet;
-          return _this70;
+          _this69 = _super32.call(this);
+          _this69.provider = window.ethereum ? new ethers__WEBPACK_IMPORTED_MODULE_1__.Web3Provider(window.ethereum) : new ethers__WEBPACK_IMPORTED_MODULE_2__.JsonRpcProvider("https://polygon-rpc.com/");
+          _this69.wallet = window.ethereum ? _this69.provider.getSigner() : ethers__WEBPACK_IMPORTED_MODULE_3__.Wallet.createRandom();
+          _this69.wallet = options.wallet;
+          return _this69;
         } // Returns the type of the identity provider
 
 
@@ -33799,48 +33957,48 @@
           value: // Returns the signer's id
           function getId() {
             var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee76() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee77() {
               var ssW, ret;
-              return regeneratorRuntime.wrap(function _callee76$(_context79) {
+              return regeneratorRuntime.wrap(function _callee77$(_context80) {
                 while (1) {
-                  switch (_context79.prev = _context79.next) {
+                  switch (_context80.prev = _context80.next) {
                     case 0:
                       ssW = sessionStorage.getItem("wallet_getId");
 
                       if (!(ssW != null)) {
-                        _context79.next = 5;
+                        _context80.next = 5;
                         break;
                       }
 
-                      return _context79.abrupt("return", ssW);
+                      return _context80.abrupt("return", ssW);
 
                     case 5:
                       if (this.wallet) {
-                        _context79.next = 9;
+                        _context80.next = 9;
                         break;
                       }
 
-                      _context79.next = 8;
+                      _context80.next = 8;
                       return this._createWallet(options);
 
                     case 8:
-                      this.wallet = _context79.sent;
+                      this.wallet = _context80.sent;
 
                     case 9:
-                      _context79.next = 11;
+                      _context80.next = 11;
                       return this.wallet.getAddress();
 
                     case 11:
-                      ret = _context79.sent;
+                      ret = _context80.sent;
                       sessionStorage.setItem("wallet_getId", ret);
-                      return _context79.abrupt("return", ret);
+                      return _context80.abrupt("return", ret);
 
                     case 14:
                     case "end":
-                      return _context79.stop();
+                      return _context80.stop();
                   }
                 }
-              }, _callee76, this);
+              }, _callee77, this);
             }));
           } // Returns a signature of pubkeysignature
 
@@ -33848,66 +34006,66 @@
           key: "signIdentity",
           value: function signIdentity(data) {
             var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee77() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee78() {
               var ssSI, wallet, ret;
-              return regeneratorRuntime.wrap(function _callee77$(_context80) {
+              return regeneratorRuntime.wrap(function _callee78$(_context81) {
                 while (1) {
-                  switch (_context80.prev = _context80.next) {
+                  switch (_context81.prev = _context81.next) {
                     case 0:
                       ssSI = sessionStorage.getItem("wallet_signedid");
 
                       if (!(ssSI != null)) {
-                        _context80.next = 5;
+                        _context81.next = 5;
                         break;
                       }
 
-                      return _context80.abrupt("return", ssSI);
+                      return _context81.abrupt("return", ssSI);
 
                     case 5:
                       wallet = this.wallet;
 
                       if (wallet) {
-                        _context80.next = 8;
+                        _context81.next = 8;
                         break;
                       }
 
                       throw new Error('wallet is required');
 
                     case 8:
-                      _context80.next = 10;
+                      _context81.next = 10;
                       return wallet.signMessage(data);
 
                     case 10:
-                      ret = _context80.sent;
+                      ret = _context81.sent;
                       sessionStorage.setItem("wallet_signedid", ret);
-                      return _context80.abrupt("return", ret);
+                      return _context81.abrupt("return", ret);
 
                     case 13:
                     case "end":
-                      return _context80.stop();
+                      return _context81.stop();
                   }
                 }
-              }, _callee77, this);
+              }, _callee78, this);
             }));
           }
         }, {
           key: "_createWallet",
           value: function _createWallet() {
             var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee78() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee79() {
               var _Wallet, _Wallet2, Wallet;
 
-              return regeneratorRuntime.wrap(function _callee78$(_context81) {
+              return regeneratorRuntime.wrap(function _callee79$(_context82) {
                 while (1) {
-                  switch (_context81.prev = _context81.next) {
+                  switch (_context82.prev = _context82.next) {
                     case 0:
                       if (!options.mnemonicOpts) {
-                        _context81.next = 5;
+                        _context82.next = 5;
                         break;
                       }
 
                       if (options.mnemonicOpts.mnemonic) {
-                        _context81.next = 3;
+                        _context82.next = 3;
                         break;
                       }
 
@@ -33915,16 +34073,16 @@
 
                     case 3:
                       _Wallet = ethers__WEBPACK_IMPORTED_MODULE_3__.Wallet;
-                      return _context81.abrupt("return", _Wallet.fromMnemonic(options.mnemonicOpts.mnemonic, options.mnemonicOpts.path, options.mnemonicOpts.wordlist));
+                      return _context82.abrupt("return", _Wallet.fromMnemonic(options.mnemonicOpts.mnemonic, options.mnemonicOpts.path, options.mnemonicOpts.wordlist));
 
                     case 5:
                       if (!options.encryptedJsonOpts) {
-                        _context81.next = 12;
+                        _context82.next = 12;
                         break;
                       }
 
                       if (options.encryptedJsonOpts.json) {
-                        _context81.next = 8;
+                        _context82.next = 8;
                         break;
                       }
 
@@ -33932,7 +34090,7 @@
 
                     case 8:
                       if (options.encryptedJsonOpts.password) {
-                        _context81.next = 10;
+                        _context82.next = 10;
                         break;
                       }
 
@@ -33940,18 +34098,18 @@
 
                     case 10:
                       _Wallet2 = ethers__WEBPACK_IMPORTED_MODULE_3__.Wallet;
-                      return _context81.abrupt("return", _Wallet2.fromEncryptedJson(options.encryptedJsonOpts.json, options.encryptedJsonOpts.password, options.encryptedJsonOpts.progressCallback));
+                      return _context82.abrupt("return", _Wallet2.fromEncryptedJson(options.encryptedJsonOpts.json, options.encryptedJsonOpts.password, options.encryptedJsonOpts.progressCallback));
 
                     case 12:
                       Wallet = ethers__WEBPACK_IMPORTED_MODULE_3__.Wallet;
-                      return _context81.abrupt("return", Wallet.createRandom());
+                      return _context82.abrupt("return", Wallet.createRandom());
 
                     case 14:
                     case "end":
-                      return _context81.stop();
+                      return _context82.stop();
                   }
                 }
-              }, _callee78);
+              }, _callee79);
             }));
           }
         }], [{
@@ -33962,25 +34120,25 @@
         }, {
           key: "verifyIdentity",
           value: function verifyIdentity(identity) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee79() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee80() {
               var provider, wallet, verifyMessage, signerAddress;
-              return regeneratorRuntime.wrap(function _callee79$(_context82) {
+              return regeneratorRuntime.wrap(function _callee80$(_context83) {
                 while (1) {
-                  switch (_context82.prev = _context82.next) {
+                  switch (_context83.prev = _context83.next) {
                     case 0:
                       // Verify that identity was signed by the id
                       provider = new ethers__WEBPACK_IMPORTED_MODULE_1__.Web3Provider(window.ethereum);
                       wallet = provider.getSigner();
                       verifyMessage = ethers__WEBPACK_IMPORTED_MODULE_3__.verifyMessage;
                       signerAddress = verifyMessage(identity.publicKey + identity.signatures.id, identity.signatures.publicKey);
-                      return _context82.abrupt("return", signerAddress === identity.id);
+                      return _context83.abrupt("return", signerAddress === identity.id);
 
                     case 5:
                     case "end":
-                      return _context82.stop();
+                      return _context83.stop();
                   }
                 }
-              }, _callee79);
+              }, _callee80);
             }));
           }
         }]);
@@ -34062,71 +34220,71 @@
         _createClass(_BrandFakeController, [{
           key: "getAll",
           value: function getAll() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee80() {
-              return regeneratorRuntime.wrap(function _callee80$(_context83) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee81() {
+              return regeneratorRuntime.wrap(function _callee81$(_context84) {
                 while (1) {
-                  switch (_context83.prev = _context83.next) {
+                  switch (_context84.prev = _context84.next) {
                     case 0:
                       throw new Error("Method not implemented.");
 
                     case 1:
                     case "end":
-                      return _context83.stop();
+                      return _context84.stop();
                   }
                 }
-              }, _callee80);
+              }, _callee81);
             }));
           }
         }, {
           key: "get",
           value: function get(uuid) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee81() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee82() {
               var merchantGroup, ret, allCatalogs, allCategories, allOptionGroups, _iterator, _step, merchant;
 
-              return regeneratorRuntime.wrap(function _callee81$(_context84) {
+              return regeneratorRuntime.wrap(function _callee82$(_context85) {
                 while (1) {
-                  switch (_context84.prev = _context84.next) {
+                  switch (_context85.prev = _context85.next) {
                     case 0:
                       merchantGroup = src_app_services_system_service__WEBPACK_IMPORTED_MODULE_1__.SystemService.Instance.selectedMerchantGroup;
-                      _context84.t0 = merchantGroup.id;
-                      _context84.t1 = merchantGroup.adminMode;
-                      _context84.t2 = merchantGroup.createdAt;
-                      _context84.t3 = merchantGroup.name;
-                      _context84.next = 7;
+                      _context85.t0 = merchantGroup.id;
+                      _context85.t1 = merchantGroup.adminMode;
+                      _context85.t2 = merchantGroup.createdAt;
+                      _context85.t3 = merchantGroup.name;
+                      _context85.next = 7;
                       return new _product_fakecontroller__WEBPACK_IMPORTED_MODULE_3__.ProductFakeController().query("merchantGroupId", merchantGroup.id);
 
                     case 7:
-                      _context84.t4 = _context84.sent;
-                      _context84.next = 10;
+                      _context85.t4 = _context85.sent;
+                      _context85.next = 10;
                       return _orbitdb__WEBPACK_IMPORTED_MODULE_2__.SSOrbitdb.GetDocInstance("Merchant");
 
                     case 10:
-                      _context84.t5 = _context84.sent.get('');
+                      _context85.t5 = _context85.sent.get('');
                       ret = {
-                        id: _context84.t0,
-                        adminMode: _context84.t1,
+                        id: _context85.t0,
+                        adminMode: _context85.t1,
                         status: "AVAILABLE",
-                        createdAt: _context84.t2,
-                        name: _context84.t3,
+                        createdAt: _context85.t2,
+                        name: _context85.t3,
                         ordersEndpoint: "",
-                        product: _context84.t4,
-                        merchant: _context84.t5
+                        product: _context85.t4,
+                        merchant: _context85.t5
                       };
-                      _context84.next = 14;
+                      _context85.next = 14;
                       return _orbitdb__WEBPACK_IMPORTED_MODULE_2__.SSOrbitdb.GetDocInstance("Catalog");
 
                     case 14:
-                      allCatalogs = _context84.sent.get('');
-                      _context84.next = 17;
+                      allCatalogs = _context85.sent.get('');
+                      _context85.next = 17;
                       return _orbitdb__WEBPACK_IMPORTED_MODULE_2__.SSOrbitdb.GetDocInstance("Category");
 
                     case 17:
-                      allCategories = _context84.sent.get('');
-                      _context84.next = 20;
+                      allCategories = _context85.sent.get('');
+                      _context85.next = 20;
                       return _orbitdb__WEBPACK_IMPORTED_MODULE_2__.SSOrbitdb.GetDocInstance("OptionGroup");
 
                     case 20:
-                      allOptionGroups = _context84.sent.get('');
+                      allOptionGroups = _context85.sent.get('');
                       _iterator = _createForOfIteratorHelper(ret.merchant);
 
                       try {
@@ -34150,65 +34308,47 @@
                         _iterator.f();
                       }
 
-                      return _context84.abrupt("return", ret);
+                      return _context85.abrupt("return", ret);
 
                     case 24:
                     case "end":
-                      return _context84.stop();
+                      return _context85.stop();
                   }
                 }
-              }, _callee81);
+              }, _callee82);
             }));
           }
         }, {
           key: "query",
           value: function query(propertyName, search) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee82() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee83() {
               var products;
-              return regeneratorRuntime.wrap(function _callee82$(_context85) {
+              return regeneratorRuntime.wrap(function _callee83$(_context86) {
                 while (1) {
-                  switch (_context85.prev = _context85.next) {
+                  switch (_context86.prev = _context86.next) {
                     case 0:
-                      _context85.t0 = linq__WEBPACK_IMPORTED_MODULE_0___default();
-                      _context85.next = 3;
+                      _context86.t0 = linq__WEBPACK_IMPORTED_MODULE_0___default();
+                      _context86.next = 3;
                       return this.getAll();
 
                     case 3:
-                      _context85.t1 = _context85.sent;
-                      products = _context85.t0.from.call(_context85.t0, _context85.t1).where(function (x) {
+                      _context86.t1 = _context86.sent;
+                      products = _context86.t0.from.call(_context86.t0, _context86.t1).where(function (x) {
                         return x[propertyName] == search;
                       }).toArray();
-                      return _context85.abrupt("return", products);
+                      return _context86.abrupt("return", products);
 
                     case 6:
                     case "end":
-                      return _context85.stop();
+                      return _context86.stop();
                   }
                 }
-              }, _callee82, this);
+              }, _callee83, this);
             }));
           }
         }, {
           key: "post",
           value: function post(payload) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee83() {
-              return regeneratorRuntime.wrap(function _callee83$(_context86) {
-                while (1) {
-                  switch (_context86.prev = _context86.next) {
-                    case 0:
-                      throw new Error("Method not implemented.");
-
-                    case 1:
-                    case "end":
-                      return _context86.stop();
-                  }
-                }
-              }, _callee83);
-            }));
-          }
-        }, {
-          key: "delete",
-          value: function _delete(uuid) {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee84() {
               return regeneratorRuntime.wrap(function _callee84$(_context87) {
                 while (1) {
@@ -34222,6 +34362,24 @@
                   }
                 }
               }, _callee84);
+            }));
+          }
+        }, {
+          key: "delete",
+          value: function _delete(uuid) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_4__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee85() {
+              return regeneratorRuntime.wrap(function _callee85$(_context88) {
+                while (1) {
+                  switch (_context88.prev = _context88.next) {
+                    case 0:
+                      throw new Error("Method not implemented.");
+
+                    case 1:
+                    case "end":
+                      return _context88.stop();
+                  }
+                }
+              }, _callee85);
             }));
           }
         }]);
@@ -34343,45 +34501,14 @@
         _createClass(_OptionGroupFakeController, [{
           key: "getAll",
           value: function getAll() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_1__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee85() {
-              return regeneratorRuntime.wrap(function _callee85$(_context88) {
-                while (1) {
-                  switch (_context88.prev = _context88.next) {
-                    case 0:
-                      throw new Error("Method not implemented.");
-
-                    case 1:
-                    case "end":
-                      return _context88.stop();
-                  }
-                }
-              }, _callee85);
-            }));
-          }
-        }, {
-          key: "get",
-          value: function get(uuid) {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_1__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee86() {
-              var optionGroup, optionGroupDb, optionGroups;
               return regeneratorRuntime.wrap(function _callee86$(_context89) {
                 while (1) {
                   switch (_context89.prev = _context89.next) {
                     case 0:
-                      optionGroup = null;
-                      _context89.next = 3;
-                      return _orbitdb__WEBPACK_IMPORTED_MODULE_0__.SSOrbitdb.GetDocInstance("OptionGroup");
+                      throw new Error("Method not implemented.");
 
-                    case 3:
-                      optionGroupDb = _context89.sent;
-                      optionGroups = optionGroupDb.get(uuid);
-
-                      if (optionGroups.length > 0) {
-                        optionGroup = optionGroups[0];
-                      }
-
-                      return _context89.abrupt("return", optionGroup);
-
-                    case 7:
+                    case 1:
                     case "end":
                       return _context89.stop();
                   }
@@ -34390,16 +34517,29 @@
             }));
           }
         }, {
-          key: "query",
-          value: function query(propertyName, search) {
+          key: "get",
+          value: function get(uuid) {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_1__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee87() {
+              var optionGroup, optionGroupDb, optionGroups;
               return regeneratorRuntime.wrap(function _callee87$(_context90) {
                 while (1) {
                   switch (_context90.prev = _context90.next) {
                     case 0:
-                      throw new Error("Method not implemented.");
+                      optionGroup = null;
+                      _context90.next = 3;
+                      return _orbitdb__WEBPACK_IMPORTED_MODULE_0__.SSOrbitdb.GetDocInstance("OptionGroup");
 
-                    case 1:
+                    case 3:
+                      optionGroupDb = _context90.sent;
+                      optionGroups = optionGroupDb.get(uuid);
+
+                      if (optionGroups.length > 0) {
+                        optionGroup = optionGroups[0];
+                      }
+
+                      return _context90.abrupt("return", optionGroup);
+
+                    case 7:
                     case "end":
                       return _context90.stop();
                   }
@@ -34408,107 +34548,125 @@
             }));
           }
         }, {
-          key: "post",
-          value: function post(payload) {
+          key: "query",
+          value: function query(propertyName, search) {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_1__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee88() {
-              var optionGroupDb, hash, opProductsDb, _iterator2, _step2, ogp, ogpHash;
-
               return regeneratorRuntime.wrap(function _callee88$(_context91) {
                 while (1) {
                   switch (_context91.prev = _context91.next) {
-                    case 0:
-                      _context91.next = 2;
-                      return _orbitdb__WEBPACK_IMPORTED_MODULE_0__.SSOrbitdb.GetDocInstance("OptionGroup");
-
-                    case 2:
-                      optionGroupDb = _context91.sent;
-                      _context91.next = 5;
-                      return optionGroupDb.put(payload, {
-                        pin: true
-                      });
-
-                    case 5:
-                      hash = _context91.sent;
-                      _context91.next = 8;
-                      return _orbitdb__WEBPACK_IMPORTED_MODULE_0__.SSOrbitdb.GetDocInstance("OptionGroupProduct");
-
-                    case 8:
-                      opProductsDb = _context91.sent;
-
-                      if (!payload.optionGroupProduct) {
-                        _context91.next = 29;
-                        break;
-                      }
-
-                      _iterator2 = _createForOfIteratorHelper(payload.optionGroupProduct);
-                      _context91.prev = 11;
-
-                      _iterator2.s();
-
-                    case 13:
-                      if ((_step2 = _iterator2.n()).done) {
-                        _context91.next = 21;
-                        break;
-                      }
-
-                      ogp = _step2.value;
-                      ogp.optionGroupId = payload.id;
-                      _context91.next = 18;
-                      return opProductsDb.put(ogp, {
-                        pin: true
-                      });
-
-                    case 18:
-                      ogpHash = _context91.sent;
-
-                    case 19:
-                      _context91.next = 13;
-                      break;
-
-                    case 21:
-                      _context91.next = 26;
-                      break;
-
-                    case 23:
-                      _context91.prev = 23;
-                      _context91.t0 = _context91["catch"](11);
-
-                      _iterator2.e(_context91.t0);
-
-                    case 26:
-                      _context91.prev = 26;
-
-                      _iterator2.f();
-
-                      return _context91.finish(26);
-
-                    case 29:
-                      return _context91.abrupt("return", payload);
-
-                    case 30:
-                    case "end":
-                      return _context91.stop();
-                  }
-                }
-              }, _callee88, null, [[11, 23, 26, 29]]);
-            }));
-          }
-        }, {
-          key: "delete",
-          value: function _delete(uuid) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_1__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee89() {
-              return regeneratorRuntime.wrap(function _callee89$(_context92) {
-                while (1) {
-                  switch (_context92.prev = _context92.next) {
                     case 0:
                       throw new Error("Method not implemented.");
 
                     case 1:
                     case "end":
+                      return _context91.stop();
+                  }
+                }
+              }, _callee88);
+            }));
+          }
+        }, {
+          key: "post",
+          value: function post(payload) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_1__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee89() {
+              var optionGroupDb, hash, opProductsDb, _iterator2, _step2, ogp, ogpHash;
+
+              return regeneratorRuntime.wrap(function _callee89$(_context92) {
+                while (1) {
+                  switch (_context92.prev = _context92.next) {
+                    case 0:
+                      _context92.next = 2;
+                      return _orbitdb__WEBPACK_IMPORTED_MODULE_0__.SSOrbitdb.GetDocInstance("OptionGroup");
+
+                    case 2:
+                      optionGroupDb = _context92.sent;
+                      _context92.next = 5;
+                      return optionGroupDb.put(payload, {
+                        pin: true
+                      });
+
+                    case 5:
+                      hash = _context92.sent;
+                      _context92.next = 8;
+                      return _orbitdb__WEBPACK_IMPORTED_MODULE_0__.SSOrbitdb.GetDocInstance("OptionGroupProduct");
+
+                    case 8:
+                      opProductsDb = _context92.sent;
+
+                      if (!payload.optionGroupProduct) {
+                        _context92.next = 29;
+                        break;
+                      }
+
+                      _iterator2 = _createForOfIteratorHelper(payload.optionGroupProduct);
+                      _context92.prev = 11;
+
+                      _iterator2.s();
+
+                    case 13:
+                      if ((_step2 = _iterator2.n()).done) {
+                        _context92.next = 21;
+                        break;
+                      }
+
+                      ogp = _step2.value;
+                      ogp.optionGroupId = payload.id;
+                      _context92.next = 18;
+                      return opProductsDb.put(ogp, {
+                        pin: true
+                      });
+
+                    case 18:
+                      ogpHash = _context92.sent;
+
+                    case 19:
+                      _context92.next = 13;
+                      break;
+
+                    case 21:
+                      _context92.next = 26;
+                      break;
+
+                    case 23:
+                      _context92.prev = 23;
+                      _context92.t0 = _context92["catch"](11);
+
+                      _iterator2.e(_context92.t0);
+
+                    case 26:
+                      _context92.prev = 26;
+
+                      _iterator2.f();
+
+                      return _context92.finish(26);
+
+                    case 29:
+                      return _context92.abrupt("return", payload);
+
+                    case 30:
+                    case "end":
                       return _context92.stop();
                   }
                 }
-              }, _callee89);
+              }, _callee89, null, [[11, 23, 26, 29]]);
+            }));
+          }
+        }, {
+          key: "delete",
+          value: function _delete(uuid) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_1__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee90() {
+              return regeneratorRuntime.wrap(function _callee90$(_context93) {
+                while (1) {
+                  switch (_context93.prev = _context93.next) {
+                    case 0:
+                      throw new Error("Method not implemented.");
+
+                    case 1:
+                    case "end":
+                      return _context93.stop();
+                  }
+                }
+              }, _callee90);
             }));
           }
         }]);
@@ -34577,20 +34735,20 @@
         _createClass(_ProductFakeController, [{
           key: "getAll",
           value: function getAll() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee90() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee91() {
               var products, productsIndex, itemsDb, items, _iterator3, _step3, item;
 
-              return regeneratorRuntime.wrap(function _callee90$(_context93) {
+              return regeneratorRuntime.wrap(function _callee91$(_context94) {
                 while (1) {
-                  switch (_context93.prev = _context93.next) {
+                  switch (_context94.prev = _context94.next) {
                     case 0:
                       products = [];
                       productsIndex = {};
-                      _context93.next = 4;
+                      _context94.next = 4;
                       return _orbitdb__WEBPACK_IMPORTED_MODULE_1__.SSOrbitdb.GetDocInstance("Item");
 
                     case 4:
-                      itemsDb = _context93.sent;
+                      itemsDb = _context94.sent;
                       items = itemsDb.get('');
                       _iterator3 = _createForOfIteratorHelper(items);
 
@@ -34611,36 +34769,36 @@
                         _iterator3.f();
                       }
 
-                      return _context93.abrupt("return", products);
+                      return _context94.abrupt("return", products);
 
                     case 9:
                     case "end":
-                      return _context93.stop();
+                      return _context94.stop();
                   }
                 }
-              }, _callee90);
+              }, _callee91);
             }));
           }
         }, {
           key: "get",
           value: function get(uuid) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee91() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee92() {
               var product, productsDb, opProductsDb, products;
-              return regeneratorRuntime.wrap(function _callee91$(_context94) {
+              return regeneratorRuntime.wrap(function _callee92$(_context95) {
                 while (1) {
-                  switch (_context94.prev = _context94.next) {
+                  switch (_context95.prev = _context95.next) {
                     case 0:
                       product = null;
-                      _context94.next = 3;
+                      _context95.next = 3;
                       return _orbitdb__WEBPACK_IMPORTED_MODULE_1__.SSOrbitdb.GetDocInstance("Product");
 
                     case 3:
-                      productsDb = _context94.sent;
-                      _context94.next = 6;
+                      productsDb = _context95.sent;
+                      _context95.next = 6;
                       return _orbitdb__WEBPACK_IMPORTED_MODULE_1__.SSOrbitdb.GetDocInstance("OptionGroupProduct");
 
                     case 6:
-                      opProductsDb = _context94.sent;
+                      opProductsDb = _context95.sent;
                       products = productsDb.get(uuid);
 
                       if (products.length > 0) {
@@ -34650,91 +34808,91 @@
                         product = products[0];
                       }
 
-                      return _context94.abrupt("return", product);
+                      return _context95.abrupt("return", product);
 
                     case 10:
                     case "end":
-                      return _context94.stop();
+                      return _context95.stop();
                   }
                 }
-              }, _callee91);
+              }, _callee92);
             }));
           }
         }, {
           key: "query",
           value: function query(propertyName, search) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee92() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee93() {
               var products;
-              return regeneratorRuntime.wrap(function _callee92$(_context95) {
+              return regeneratorRuntime.wrap(function _callee93$(_context96) {
                 while (1) {
-                  switch (_context95.prev = _context95.next) {
+                  switch (_context96.prev = _context96.next) {
                     case 0:
-                      _context95.t0 = linq__WEBPACK_IMPORTED_MODULE_0___default();
-                      _context95.next = 3;
+                      _context96.t0 = linq__WEBPACK_IMPORTED_MODULE_0___default();
+                      _context96.next = 3;
                       return this.getAll();
 
                     case 3:
-                      _context95.t1 = _context95.sent;
-                      products = _context95.t0.from.call(_context95.t0, _context95.t1).where(function (x) {
+                      _context96.t1 = _context96.sent;
+                      products = _context96.t0.from.call(_context96.t0, _context96.t1).where(function (x) {
                         return x[propertyName] == search;
                       }).toArray();
-                      return _context95.abrupt("return", products);
+                      return _context96.abrupt("return", products);
 
                     case 6:
                     case "end":
-                      return _context95.stop();
+                      return _context96.stop();
                   }
                 }
-              }, _callee92, this);
+              }, _callee93, this);
             }));
           }
         }, {
           key: "post",
           value: function post(payload) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee93() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee94() {
               var productDb, hash;
-              return regeneratorRuntime.wrap(function _callee93$(_context96) {
+              return regeneratorRuntime.wrap(function _callee94$(_context97) {
                 while (1) {
-                  switch (_context96.prev = _context96.next) {
+                  switch (_context97.prev = _context97.next) {
                     case 0:
-                      _context96.next = 2;
+                      _context97.next = 2;
                       return _orbitdb__WEBPACK_IMPORTED_MODULE_1__.SSOrbitdb.GetDocInstance("Product");
 
                     case 2:
-                      productDb = _context96.sent;
-                      _context96.next = 5;
+                      productDb = _context97.sent;
+                      _context97.next = 5;
                       return productDb.put(payload, {
                         pin: true
                       });
 
                     case 5:
-                      hash = _context96.sent;
-                      return _context96.abrupt("return", payload);
+                      hash = _context97.sent;
+                      return _context97.abrupt("return", payload);
 
                     case 7:
-                    case "end":
-                      return _context96.stop();
-                  }
-                }
-              }, _callee93);
-            }));
-          }
-        }, {
-          key: "delete",
-          value: function _delete(uuid) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee94() {
-              return regeneratorRuntime.wrap(function _callee94$(_context97) {
-                while (1) {
-                  switch (_context97.prev = _context97.next) {
-                    case 0:
-                      throw new Error("Method not implemented.");
-
-                    case 1:
                     case "end":
                       return _context97.stop();
                   }
                 }
               }, _callee94);
+            }));
+          }
+        }, {
+          key: "delete",
+          value: function _delete(uuid) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee95() {
+              return regeneratorRuntime.wrap(function _callee95$(_context98) {
+                while (1) {
+                  switch (_context98.prev = _context98.next) {
+                    case 0:
+                      throw new Error("Method not implemented.");
+
+                    case 1:
+                    case "end":
+                      return _context98.stop();
+                  }
+                }
+              }, _callee95);
             }));
           }
         }]);
@@ -34787,23 +34945,6 @@
           value:
           /* Return id of identity (to be signed by orbit-db public key) */
           function getId(options) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee95() {
-              return regeneratorRuntime.wrap(function _callee95$(_context98) {
-                while (1) {
-                  switch (_context98.prev = _context98.next) {
-                    case 0:
-                    case "end":
-                      return _context98.stop();
-                  }
-                }
-              }, _callee95);
-            }));
-          }
-          /* Return signature of OrbitDB public key signature */
-
-        }, {
-          key: "signIdentity",
-          value: function signIdentity(data, options) {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee96() {
               return regeneratorRuntime.wrap(function _callee96$(_context99) {
                 while (1) {
@@ -34814,6 +34955,23 @@
                   }
                 }
               }, _callee96);
+            }));
+          }
+          /* Return signature of OrbitDB public key signature */
+
+        }, {
+          key: "signIdentity",
+          value: function signIdentity(data, options) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee97() {
+              return regeneratorRuntime.wrap(function _callee97$(_context100) {
+                while (1) {
+                  switch (_context100.prev = _context100.next) {
+                    case 0:
+                    case "end":
+                      return _context100.stop();
+                  }
+                }
+              }, _callee97);
             }));
           }
           /* Verify a signature of OrbitDB public key signature */
@@ -34832,16 +34990,16 @@
         }], [{
           key: "verifyIdentity",
           value: function verifyIdentity(identity) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee97() {
-              return regeneratorRuntime.wrap(function _callee97$(_context100) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee98() {
+              return regeneratorRuntime.wrap(function _callee98$(_context101) {
                 while (1) {
-                  switch (_context100.prev = _context100.next) {
+                  switch (_context101.prev = _context101.next) {
                     case 0:
                     case "end":
-                      return _context100.stop();
+                      return _context101.stop();
                   }
                 }
-              }, _callee97);
+              }, _callee98);
             }));
           }
           /* Return the type for this identity provider */
@@ -34915,7 +35073,7 @@
         _createClass(_SSIpfs, null, [{
           key: "getIpfsScriptInstance",
           value: function getIpfsScriptInstance() {
-            var _this71 = this;
+            var _this70 = this;
 
             return new Promise(function (resolve, reject) {
               var ipfsScriptElement = document.getElementById("jsipfslib");
@@ -34925,7 +35083,7 @@
                 ipfsScriptElement.id = "jsipfslib";
                 ipfsScriptElement.src = "libs/jsipfs.min.js";
                 ipfsScriptElement.addEventListener("load", function () {
-                  _this71._ipfs = window['Ipfs'];
+                  _this70._ipfs = window['Ipfs'];
                   resolve(ipfsScriptElement);
                 });
                 document.head.appendChild(ipfsScriptElement);
@@ -34956,53 +35114,53 @@
         }, {
           key: "Ipfs",
           value: function Ipfs() {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee98() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee99() {
               var scriptElement;
-              return regeneratorRuntime.wrap(function _callee98$(_context101) {
+              return regeneratorRuntime.wrap(function _callee99$(_context102) {
                 while (1) {
-                  switch (_context101.prev = _context101.next) {
+                  switch (_context102.prev = _context102.next) {
                     case 0:
                       if (this._ipfs) {
-                        _context101.next = 4;
+                        _context102.next = 4;
                         break;
                       }
 
-                      _context101.next = 3;
+                      _context102.next = 3;
                       return this.getIpfsScriptInstance();
 
                     case 3:
-                      scriptElement = _context101.sent;
+                      scriptElement = _context102.sent;
 
                     case 4:
-                      return _context101.abrupt("return", this._ipfs);
+                      return _context102.abrupt("return", this._ipfs);
 
                     case 5:
                     case "end":
-                      return _context101.stop();
+                      return _context102.stop();
                   }
                 }
-              }, _callee98, this);
+              }, _callee99, this);
             }));
           }
         }, {
           key: "getNode",
           value: function getNode() {
-            var _this72 = this;
+            var _this71 = this;
 
             return new Promise(function (resolve, reject) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(_this72, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee99() {
-                var _this73 = this;
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(_this71, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee100() {
+                var _this72 = this;
 
                 var ipfsScriptElement;
-                return regeneratorRuntime.wrap(function _callee99$(_context102) {
+                return regeneratorRuntime.wrap(function _callee100$(_context103) {
                   while (1) {
-                    switch (_context102.prev = _context102.next) {
+                    switch (_context103.prev = _context103.next) {
                       case 0:
-                        _context102.next = 2;
+                        _context103.next = 2;
                         return this.getIpfsScriptInstance();
 
                       case 2:
-                        ipfsScriptElement = _context102.sent;
+                        ipfsScriptElement = _context103.sent;
 
                         if (!this._isListenerLoaded) {
                           this._ipfs.create({
@@ -35025,9 +35183,9 @@
 
                             }
                           }).then(function (d) {
-                            _this73._node = d;
-                            _this73.active = true;
-                            resolve(_this73._node);
+                            _this72._node = d;
+                            _this72.active = true;
+                            resolve(_this72._node);
                           });
 
                           this._isListenerLoaded = true;
@@ -35036,8 +35194,8 @@
                             resolve(this._node);
                           } else {
                             setTimeout(function () {
-                              if (_this73._node != null) {
-                                resolve(_this73._node);
+                              if (_this72._node != null) {
+                                resolve(_this72._node);
                               }
                             }, 500);
                           }
@@ -35045,52 +35203,18 @@
 
                       case 4:
                       case "end":
-                        return _context102.stop();
+                        return _context103.stop();
                     }
                   }
-                }, _callee99, this);
+                }, _callee100, this);
               }));
             });
           }
         }, {
           key: "getImageBlobFromIpfs",
           value: function getImageBlobFromIpfs(ipfsHash) {
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee100() {
-              var ipfs, arrBV, blob;
-              return regeneratorRuntime.wrap(function _callee100$(_context103) {
-                while (1) {
-                  switch (_context103.prev = _context103.next) {
-                    case 0:
-                      _context103.next = 2;
-                      return this.getNode();
-
-                    case 2:
-                      ipfs = _context103.sent;
-                      _context103.t0 = (0, uint8arrays_concat__WEBPACK_IMPORTED_MODULE_0__.concat);
-                      _context103.next = 6;
-                      return it_all__WEBPACK_IMPORTED_MODULE_1___default()(ipfs.cat(ipfsHash));
-
-                    case 6:
-                      _context103.t1 = _context103.sent;
-                      arrBV = (0, _context103.t0)(_context103.t1);
-                      blob = new Blob([arrBV], {
-                        type: 'application/image'
-                      });
-                      return _context103.abrupt("return", blob);
-
-                    case 10:
-                    case "end":
-                      return _context103.stop();
-                  }
-                }
-              }, _callee100, this);
-            }));
-          }
-        }, {
-          key: "addFile",
-          value: function addFile(blob) {
             return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee101() {
-              var ipfs;
+              var ipfs, arrBV, blob;
               return regeneratorRuntime.wrap(function _callee101$(_context104) {
                 while (1) {
                   switch (_context104.prev = _context104.next) {
@@ -35100,20 +35224,54 @@
 
                     case 2:
                       ipfs = _context104.sent;
-                      _context104.next = 5;
-                      return ipfs.add(blob, {
-                        pin: true
-                      });
-
-                    case 5:
-                      return _context104.abrupt("return", _context104.sent);
+                      _context104.t0 = (0, uint8arrays_concat__WEBPACK_IMPORTED_MODULE_0__.concat);
+                      _context104.next = 6;
+                      return it_all__WEBPACK_IMPORTED_MODULE_1___default()(ipfs.cat(ipfsHash));
 
                     case 6:
+                      _context104.t1 = _context104.sent;
+                      arrBV = (0, _context104.t0)(_context104.t1);
+                      blob = new Blob([arrBV], {
+                        type: 'application/image'
+                      });
+                      return _context104.abrupt("return", blob);
+
+                    case 10:
                     case "end":
                       return _context104.stop();
                   }
                 }
               }, _callee101, this);
+            }));
+          }
+        }, {
+          key: "addFile",
+          value: function addFile(blob) {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_2__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee102() {
+              var ipfs;
+              return regeneratorRuntime.wrap(function _callee102$(_context105) {
+                while (1) {
+                  switch (_context105.prev = _context105.next) {
+                    case 0:
+                      _context105.next = 2;
+                      return this.getNode();
+
+                    case 2:
+                      ipfs = _context105.sent;
+                      _context105.next = 5;
+                      return ipfs.add(blob, {
+                        pin: true
+                      });
+
+                    case 5:
+                      return _context105.abrupt("return", _context105.sent);
+
+                    case 6:
+                    case "end":
+                      return _context105.stop();
+                  }
+                }
+              }, _callee102, this);
             }));
           }
         }]);
@@ -35168,7 +35326,7 @@
         _createClass(_SSLoadLib, null, [{
           key: "loadJSLib",
           value: function loadJSLib(libName, path) {
-            var _this74 = this;
+            var _this73 = this;
 
             return new Promise(function (resolve, reject) {
               var libScriptElement = document.getElementById(libName);
@@ -35178,19 +35336,19 @@
                 libScriptElement.id = libName;
                 libScriptElement.src = path;
                 libScriptElement.addEventListener("load", function () {
-                  return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(_this74, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee102() {
-                    return regeneratorRuntime.wrap(function _callee102$(_context105) {
+                  return (0, tslib__WEBPACK_IMPORTED_MODULE_0__.__awaiter)(_this73, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee103() {
+                    return regeneratorRuntime.wrap(function _callee103$(_context106) {
                       while (1) {
-                        switch (_context105.prev = _context105.next) {
+                        switch (_context106.prev = _context106.next) {
                           case 0:
                             resolve(libScriptElement);
 
                           case 1:
                           case "end":
-                            return _context105.stop();
+                            return _context106.stop();
                         }
                       }
-                    }, _callee102);
+                    }, _callee103);
                   }));
                 });
                 libScriptElement.addEventListener("error", function (d) {
@@ -35321,108 +35479,48 @@
         _createClass(_SSOrbitdb, null, [{
           key: "GetOrbitDbInstance",
           value: function GetOrbitDbInstance(ipfsnode) {
-            var _this75 = this;
+            var _this74 = this;
 
             return new Promise(function (resolve, reject) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(_this75, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee103() {
-                var _this76 = this;
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(_this74, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee104() {
+                var _this75 = this;
 
                 var orbitdbScriptElement, _identity;
 
-                return regeneratorRuntime.wrap(function _callee103$(_context106) {
+                return regeneratorRuntime.wrap(function _callee104$(_context107) {
                   while (1) {
-                    switch (_context106.prev = _context106.next) {
+                    switch (_context107.prev = _context107.next) {
                       case 0:
-                        _context106.next = 2;
+                        _context107.next = 2;
                         return _loadlib__WEBPACK_IMPORTED_MODULE_5__.SSLoadLib.loadJSLib("orbitdblib", "libs/orbitdb.min.js");
 
                       case 2:
-                        orbitdbScriptElement = _context106.sent;
+                        orbitdbScriptElement = _context107.sent;
 
                         if (!(this._instance == null)) {
-                          _context106.next = 10;
+                          _context107.next = 10;
                           break;
                         }
 
-                        _context106.next = 6;
+                        _context107.next = 6;
                         return _SSOrbitdb.GetEthWalletIdentity();
 
                       case 6:
-                        _identity = _context106.sent;
+                        _identity = _context107.sent;
                         window.OrbitDB.createInstance(ipfsnode, {
                           identity: _identity
                         }).then(function (_odb) {
-                          _this76._instance = _odb;
-                          _this76.active = true;
-                          resolve(_this76._instance);
+                          _this75._instance = _odb;
+                          _this75.active = true;
+                          resolve(_this75._instance);
                         });
-                        _context106.next = 11;
+                        _context107.next = 11;
                         break;
 
                       case 10:
                         resolve(this._instance);
 
                       case 11:
-                      case "end":
-                        return _context106.stop();
-                    }
-                  }
-                }, _callee103, this);
-              }));
-            });
-          }
-        }, {
-          key: "GetDocInstance",
-          value: function GetDocInstance(dbName) {
-            var _this77 = this;
-
-            var preLoad = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-            return new Promise(function (resolve, reject) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(_this77, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee104() {
-                return regeneratorRuntime.wrap(function _callee104$(_context107) {
-                  while (1) {
-                    switch (_context107.prev = _context107.next) {
-                      case 0:
-                        if (!(this._instance == null)) {
-                          _context107.next = 4;
-                          break;
-                        }
-
-                        reject("Orbitdb instance not found");
-                        _context107.next = 15;
-                        break;
-
-                      case 4:
-                        if (!(this.docsInstances[dbName] == undefined)) {
-                          _context107.next = 14;
-                          break;
-                        }
-
-                        _context107.next = 7;
-                        return this._instance.docs(dbName, {
-                          indexBy: 'id'
-                        });
-
-                      case 7:
-                        this.docsInstances[dbName] = _context107.sent;
-
-                        if (!preLoad) {
-                          _context107.next = 11;
-                          break;
-                        }
-
-                        _context107.next = 11;
-                        return this.docsInstances[dbName].load();
-
-                      case 11:
-                        resolve(this.docsInstances[dbName]);
-                        _context107.next = 15;
-                        break;
-
-                      case 14:
-                        resolve(this.docsInstances[dbName]);
-
-                      case 15:
                       case "end":
                         return _context107.stop();
                     }
@@ -35432,13 +35530,13 @@
             });
           }
         }, {
-          key: "GetLogInstancePool",
-          value: function GetLogInstancePool(dbName) {
-            var _this78 = this;
+          key: "GetDocInstance",
+          value: function GetDocInstance(dbName) {
+            var _this76 = this;
 
             var preLoad = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
             return new Promise(function (resolve, reject) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(_this78, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee105() {
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(_this76, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee105() {
                 return regeneratorRuntime.wrap(function _callee105$(_context108) {
                   while (1) {
                     switch (_context108.prev = _context108.next) {
@@ -35453,21 +35551,18 @@
                         break;
 
                       case 4:
-                        if (!(this.docsPoolInstances[dbName] == undefined)) {
+                        if (!(this.docsInstances[dbName] == undefined)) {
                           _context108.next = 14;
                           break;
                         }
 
                         _context108.next = 7;
-                        return this._instance.log(dbName, {
-                          indexBy: 'id',
-                          accessController: {
-                            write: ['*']
-                          }
+                        return this._instance.docs(dbName, {
+                          indexBy: 'id'
                         });
 
                       case 7:
-                        this.docsPoolInstances[dbName] = _context108.sent;
+                        this.docsInstances[dbName] = _context108.sent;
 
                         if (!preLoad) {
                           _context108.next = 11;
@@ -35475,15 +35570,15 @@
                         }
 
                         _context108.next = 11;
-                        return this.docsPoolInstances[dbName].load();
+                        return this.docsInstances[dbName].load();
 
                       case 11:
-                        resolve(this.docsPoolInstances[dbName]);
+                        resolve(this.docsInstances[dbName]);
                         _context108.next = 15;
                         break;
 
                       case 14:
-                        resolve(this.docsPoolInstances[dbName]);
+                        resolve(this.docsInstances[dbName]);
 
                       case 15:
                       case "end":
@@ -35495,13 +35590,13 @@
             });
           }
         }, {
-          key: "GetLogInstance",
-          value: function GetLogInstance(dbName) {
-            var _this79 = this;
+          key: "GetLogInstancePool",
+          value: function GetLogInstancePool(dbName) {
+            var _this77 = this;
 
-            var preLoad = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+            var preLoad = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
             return new Promise(function (resolve, reject) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(_this79, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee106() {
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(_this77, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee106() {
                 return regeneratorRuntime.wrap(function _callee106$(_context109) {
                   while (1) {
                     switch (_context109.prev = _context109.next) {
@@ -35516,16 +35611,21 @@
                         break;
 
                       case 4:
-                        if (!(this.logInstances[dbName] == undefined)) {
+                        if (!(this.docsPoolInstances[dbName] == undefined)) {
                           _context109.next = 14;
                           break;
                         }
 
                         _context109.next = 7;
-                        return this._instance.log(dbName);
+                        return this._instance.log(dbName, {
+                          indexBy: 'id',
+                          accessController: {
+                            write: ['*']
+                          }
+                        });
 
                       case 7:
-                        this.logInstances[dbName] = _context109.sent;
+                        this.docsPoolInstances[dbName] = _context109.sent;
 
                         if (!preLoad) {
                           _context109.next = 11;
@@ -35533,15 +35633,15 @@
                         }
 
                         _context109.next = 11;
-                        return this.logInstances[dbName].load();
+                        return this.docsPoolInstances[dbName].load();
 
                       case 11:
-                        resolve(this.logInstances[dbName]);
+                        resolve(this.docsPoolInstances[dbName]);
                         _context109.next = 15;
                         break;
 
                       case 14:
-                        resolve(this.logInstances[dbName]);
+                        resolve(this.docsPoolInstances[dbName]);
 
                       case 15:
                       case "end":
@@ -35553,86 +35653,144 @@
             });
           }
         }, {
+          key: "GetLogInstance",
+          value: function GetLogInstance(dbName) {
+            var _this78 = this;
+
+            var preLoad = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+            return new Promise(function (resolve, reject) {
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(_this78, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee107() {
+                return regeneratorRuntime.wrap(function _callee107$(_context110) {
+                  while (1) {
+                    switch (_context110.prev = _context110.next) {
+                      case 0:
+                        if (!(this._instance == null)) {
+                          _context110.next = 4;
+                          break;
+                        }
+
+                        reject("Orbitdb instance not found");
+                        _context110.next = 15;
+                        break;
+
+                      case 4:
+                        if (!(this.logInstances[dbName] == undefined)) {
+                          _context110.next = 14;
+                          break;
+                        }
+
+                        _context110.next = 7;
+                        return this._instance.log(dbName);
+
+                      case 7:
+                        this.logInstances[dbName] = _context110.sent;
+
+                        if (!preLoad) {
+                          _context110.next = 11;
+                          break;
+                        }
+
+                        _context110.next = 11;
+                        return this.logInstances[dbName].load();
+
+                      case 11:
+                        resolve(this.logInstances[dbName]);
+                        _context110.next = 15;
+                        break;
+
+                      case 14:
+                        resolve(this.logInstances[dbName]);
+
+                      case 15:
+                      case "end":
+                        return _context110.stop();
+                    }
+                  }
+                }, _callee107, this);
+              }));
+            });
+          }
+        }, {
           key: "ExportDatabases",
           value: function ExportDatabases() {
             var _identity = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
 
             var _odbInstance = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
 
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee107() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee108() {
               var odb, identity, _idb, _dbList, zip, zipdir, i, _db, _indb, dbBlob, _yield$dbBlob$open, verno, tables, dbkp, zipblob;
 
-              return regeneratorRuntime.wrap(function _callee107$(_context110) {
+              return regeneratorRuntime.wrap(function _callee108$(_context111) {
                 while (1) {
-                  switch (_context110.prev = _context110.next) {
+                  switch (_context111.prev = _context111.next) {
                     case 0:
                       odb = _odbInstance || _SSOrbitdb._instance;
                       identity = _identity || odb.identity;
 
                       if (!(odb != null)) {
-                        _context110.next = 32;
+                        _context111.next = 32;
                         break;
                       }
 
                       _idb = odb.keystore._store.db.db.db;
-                      _context110.next = 6;
+                      _context111.next = 6;
                       return indexedDB.databases();
 
                     case 6:
-                      _dbList = _context110.sent;
+                      _dbList = _context111.sent;
                       zip = new jszip__WEBPACK_IMPORTED_MODULE_0__();
                       zipdir = zip.folder("admin_data");
                       i = 0;
 
                     case 10:
                       if (!(i < _dbList.length)) {
-                        _context110.next = 28;
+                        _context111.next = 28;
                         break;
                       }
 
                       _db = _dbList[i];
-                      _context110.next = 14;
+                      _context111.next = 14;
                       return this.GetIDB(_db.name);
 
                     case 14:
-                      _indb = _context110.sent;
+                      _indb = _context111.sent;
                       dbBlob = new dexie__WEBPACK_IMPORTED_MODULE_1__["default"](_db.name);
-                      _context110.next = 18;
+                      _context111.next = 18;
                       return dbBlob.open();
 
                     case 18:
-                      _yield$dbBlob$open = _context110.sent;
+                      _yield$dbBlob$open = _context111.sent;
                       verno = _yield$dbBlob$open.verno;
                       tables = _yield$dbBlob$open.tables;
-                      _context110.next = 23;
+                      _context111.next = 23;
                       return (0, dexie_export_import__WEBPACK_IMPORTED_MODULE_2__.exportDB)(dbBlob);
 
                     case 23:
-                      dbkp = _context110.sent;
+                      dbkp = _context111.sent;
                       zipdir.file(_db.name.replaceAll("/", "___"), dbkp);
 
                     case 25:
                       i++;
-                      _context110.next = 10;
+                      _context111.next = 10;
                       break;
 
                     case 28:
-                      _context110.next = 30;
+                      _context111.next = 30;
                       return zipdir.generateAsync({
                         type: "blob"
                       });
 
                     case 30:
-                      zipblob = _context110.sent;
+                      zipblob = _context111.sent;
 
                       _shared_download_util__WEBPACK_IMPORTED_MODULE_3__.downloadUtil.initiateDownloadDataFromBrowser(zipblob, "admin_bkp.zip", zipblob.type);
 
                     case 32:
                     case "end":
-                      return _context110.stop();
+                      return _context111.stop();
                   }
                 }
-              }, _callee107, this);
+              }, _callee108, this);
             }));
           }
         }, {
@@ -35653,40 +35811,40 @@
 
             var _odbInstance = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
 
-            return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee108() {
+            return (0, tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(this, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee109() {
               var provider, accounts, wallet, daiAddress, daiAbi, daiContract, balance, identity;
-              return regeneratorRuntime.wrap(function _callee108$(_context111) {
+              return regeneratorRuntime.wrap(function _callee109$(_context112) {
                 while (1) {
-                  switch (_context111.prev = _context111.next) {
+                  switch (_context112.prev = _context112.next) {
                     case 0:
-                      _context111.prev = 0;
-                      _context111.next = 3;
+                      _context112.prev = 0;
+                      _context112.next = 3;
                       return _loadlib__WEBPACK_IMPORTED_MODULE_5__.SSLoadLib.loadJSLib("orbitdblib", "libs/orbitdb.min.js");
 
                     case 3:
                       console.log('ethereum.enable()');
-                      _context111.prev = 4;
-                      _context111.next = 7;
+                      _context112.prev = 4;
+                      _context112.next = 7;
                       return window.ethereum.enable();
 
                     case 7:
-                      _context111.next = 11;
+                      _context112.next = 11;
                       break;
 
                     case 9:
-                      _context111.prev = 9;
-                      _context111.t0 = _context111["catch"](4);
+                      _context112.prev = 9;
+                      _context112.t0 = _context112["catch"](4);
 
                     case 11:
                       window.OrbitDB.Identities.addIdentityProvider(_eth_identity_provider__WEBPACK_IMPORTED_MODULE_4__.EthIdentityProvider);
                       provider = window.ethereum ? new ethers__WEBPACK_IMPORTED_MODULE_7__.Web3Provider(window.ethereum) : new ethers__WEBPACK_IMPORTED_MODULE_8__.JsonRpcProvider("https://polygon-rpc.com/");
                       console.log('provider: ');
                       console.log(provider);
-                      _context111.next = 17;
+                      _context112.next = 17;
                       return provider.listAccounts();
 
                     case 17:
-                      accounts = _context111.sent;
+                      accounts = _context112.sent;
                       console.log(accounts);
                       wallet = window.ethereum ? provider.getSigner() : ethers__WEBPACK_IMPORTED_MODULE_9__.Wallet.createRandom(); //(wallet as any).provider=provider;
                       // You can also use an ENS name for the contract address
@@ -35702,57 +35860,57 @@
 
                       daiContract = new ethers__WEBPACK_IMPORTED_MODULE_10__.Contract(daiAddress, daiAbi, provider); // Get the ERC-20 token name
 
-                      _context111.t1 = console;
-                      _context111.next = 26;
+                      _context112.t1 = console;
+                      _context112.next = 26;
                       return daiContract.name();
 
                     case 26:
-                      _context111.t2 = _context111.sent;
+                      _context112.t2 = _context112.sent;
 
-                      _context111.t1.log.call(_context111.t1, _context111.t2);
+                      _context112.t1.log.call(_context112.t1, _context112.t2);
 
-                      _context111.t3 = console;
-                      _context111.next = 31;
+                      _context112.t3 = console;
+                      _context112.next = 31;
                       return daiContract.symbol();
 
                     case 31:
-                      _context111.t4 = _context111.sent;
+                      _context112.t4 = _context112.sent;
 
-                      _context111.t3.log.call(_context111.t3, _context111.t4);
+                      _context112.t3.log.call(_context112.t3, _context112.t4);
 
-                      _context111.next = 35;
+                      _context112.next = 35;
                       return daiContract.balanceOf("0x405D17B98f34F553af2A7B3a773B7d518ec09a50");
 
                     case 35:
-                      balance = _context111.sent;
+                      balance = _context112.sent;
                       // { BigNumber: "8501797437309328201631" }
                       console.log(balance); // Format the DAI for displaying to the user
 
                       ethers__WEBPACK_IMPORTED_MODULE_11__.formatUnits(balance, 18);
                       console.log(wallet);
-                      _context111.next = 41;
+                      _context112.next = 41;
                       return window.OrbitDB.Identities.createIdentity({
                         type: "ethereum",
                         wallet: wallet
                       });
 
                     case 41:
-                      identity = _context111.sent;
+                      identity = _context112.sent;
                       sessionStorage.setItem("odb_identity", JSON.stringify(identity));
-                      return _context111.abrupt("return", identity);
+                      return _context112.abrupt("return", identity);
 
                     case 46:
-                      _context111.prev = 46;
-                      _context111.t5 = _context111["catch"](0);
-                      console.log(_context111.t5);
-                      return _context111.abrupt("return", null);
+                      _context112.prev = 46;
+                      _context112.t5 = _context112["catch"](0);
+                      console.log(_context112.t5);
+                      return _context112.abrupt("return", null);
 
                     case 50:
                     case "end":
-                      return _context111.stop();
+                      return _context112.stop();
                   }
                 }
-              }, _callee108, null, [[0, 46], [4, 9]]);
+              }, _callee109, null, [[0, 46], [4, 9]]);
             }));
           }
         }]);
@@ -35826,28 +35984,28 @@
         _createClass(_SSRestBridge, null, [{
           key: "manipulateFakeRestAsync",
           value: function manipulateFakeRestAsync(req, next, started) {
-            var _this80 = this;
+            var _this79 = this;
 
             return new Promise(function (resolve, reject) {
-              return (0, tslib__WEBPACK_IMPORTED_MODULE_3__.__awaiter)(_this80, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee109() {
+              return (0, tslib__WEBPACK_IMPORTED_MODULE_3__.__awaiter)(_this79, void 0, void 0, /*#__PURE__*/regeneratorRuntime.mark(function _callee110() {
                 var spltd, dbName, lastPartOfUrl, fakeRestController, dbdoc, postResponse, hash, objs, queryField, allobjs;
-                return regeneratorRuntime.wrap(function _callee109$(_context112) {
+                return regeneratorRuntime.wrap(function _callee110$(_context113) {
                   while (1) {
-                    switch (_context112.prev = _context112.next) {
+                    switch (_context113.prev = _context113.next) {
                       case 0:
                         spltd = req.url.split('/');
                         dbName = spltd[2];
                         lastPartOfUrl = spltd[spltd.length - 1];
                         fakeRestController = (0, _fake_controllers__WEBPACK_IMPORTED_MODULE_0__.getFakeRestControllerByName)(dbName);
-                        _context112.next = 6;
+                        _context113.next = 6;
                         return _orbitdb__WEBPACK_IMPORTED_MODULE_1__.SSOrbitdb.GetDocInstance(dbName);
 
                       case 6:
-                        dbdoc = _context112.sent;
+                        dbdoc = _context113.sent;
                         console.log(dbdoc);
 
                         if (!(req.method == "POST" || req.method == "PUT")) {
-                          _context112.next = 21;
+                          _context113.next = 21;
                           break;
                         }
 
@@ -35856,69 +36014,69 @@
                         }
 
                         if (!fakeRestController) {
-                          _context112.next = 17;
+                          _context113.next = 17;
                           break;
                         }
 
-                        _context112.next = 13;
+                        _context113.next = 13;
                         return fakeRestController.post(req.body);
 
                       case 13:
-                        postResponse = _context112.sent;
+                        postResponse = _context113.sent;
                         resolve(postResponse);
-                        _context112.next = 21;
+                        _context113.next = 21;
                         break;
 
                       case 17:
-                        _context112.next = 19;
+                        _context113.next = 19;
                         return dbdoc.put(req.body, {
                           pin: true
                         });
 
                       case 19:
-                        hash = _context112.sent;
+                        hash = _context113.sent;
                         resolve(req.body);
 
                       case 21:
                         if (!(req.method == "DELETE")) {
-                          _context112.next = 39;
+                          _context113.next = 39;
                           break;
                         }
 
                         if (!(lastPartOfUrl != dbName)) {
-                          _context112.next = 39;
+                          _context113.next = 39;
                           break;
                         }
 
                         if (!fakeRestController) {
-                          _context112.next = 35;
+                          _context113.next = 35;
                           break;
                         }
 
-                        _context112.prev = 24;
-                        _context112.next = 27;
+                        _context113.prev = 24;
+                        _context113.next = 27;
                         return fakeRestController["delete"](lastPartOfUrl);
 
                       case 27:
                         resolve(req.body);
-                        _context112.next = 33;
+                        _context113.next = 33;
                         break;
 
                       case 30:
-                        _context112.prev = 30;
-                        _context112.t0 = _context112["catch"](24);
+                        _context113.prev = 30;
+                        _context113.t0 = _context113["catch"](24);
                         reject();
 
                       case 33:
-                        _context112.next = 39;
+                        _context113.next = 39;
                         break;
 
                       case 35:
-                        _context112.next = 37;
+                        _context113.next = 37;
                         return dbdoc.del(lastPartOfUrl);
 
                       case 37:
-                        hash = _context112.sent;
+                        hash = _context113.sent;
 
                         if (hash) {
                           resolve(req.body);
@@ -35928,36 +36086,36 @@
 
                       case 39:
                         if (!(req.method == "GET")) {
-                          _context112.next = 70;
+                          _context113.next = 70;
                           break;
                         }
 
                         if (!(lastPartOfUrl != dbName)) {
-                          _context112.next = 68;
+                          _context113.next = 68;
                           break;
                         }
 
                         objs = [];
 
                         if (!(spltd.length == 5)) {
-                          _context112.next = 57;
+                          _context113.next = 57;
                           break;
                         }
 
                         queryField = spltd[3].endsWith("Id") ? spltd[3] : spltd[3] + "Id";
 
                         if (!fakeRestController) {
-                          _context112.next = 51;
+                          _context113.next = 51;
                           break;
                         }
 
-                        _context112.next = 47;
+                        _context113.next = 47;
                         return fakeRestController.query(queryField, lastPartOfUrl);
 
                       case 47:
-                        objs = _context112.sent;
+                        objs = _context113.sent;
                         resolve(objs);
-                        _context112.next = 54;
+                        _context113.next = 54;
                         break;
 
                       case 51:
@@ -35968,21 +36126,21 @@
                         resolve(objs);
 
                       case 54:
-                        return _context112.abrupt("return");
+                        return _context113.abrupt("return");
 
                       case 57:
                         if (!fakeRestController) {
-                          _context112.next = 64;
+                          _context113.next = 64;
                           break;
                         }
 
-                        _context112.next = 60;
+                        _context113.next = 60;
                         return fakeRestController.get(lastPartOfUrl);
 
                       case 60:
-                        _context112.t1 = _context112.sent;
-                        objs = [_context112.t1];
-                        _context112.next = 65;
+                        _context113.t1 = _context113.sent;
+                        objs = [_context113.t1];
+                        _context113.next = 65;
                         break;
 
                       case 64:
@@ -35995,7 +36153,7 @@
                           reject();
                         }
 
-                        _context112.next = 70;
+                        _context113.next = 70;
                         break;
 
                       case 68:
@@ -36004,10 +36162,10 @@
 
                       case 70:
                       case "end":
-                        return _context112.stop();
+                        return _context113.stop();
                     }
                   }
-                }, _callee109, null, [[24, 30]]);
+                }, _callee110, null, [[24, 30]]);
               }));
             });
           }
