@@ -13472,8 +13472,13 @@ class PublishComponent {
                 brandObj.merchant.forEach(_merc => {
                     _merc.delinetPrivateKey = datahashChannel;
                     _merc.catalog.forEach(_catalog => {
-                        _catalog.merchantIdNavigation.delinetPrivateKey = "*";
-                        delete _catalog.merchantIdNavigation;
+                        try {
+                            _catalog.merchantIdNavigation.delinetPrivateKey = "*";
+                            delete _catalog.merchantIdNavigation;
+                            
+                        } catch (error) {
+                            
+                        }
                     });
                 });
                 const files = [
