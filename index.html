@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
-  <title>ODP - Open Delivery Platform</title>
+  <title data-i18n="header.title">ODP - Open Delivery Platform</title>
 </head>
 
 <body>
@@ -21,14 +21,14 @@
 
       <div class="menu">
         <ul class="menu-links">
-          <li><a href="#home">Start</a></li>
-          <li><a href="#services">Features</a></li>
-          <li><a href="#about">How it works</a></li>
+          <li><a href="#home" data-i18n="menu.start">Start</a></li>
+          <li><a href="#services" data-i18n="menu.features">Features</a></li>
+          <li><a href="#about" data-i18n="menu.howitworks">How it works</a></li>
         </ul>
         <a href="./manager/">
-          <button class="explore">Open manager App</button>
+          <button class="explore" data-i18n="menu.manager">Open manager App</button>
         </a>
-        
+
         <ul class="social-links">
           <li>
             <a target="_blank" href="https://www.facebook.com/">
@@ -68,7 +68,7 @@
           </li>
         </ul>
       </div>
-      <button aria-expanded="false" aria-label="Abrir menu" class="open-menu">
+      <button aria-expanded="false" aria-label="Open menu" class="open-menu">
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M10 20H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           <path d="M10 12H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -89,12 +89,12 @@
     <div class="wrapper">
       <div class="col-a">
         <header>
-          <h4>Welcome to ODP 👋</h4>
-          <h1>The Open Delivery Platform</h1>
+          <h4><span data-i18n="main.welcome">Welcome to ODP</span> 👋</h4>
+          <h1 ><span data-i18n="main.title">The Open Delivery Platform</span> </h1>
         </header>
         <div class="content">
-          <p>Create your own store, take orders, manage and trade your own store like any NFT.</p>
-          <button class="create_new" onclick="window.open('./manager/')">
+          <p data-i18n="main.intro">Create your own store, take orders, manage and trade your own store like any NFT.</p>
+          <button class="create_new" onclick="window.open('./manager/')" data-i18n="main.create" >
             Create new Store
           </button>
         </div>
@@ -105,16 +105,16 @@
       </div>
       <div class="stats">
         <div class="stat">
-          <h3>true ownership</h3>
-          <p>each store is an nft</p>
+          <h3 data-i18n="highlights.1">true ownership</h3>
+          <p data-i18n="highlights.1d">each store is an nft</p>
         </div>
         <div class="stat">
-          <h3>free software</h3>
-          <p>open source and no hidden costs</p>
+          <h3 data-i18n="highlights.2">free software</h3>
+          <p data-i18n="highlights.2d">open source and no hidden costs</p>
         </div>
         <div class="stat">
-          <h3>serverless dapp</h3>
-          <p>decentralized infrastructure ready</p>
+          <h3 data-i18n="highlights.3">serverless dapp</h3>
+          <p data-i18n="highlights.3d">decentralized infrastructure ready</p>
         </div>
       </div>
     </div>
@@ -124,8 +124,8 @@
   <section id="services">
     <div class="wrapper">
       <header>
-        <h4>Features</h4>
-        <h2>How can 'Open Delivery Platform' help your business today?</h2>
+        <h4 data-i18n="features.title">Features</h4>
+        <h2 data-i18n="features.how">How can 'Open Delivery Platform' help your business today?</h2>
       </header>
       <div class="content">
         <div class="cards">
@@ -136,8 +136,8 @@
               <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5"
                 stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <h3>Checkout Cart</h3>
-            <p>Our check out cart feature is in par with any other e-commerce solution in the market .This feature helps
+            <h3 data-i18n="features.checkout">Checkout Cart</h3>
+            <p data-i18n="features.checkout_desc">Our check out cart feature is in par with any other e-commerce solution in the market .This feature helps
               the user to skim through the final menu.</p>
           </div>
 
@@ -147,8 +147,8 @@
               <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5"
                 stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <h3>Easy search</h3>
-            <p>Our instant search feature helps the user who is looking for specific items to quickly spot it out and
+            <h3 data-i18n="features.search">Easy search</h3>
+            <p data-i18n="features.search_desc">Our instant search feature helps the user who is looking for specific items to quickly spot it out and
               place orders in no time!</p>
           </div>
 
@@ -158,8 +158,8 @@
               <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5"
                 stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <h3>Track Orders</h3>
-            <p>The users get status at each phase of the order,
+            <h3 data-i18n="features.track">Track Orders</h3>
+            <p data-i18n="features.track_desc">The users get status at each phase of the order,
               from order confirmation to delivery pickup to successful delivery.
               The restaurant gets a notification when an order is placed by the user. </p>
           </div>
@@ -170,8 +170,8 @@
               <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5"
                 stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <h3>Order Details</h3>
-            <p>The restaurant owners can view the order requests, and update the order status to New orders ,
+            <h3 data-i18n="features.orderdetails">Order Details</h3>
+            <p data-i18n="features.orderdetails_desc">The restaurant owners can view the order requests, and update the order status to New orders ,
               Confirmed orders, picked up orders, cancelled orders, denied orders etc.
             </p>
           </div>
@@ -182,8 +182,8 @@
               <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5"
                 stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <h3>Backend agnostic</h3>
-            <p>Your App will be independent of any server, hosting or cloud. Raise your server if you want or use
+            <h3 data-i18n="features.backend">Backend agnostic</h3>
+            <p data-i18n="features.backend_desc">Your App will be independent of any server, hosting or cloud. Raise your server if you want or use
               IPFS-based decentralized infrastructure.</p>
           </div>
 
@@ -193,8 +193,8 @@
               <path d="M17.091 8.18182L10.091 15.1818L6.90918 12" stroke="#00856F" stroke-width="1.5"
                 stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <h3>Unstoppable</h3>
-            <p>Utilizing IPFS-based decentralized storage and NFT Web3 publishing, your online store becomes unstoppable
+            <h3 data-i18n="features.unstoppable">Unstoppable</h3>
+            <p data-i18n="features.unstoppable_desc">Utilizing IPFS-based decentralized storage and NFT Web3 publishing, your online store becomes unstoppable
             </p>
           </div>
         </div>
@@ -207,20 +207,29 @@
     <div class="wrapper">
       <div class="col-a">
         <header>
-          <h4>how it works?</h4>
-          <h2>Understand how we eliminate infrastructure costs and deliver true ownership</h2>
+          <h4 data-i18n="how.title">how it works?</h4>
+          <h2 data-i18n="how.desc">Understand how we eliminate infrastructure costs and deliver true ownership</h2>
         </header>
 
         <p>
-          The Open Delivery platform does not own or maintain any datacenter, vps and/or servers.
+          <span data-i18n="how.intro">
+            The Open Delivery platform does not own or maintain any datacenter, vps and/or servers.
           Instead, each merchant running the ManagerApp in their store contributes by providing a decentralized
           infrastructure,
           which includes a full IPFS node.
+          </span>
           <br><br>
-          <b>1.</b> The AppData is stored in IPFS (using <a href="https://js.ipfs.io/" target="_blank">js-ipfs</a>).<br>
-          <b>2.</b> then, pinned with <a href="https://crust.network/" target="_blank">CrustNetwork</a> (using <a href="https://wiki.crust.network/docs/en/buildIPFSWeb3AuthGW" target="_blank">W3Auth</a>).<br>
-          <b>3.</b> The resulting IPFS HASH is stored in blockchain (<a href="https://polygon.technology/" target="_blank">polygon</a>) smart-contract <a href="https://docs.openzeppelin.com/contracts/4.x/api/token/erc721" target="_blank">ERC721 Standard</a> token.<br>
-          An NFT (non fungible token) that you can trade freely on any market, like Opensea for example.
+          <b>1.</b> <span data-i18n="how.1">The AppData is stored in IPFS (using</span>  <a href="https://js.ipfs.io/" target="_blank">js-ipfs</a>).<br>
+          <b>2.</b> <span data-i18n="how.2">then, pinned with </span><a href="https://crust.network/" target="_blank">CrustNetwork</a> (<span data-i18n="how.using">using </span> <a
+            href="https://wiki.crust.network/docs/en/buildIPFSWeb3AuthGW" target="_blank">W3Auth</a>).<br>
+          <b>3.</b> <span data-i18n="how.3">The resulting IPFS HASH is stored in blockchain</span> (<a href="https://polygon.technology/"
+            target="_blank">polygon</a>) <span data-i18n="how.3_1">smart-contract</span> <a
+            href="https://docs.openzeppelin.com/contracts/4.x/api/token/erc721" target="_blank">ERC721 Standard</a>
+          token.<br>
+          <span data-i18n="how.conclusion">
+            An NFT (non fungible token) that you can trade freely on any market, like Opensea for example.
+          </span>
+          
         </p>
 
       </div>
@@ -234,16 +243,19 @@
     <div class="wrapper">
       <div class="col-a">
         <header>
-          <h2>NFT_ Stores Marketplace</h2>
+          <h2 data-i18n="marketplace.title">NFT_ Stores Marketplace</h2>
         </header>
         <div class="content">
-          <p>
+          <p data-i18n="marketplace.desc">
             In the marketplace you can sell your own store, or buy a ready-made store, with customers and revenue. Since
             every store on the ODP is an ERC721 standard NFT, your stores can be sold on any supported marketplace, such
             as OpenSea, for example.
           </p>
         </div>
-        <button class="explore" onclick='window.open("https://opensea.io/collection/open-delivery-platform-virtual-stores", "_blank")'>
+        <button class="explore"
+          onclick='window.open("https://opensea.io/collection/open-delivery-platform-virtual-stores", "_blank")'
+          data-i18n="marketplace.open"
+          >
           OPEN MARKETPLACE
         </button>
       </div>
@@ -304,7 +316,11 @@
 
           <li>
             <a target="_blank" href="https://github.com/odp-dao">
-              <svg role="img" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path fill="white" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              <svg role="img" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>GitHub</title>
+                <path fill="white"
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
             </a>
           </li>
         </ul>
@@ -321,8 +337,30 @@
     </svg>
   </a>
   <!-- scroll review lib -->
-  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./scrollreveal.js"></script>
   <script src="./main.js"></script>
+  <script src="./translator.min.js"></script>
+  <script defer>
+
+    // Create a new instance of the translator
+    // You can optionally pass options
+    var translator = new Translator({
+      detectLanguage: true,
+      selector: '[data-i18n]',
+      debug: false,
+      registerGlobally: '__',
+      persist: false,
+      persistKey: 'preferred_language',
+      filesLocation: '/_i18n',
+    });
+
+    translator.fetch(['pt','es','zh']).then(() => {
+      // -> Translations are ready...
+      console.log(translator.currentLanguage);
+      translator.translatePageTo();
+    });
+
+  </script>
 </body>
 
 </html>

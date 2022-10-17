@@ -1,0 +1,57 @@
+{
+	"features": {
+		"backend": "Agnóstico de back-end",
+		"backend_desc": "Tu App independiente de cualquier servidor, hosting o nube. Implemente su servidor si lo prefiere o use una infraestructura descentralizada basada en IPFS.",
+		"checkout": "Carro de la compra",
+		"checkout_desc": "Nuestra función de carrito de compras está a la par con cualquier otra solución de comercio electrónico en el mercado. Esta función ayuda al usuario a recorrer el menú final.",
+		"how": "¿Cómo puede la 'Plataforma de Entrega Abierta' ayudar a su negocio hoy?",
+		"orderdetails": "Detalles del pedido",
+		"orderdetails_desc": "Los propietarios de restaurantes pueden ver las solicitudes de pedido y actualizar el estado del pedido a Pedidos nuevos, Pedidos confirmados, pedidos recogidos, pedidos cancelados, pedidos denegados, etc.",
+		"search": "búsqueda fácil",
+		"search_desc": "¡Nuestra función de búsqueda instantánea ayuda al usuario que busca artículos específicos a encontrarlos rápidamente y realizar pedidos en poco tiempo!",
+		"title": "funcionalidades",
+		"track": "Seguimiento de pedidos",
+		"track_desc": "Los usuarios obtienen el estado en cada fase del pedido, desde la confirmación del pedido hasta el retiro de la entrega y la entrega exitosa. El restaurante recibe una notificación cuando el usuario realiza un pedido.",
+		"unstoppable": "Imparable",
+		"unstoppable_desc": "Al utilizar el almacenamiento descentralizado basado en IPFS y la publicación NFT Web3, su tienda en línea se vuelve imparable"
+	},
+	"header": {
+		"title": "Plataforma de entrega abierta"
+	},
+	"highlights": {
+		"1": "verdadera posesión",
+		"2": "software libre",
+		"3": "dapp sin servidor",
+		"1d": "cada tienda es un NFT",
+		"2d": "código abierto y sin costes ocultos",
+		"3d": "infraestructura descentralizada"
+	},
+	"how": {
+		"1": "Los datos de la aplicación se almacenan en IPFS (usando",
+		"2": "luego fijado con",
+		"3": "El IPFS HASH resultante se almacena en la cadena de bloques",
+		"3_1": " en contrato inteligente",
+		"conclusion": "Un NFT (token no fungible) que puede negociar libremente en cualquier mercado como Opensea, por ejemplo.",
+		"desc": "Comprenda cómo eliminamos los costos de infraestructura y brindamos una verdadera propiedad",
+		"intro": "La plataforma Open Delivery no posee ni mantiene ningún centro de datos, vps y/o servidores. En cambio, cada comerciante que ejecuta ManagerApp en su tienda contribuye proporcionando una infraestructura descentralizada, que incluye un nodo IPFS completo.",
+		"title": "¿Como funciona?",
+		"using": "Usando"
+	},
+	"main": {
+		"create": "Crear nueva tienda",
+		"intro": "Cree su propia tienda, tome pedidos, administre y comercialice su propia tienda en línea como cualquier NFT.",
+		"title": "La plataforma de entrega abierta",
+		"welcome": "Bienvenido a ODP (Open Delivery Platform)"
+	},
+	"marketplace": {
+		"desc": "En el mercado, puede vender su propia tienda o comprar una tienda ya hecha, con clientes e ingresos. Dado que cada tienda en el ODP es un NFT estándar ERC721, sus tiendas se pueden vender en cualquier mercado compatible, como OpenSea, por ejemplo.",
+		"open": "Ver mercado",
+		"title": "Mercado de tiendas electrónicas NFT"
+	},
+	"menu": {
+		"features": "Funcionalidades",
+		"howitworks": "Cómo?",
+		"manager": "Abrir App Administrador",
+		"start": "Comienzo"
+	}
+}
