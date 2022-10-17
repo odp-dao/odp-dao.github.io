@@ -745,3 +745,13 @@ footer .social-links-footer {
     }
   
 }
+
+.bottomstick {
+  color:white;
+  font-size:12px;
+  margin-top: 50px;
+}
+
+.bottomstick a {
+  color:white;
+}
