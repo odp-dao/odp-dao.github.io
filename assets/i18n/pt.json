@@ -280,8 +280,8 @@
 		"genhashdata": "Gerar HashData de armazenamento ODP no IPFS",
 		"lastknown": "Últimas publicações conhecidas",
 		"message": "Verifique as opções de publicação desejadas abaixo e clique em 'Gerar e publicar'",
-		"mintnft": "NFT perfeito",
-		"mintorupdatenft": "Cuide ou atualize seu NFT",
+		"mintnft": "Cunhar NFT",
+		"mintorupdatenft": "Cunhar ou atualizar seu NFT",
 		"nft": {
 			"storename": "NOME DA LOJA ODP:",
 			"unavailable": "nome indisponível",
