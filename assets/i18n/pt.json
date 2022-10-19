@@ -325,7 +325,8 @@
 		"phoneMask": "Ex. +9 (99) 999-999-999",
 		"register": "Registrar loja",
 		"street": "Endereço",
-		"title": "Vamos cadastrar sua loja"
+		"title": "Vamos cadastrar sua loja",
+		"whatsapp": "Número de Whatsapp"
 	},
 	"wizardNewMerchantGroup": {
 		"appname": "Nome do Aplicativo",

@@ -325,7 +325,8 @@
 		"phoneMask": "前任。 +9 (99) 999-999-999",
 		"register": "注册商店",
 		"street": "街道地址",
-		"title": "让我们注册您的商店"
+		"title": "让我们注册您的商店",
+		"whatsapp": "Whatsapp 号码"
 	},
 	"wizardNewMerchantGroup": {
 		"appname": "应用名称",
