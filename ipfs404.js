@@ -1,6 +1,6 @@
 class App {
 
-    contractAddress = "0x0e92fCeEc8BD4fe2efD0158b142DA876841B72F9";
+    contractAddress = "0xc3a83B69a89F9a8d9B5d6CC4B691b8b80611bA64";
     contractAbi = [
         {
           "inputs": [
