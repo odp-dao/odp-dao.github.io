@@ -285,7 +285,38 @@
     "nft": {
       "storename": "ODP STORE NAME:",
       "unavailable": "name unavailable",
-      "youowner": "you are the owner"
+      "youowner": "you are the owner",
+      "description": "DESCRIPTION:",
+      "category": "CATEGORY:",
+      "subcategory": "SUBCATEGORY:",
+      "categoryList": {
+        "Food": "Food",
+        "Pharmacy": "Pharmacy",
+        "Medical services": "Medical services",
+        "Gifts": "Gifts",
+        "Toys": "Toys",
+        "Games": "Games",
+        "Finance": "Finance",
+        "Coupons & discounts": "Coupons & discounts",
+        "Software": "Software",
+        "Agriculture": "Agriculture",
+        "Other": "Other"
+      },
+      "subCategoryList": {
+        "Pizza": "Pizza",
+        "Meat & Seafood": "Meat & Seafood",
+        "BBQ & Grilling": "BBQ & Grilling",
+        "Baked Goods & Desserts": "Baked Goods & Desserts",
+        "Breakfast Foods": "Breakfast Foods",
+        "Grains & Pasta": "Grains & Pasta",
+        "Snack Foods": "Snack Foods",
+        "Soups & Stews": "Soups & Stews",
+        "Drugs & Medications": "Drugs & Medications",
+        "Compounding": "Compounding",
+        "Cards & Greetings": "Cards & Greetings",
+        "Flowers": "Flowers",
+        "Other": "Other"
+      }
     },
     "notfound": "Not found",
     "pleaseconnect": "connect Metamask to PolygonNetwork.",
@@ -326,7 +357,8 @@
     "register": "Register store",
     "street": "Street address",
     "title": "Let's register your store",
-    "whatsapp": "Whatsapp Number"
+    "whatsapp": "Whatsapp Number",
+    "basecurrency": "Base Currency"
   },
   "wizardNewMerchantGroup": {
     "appname": "App Name",
