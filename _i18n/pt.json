@@ -35,12 +35,13 @@
 		"desc": "Entenda como eliminamos os custos de infraestrutura e entregamos posse verdadeira",
 		"intro": "A plataforma Open Delivery não possui nem mantém nenhum datacenter, vps e/ou servidores. Em vez disso, cada comerciante que executa o 'App Gerenciador' em sua loja, contribui fornecendo uma infraestrutura descentralizada, que inclui um nó IPFS completo.",
 		"title": "Como funciona?",
-		"using": "usando"
+		"using": "usando",
+		"litepaper":"Se você quiser saber mais sobre a tecnologia por trás do nosso sistema, baixe nosso litepaper aqui."
 	},
 	"main": {
 		"create": "Criar nova loja",
 		"intro": "Crie sua própria loja, receba pedidos, gerencie e negocie sua própria loja virtual como qualquer NFT.",
-		"title": "A plataforma de delivery aberta",
+		"title": "A plataforma de delivery realmente aberta",
 		"welcome": "Bem vindo à ODP (Open Delivery Platform)"
 	},
 	"marketplace": {
@@ -52,6 +53,26 @@
 		"features": "Funcionalidades",
 		"howitworks": "Como funciona",
 		"manager": "Abrir Gerenciador",
-		"start": "Inicio"
-	}
+		"start": "Inicio",
+		"contribute":"Contribuir",
+		"goback":"Voltar à página inicial"
+	},
+	"contribute":{
+		"title":"Contribua para o projeto Open Delivery Platform",
+		"description":"O projeto 'Open Delivery Platform' está em constante desenvolvimento e precisa de ajuda em várias frentes:",
+		"titlea":"Codificando",
+		"desca":"Como somos um projeto de código aberto, é claro que você pode e nós encorajamos você a contribuir enviando um pull-request em nosso repositório. Qualquer contribuição é importante para nós.",
+		"opena":"Abrir repositórios",
+		"titleb":"Encontrando bugs",
+		"descb":"Ajude-nos a encontrar bugs criando e gerenciando lojas, cunhando e atualizando NFTs e rastreando pedidos. Relate um bug na guia 'ISSUES'.",
+		"openb":"Abrir issues",
+		"titlec":"Governança",
+		"descc":"O projeto 'Open Delivery Platform' é um DAO (Organização Autônoma Descentralizada). Crie propostas, avalie e vote em propostas da comunidade usando o poder de voto de seus tokens ODPT. Obtenha tokens ODPT por meio do AIRDROP (para usuários da plataforma que possuem um ou mais NFT) ou comprando.",
+		"openc":"Abrir governança",
+		"titled":"Doando",
+		"descd":"Se você aprecia o nosso trabalho e/ou ele é útil pra você, considere fazer uma doação para nossa DAO. A utilização dos recursos doados é feita através do tesouro do nosso contrato inteligente de governança, dando total transparência."
+	},
+	"donations":"Doações",
+	"madewith":"Feito com ",
+	"madeby":"por"
 }

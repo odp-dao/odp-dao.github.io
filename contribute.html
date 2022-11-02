@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <title data-i18n="header.title">ODP - Open Delivery Platform</title>
+</head>
+
+<body>
+  <nav id="navigation">
+    <div class="wrapper">
+      <a href="#home" class="logo">
+        <img id="top_logo" src="assets/logo.svg" style="height: 120px" />
+      </a>
+
+      <div class="menu">
+        <ul class="menu-links">
+
+        </ul>
+        <ul class="menu-links">
+          <li><a href="./index.html" data-i18n="menu.goback">Go Back</a></li>
+        </ul>
+      </div>
+      <button aria-expanded="false" aria-label="Open menu" class="open-menu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 20H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M10 12H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M18 28L30 28" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button aria-expanded="true" aria-label="Fechar menu" class="close-menu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+
+      </button>
+    </div>
+  </nav>
+  <section id="home" style="max-height: 5px;padding:0;margin:0"></section>
+  <section id="contribute" style="padding-bottom:0;">
+    <div class="wrapper">
+      <header>
+        <h2 data-i18n="contribute.title">Contribute to 'Open Delivery Platform'</h2>
+      </header>
+      <div class="fullrow">
+        <p data-i18n="contribute.description">
+          The 'Open Delivery Platform' project is under constant development and needs help on several fronts:
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" style="padding-top:0;padding-bottom: 0;">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h2 data-i18n="contribute.titlea">Coding</h2>
+        </header>
+        <div class="content">
+          <p data-i18n="contribute.desca">
+            As we are an open source project, of course you can and we encourage you to contribute by submitting a
+            pull-request in our repository. Any contribution is important to us.
+          </p>
+        </div>
+        <button class="explore" onclick='window.open("https://github.com/opendeliverydao?tab=repositories", "_blank")'
+          data-i18n="contribute.opena">
+          open repositories
+        </button>
+      </div>
+      <div class="col-b">
+        <img style="border-radius: 25px;" src="./assets/pullrequest.png" alt="Marketplace view">
+      </div>
+    </div>
+  </section>
+  <section id="contact" style="padding-top:0;padding-bottom: 0;">
+    <div class="wrapper">
+      <div class="col-a">
+        <img style="border-radius: 25px;min-width: 25vw;" src="./assets/findingbugs.png" alt="Marketplace view">
+      </div>
+      <div class="col-b" style="padding-top:50px;">
+        <header>
+          <h2 data-i18n="contribute.titleb">Finding bugs</h2>
+        </header>
+        <div class="content">
+          <p data-i18n="contribute.descb">
+            Help us find bugs by creating and managing stores, minting and updating NFTs, and tracking orders. Report a
+            bug in the 'Issues' tab.
+          </p>
+        </div>
+        <button class="explore" onclick='window.open("https://github.com/opendeliverydao/community/issues", "_blank")'
+          data-i18n="contribute.openb">
+          open issues
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" style="padding-top:0;padding-bottom: 0;">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h2 data-i18n="contribute.titlec">Governance</h2>
+        </header>
+        <div class="content">
+          <p data-i18n="contribute.descc">
+            The 'Open Delivery Platform' project is a DAO (Decentralized Autonomous Organization). Create proposals,
+            evaluate and vote on community proposals using the voting power of your ODPT tokens. Get ODPT tokens through
+            AIRDROP (for platform users who have one or more NFT) or by purchasing.
+          </p>
+        </div>
+        <button class="explore"
+          onclick='window.open("https://www.tally.xyz/governance/eip155:137:0x91B4e2301f90DCe716758822D6CBAE194Fe25a1e", "_blank")'
+          data-i18n="contribute.openc">
+          open governance
+        </button>
+      </div>
+      <div class="col-b">
+        <img style="border-radius: 25px;" src="./assets/voting.png" alt="Marketplace view">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="padding-top:0;padding-bottom: 0;">
+    <div class="wrapper">
+      <div class="col-a">
+        <img style="border-radius: 25px;min-width: 25vw;" src="./assets/donate.png" alt="Marketplace view">
+      </div>
+      <div class="col-b" style="padding-top:50px;">
+        <header>
+          <h2 data-i18n="contribute.titled">Donating</h2>
+        </header>
+        <div class="content" style="text-align: left;">
+          <p data-i18n="contribute.descd">
+            If you appreciate our work and/or it is useful to you, please consider donating to our DAO. The use of
+            donated resources is done through the treasury of our governance smart contract, giving full transparency.
+          </p>
+          <span>
+            <B>Bitcoin: </B>1MpTLyePfCJZLbFusGUvHLe9srUVTkTq9i
+          </span>
+          <span>
+            <B>Ethereum/Polygon: </B>0xcd7d3ad95b1214206bbf3d3700af4d29e998c2a4
+          </span>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <a id="back-top-button" href="#home">
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="20" fill="#00856F" />
+      <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </a>
+  <!-- scroll review lib -->
+  <script src="/scrollreveal.js"></script>
+  <script src="/main.js"></script>
+  <script src="/translator.min.js"></script>
+  <script defer>
+
+    // Create a new instance of the translator
+    // You can optionally pass options
+    var translator = new Translator({
+      detectLanguage: true,
+      selector: '[data-i18n]',
+      debug: false,
+      registerGlobally: '__',
+      persist: false,
+      persistKey: 'preferred_language',
+      filesLocation: '/_i18n',
+    });
+
+    translator.fetch(['pt', 'es', 'zh']).then(() => {
+      // -> Translations are ready...
+      console.log(translator.currentLanguage);
+      translator.translatePageTo();
+    });
+
+  </script>
+</body>
+
+</html>

@@ -172,7 +172,11 @@ body.menu-expanded .close-menu {
 }
 
 .menu {
-  transform: translateY(100%)
+  transform: translateY(100%);
+  justify-content: flex-end !important;
+}
+.menu-links {
+  margin-right: 15px !important;
 }
 
 body.menu-expanded  .menu {
@@ -365,6 +369,7 @@ body.menu-expanded button path {
 
 #about {
   background-color: var(--brand-beige);
+  padding-bottom: 0;
 }
 #about h4 { 
   text-align: left;
@@ -428,6 +433,69 @@ body.menu-expanded button path {
 }
 
 #contact button:hover {
+  background-color: var(--brand-green-hover);
+}
+
+#about button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4rem;
+  margin-bottom: 6rem;
+  padding: 1.6rem 3.2rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  transition: background 200ms;
+}
+
+#about button:hover {
+  background-color: var(--brand-green-hover);
+}
+
+/* ======== SECTION MARKETPLACE ======== */
+
+#marketplace h2 {
+  margin-bottom: 3.2rem;
+}
+
+#marketplace p {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--paragraph);
+  line-height: 150%;
+}
+#marketplace .content {
+  margin-bottom: 3.2rem;
+  display: flex;
+  gap: 1.6rem;
+  flex-direction: column;
+}
+
+#marketplace button {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4rem;
+  margin-bottom: 6rem;
+  padding: 1.6rem 3.2rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  transition: background 200ms;
+}
+
+#marketplace button:hover {
   background-color: var(--brand-green-hover);
 }
 
@@ -542,7 +610,7 @@ footer .social-links-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 80%;
   }
 
   nav#navigation .menu ul:nth-child(1) {
@@ -725,6 +793,26 @@ footer .social-links-footer {
     margin-bottom: 0;
   }
 
+  /* ============== MARKETPLACE ================ */
+
+  #marketplace .wrapper {
+    grid-template-columns: 1fr 57.5rem;
+    grid-template-areas: 'A B';
+    gap: 14.1rem;
+  }
+
+  #marketplace .col-a {
+    align-self: center;
+  }
+
+  #marketplace button {
+    margin-bottom: 0;
+  }
+
+  #marketplace .content p {
+    margin-bottom: 0;
+  }
+
     /* ============== FOOTER ================ */
 
     footer {
@@ -754,4 +842,8 @@ footer .social-links-footer {
 
 .bottomstick a {
   color:white;
+}
+
+.fullrow {
+  text-align: left;
 }
