@@ -563,6 +563,10 @@ footer .social-links-footer {
     overflow: auto;
   }
 
+  .topspace {
+    margin-top: 50px !important;
+  }
+
   .wrapper {
     width: min(112rem, 100%);
     margin-inline: auto;
