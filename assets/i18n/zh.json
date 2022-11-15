@@ -243,7 +243,8 @@
       "Order with ocurrences": "订单出现次数",
       "Pending": "有待",
       "Ready To Pickup": "准备取货"
-    }
+    },
+    "empty": "您还没有收到任何订单。"
   },
   "pageCategory": {
     "add": "添加类别",
@@ -337,7 +338,9 @@
     "title": "发布订单应用",
     "updateIcon": "图标更新",
     "updatenft": "更新 NFT",
-    "wrongnet": "错误的网络。请，"
+    "wrongnet": "错误的网络。请，",
+    "nftmsg1": "获取名称和公共地址",
+    "nftmsg2": "通过铸造您商店的 NFT 在我们的平台上。"
   },
   "splash": {
     "title": "正在加载管理器应用..."
@@ -367,5 +370,8 @@
     "register": "注册品牌",
     "shortname": "应用短名称",
     "title": "让我们注册您的品牌"
+  },
+  "set-payment-method": {
+    "title": "支付方式"
   }
 }

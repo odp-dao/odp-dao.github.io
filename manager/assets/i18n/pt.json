@@ -145,6 +145,15 @@
       "settings": "Definições"
     }
   },
+  "settings": {
+    "menu": {
+      "General": "Geral",
+      "Appearence": "Aparência",
+      "Orders Endpoints": "Endpoints de pedidos",
+      "Drivers Endpoints": "Endpoints de entregadores",
+      "Payment Methods": "Formas de pagamento"
+    }
+  },
   "optionEditor": {
     "activate": "Ativar",
     "activated": "ativado",
@@ -243,7 +252,8 @@
       "Order with ocurrences": "Ordem com ocorrências",
       "Pending": "Pendente",
       "Ready To Pickup": "Pronto para pegar"
-    }
+    },
+    "empty": "Você ainda não recebeu nenhum pedido"
   },
   "pageCategory": {
     "add": "Adicionar categoria",
@@ -337,7 +347,9 @@
     "title": "Publique o aplicativo de pedidos",
     "updateIcon": "atualização de ícone",
     "updatenft": "Atualizar NFT",
-    "wrongnet": "Rede errada. Por favor,"
+    "wrongnet": "Rede errada. Por favor,",
+    "nftmsg1": "Adquira um nome e um endereço público",
+    "nftmsg2": "na nossa plataforma cunhando um NFT da sua loja."
   },
   "splash": {
     "title": "Carregando aplicativo do gerenciador..."
@@ -367,5 +379,8 @@
     "register": "Registrar marca",
     "shortname": "Nome curto do aplicativo",
     "title": "Vamos cadastrar sua marca"
+  },
+  "set-payment-method": {
+    "title": "Formas de pagamento"
   }
 }

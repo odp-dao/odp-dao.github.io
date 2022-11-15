@@ -145,6 +145,15 @@
       "settings": "Ajustes"
     }
   },
+  "settings": {
+    "menu": {
+      "General": "Geral",
+      "Appearence": "Aparencia",
+      "Orders Endpoints": "Puntos finales de pedidos",
+      "Drivers Endpoints": "Puntos finales de los repartidores",
+      "Payment Methods": "Métodos de pago"
+    }
+  },
   "optionEditor": {
     "activate": "Activar",
     "activated": "Activado",
@@ -243,7 +252,8 @@
       "Order with ocurrences": "Orden con ocurrencias",
       "Pending": "pendiente",
       "Ready To Pickup": "Listo para recoger"
-    }
+    },
+    "empty": "Aún no has recibido ningún pedido."
   },
   "pageCategory": {
     "add": "añadir categoría",
@@ -337,7 +347,9 @@
     "title": "Publicar la aplicación de pedido",
     "updateIcon": "actualización de icono",
     "updatenft": "Actualizar NFT",
-    "wrongnet": "Red incorrecta. Por favor,"
+    "wrongnet": "Red incorrecta. Por favor,",
+    "nftmsg1": "Adquiera un nombre y una dirección pública",
+    "nftmsg2": "en nuestra plataforma acuñando un NFT de su tienda."
   },
   "splash": {
     "title": "Cargando la aplicación ODP Manager..."
@@ -367,5 +379,8 @@
     "register": "Registrar Marca",
     "shortname": "Nombre abreviado de la aplicación",
     "title": "Registremos tu marca"
+  },
+  "set-payment-method": {
+    "title": "Métodos de pago"
   }
 }
