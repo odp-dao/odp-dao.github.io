@@ -19,7 +19,7 @@
 		"title": "Plataforma de delivery aberta"
 	},
 	"highlights": {
-		"2": "posse verdadeira",
+		"1": "posse verdadeira",
 		"2": "software livre",
 		"3": "dapp sem servidor",
 		"1d": "cada loja um NFT",
@@ -27,7 +27,7 @@
 		"3d": "infraestrutura descentralizada"
 	},
 	"how": {
-		"2": "Os dados do app são armazenados em IPFS (usando",
+		"1": "Os dados do app são armazenados em IPFS (usando",
 		"2": "em seguida, pinado com ",
 		"3": "O IPFS HASH resultante é armazenado na blockchain ",
 		"3_2": " em contrato-inteligente",
