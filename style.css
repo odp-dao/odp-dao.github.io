@@ -337,6 +337,11 @@ body.menu-expanded button path {
   line-height: 150%;
   color: var(--primary-color);
   margin: 0;
+  padding: 5px;
+}
+
+.stat {
+  align-self: center;
 }
 
 /* ======== SECTION SERVICES ======== */
@@ -367,6 +372,37 @@ body.menu-expanded button path {
   font-size: 1.6rem;
   line-height: 150%;
   color: var(--paragraph);
+}
+
+/* ======== PRICES SERVICES ======== */
+
+#prices h1 {
+  margin-bottom: 6rem;
+}
+
+#prices .cards {
+  display: flex;
+  flex-flow: column;
+  gap: 3.2rem
+}
+
+#prices .card {
+  display: flex;
+  gap: 1.6rem;
+  flex-flow: column;
+  text-align: left;
+  border: 1px solid var(--brand-ligth);
+  background-color: #002c85;
+    color:white;
+  padding: 2.4rem;
+  border-radius: 0.6rem;
+}
+
+#prices .card p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: white;
 }
 
 /* ======== SECTION ABOUT ======== */
@@ -696,6 +732,9 @@ footer .social-links-footer {
   nav#navigation.scroll .menu button:hover {
      background-color: var(--primary-color);
   }
+  .menu-links a{
+    white-space:nowrap;
+  }
 
     /* ============== HOME ================ */
 
@@ -764,6 +803,34 @@ footer .social-links-footer {
   #services .card {
     width: 30%;
     flex-grow: 1;
+  }
+
+  /* ============== Pricing ================ */
+
+  #prices {
+    background-color: rgba(0,0,255,0.05);
+  }
+
+  #prices h2 {
+    width: 47rem;
+    margin-inline: auto;
+  }
+
+  #prices .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+
+  #prices .card {
+    width: 30%;
+    flex-grow: 1;
+    background-color: #002c85;
+    color:white;
+  }
+
+  .mheight {
+    min-height: 290px;
   }
 
   /* ============== ABOUT ================ */
@@ -854,4 +921,14 @@ footer .social-links-footer {
 
 .fullrow {
   text-align: left;
+}
+
+.card ul {
+  list-style-type: circle;
+  padding-left: 2.4rem;
+  padding-top:15px;
+}
+
+.price-price {
+  color: white;font-size: 38px;
 }

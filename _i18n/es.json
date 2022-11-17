@@ -36,7 +36,7 @@
 		"intro": "La plataforma Open Delivery no posee ni mantiene ningún centro de datos, vps y/o servidores. En cambio, cada comerciante que ejecuta ManagerApp en su tienda contribuye proporcionando una infraestructura descentralizada, que incluye un nodo IPFS completo.",
 		"title": "¿Como funciona?",
 		"using": "Usando",
-		"litepaper":"Si desea obtener más información acerca de la tecnología detrás de nuestro sistema, descargue nuestro papel ligero aquí."
+		"litepaper": "Si desea obtener más información acerca de la tecnología detrás de nuestro sistema, descargue nuestro papel ligero aquí."
 	},
 	"main": {
 		"create": "Crear nueva tienda",
@@ -54,25 +54,55 @@
 		"howitworks": "Cómo?",
 		"manager": "Abrir App Administrador",
 		"start": "Comienzo",
-		"contribute":"Contribuir",
-		"goback":"Volver a la página principal"
+		"contribute": "Contribuir",
+		"goback": "Volver a la página principal",
+		"prices": "Precios"
 	},
-	"contribute":{
-		"title":"Contribuya a la 'Open Delivery Platform'",
-		"description":"El proyecto 'Open Delivery Platform' está en constante desarrollo y necesita ayuda en varios frentes:",
-		"titlea":"Codificación",
-		"desca":"Como somos un proyecto de código abierto, por supuesto que puede y lo alentamos a que contribuya enviando una solicitud de extracción en nuestro repositorio. Cualquier aporte es importante para nosotros.",
-		"opena":"abrir repositorios",
-		"titleb":"Encontrar errores",
-		"descb":"Ayúdenos a encontrar errores creando y administrando tiendas, acuñando y actualizando NFT y rastreando pedidos. Informe un error en la pestaña 'Problemas'.",
-		"openb":"Abrir issues",
-		"titlec":"Gobernancia",
-		"descc":"El proyecto 'Open Delivery Platform' es una DAO (Organización Autónoma Descentralizada). Cree propuestas, evalúe y vote propuestas de la comunidad utilizando el poder de voto de sus tokens ODPT. Obtenga tokens ODPT a través de AIRDROP (para usuarios de la plataforma que tienen uno o más NFT) o comprando.",
-		"openc":"Abrir gobernanza",
-		"titled":"Donando",
-		"descd":"Si aprecia nuestro trabajo y / o le es útil, considere donar a nuestro DAO. El uso de los recursos donados se realiza a través de la tesorería de nuestro contrato inteligente de gobernanza, otorgando total transparencia."
+	"contribute": {
+		"title": "Contribuya a la 'Open Delivery Platform'",
+		"description": "El proyecto 'Open Delivery Platform' está en constante desarrollo y necesita ayuda en varios frentes:",
+		"titlea": "Codificación",
+		"desca": "Como somos un proyecto de código abierto, por supuesto que puede y lo alentamos a que contribuya enviando una solicitud de extracción en nuestro repositorio. Cualquier aporte es importante para nosotros.",
+		"opena": "abrir repositorios",
+		"titleb": "Encontrar errores",
+		"descb": "Ayúdenos a encontrar errores creando y administrando tiendas, acuñando y actualizando NFT y rastreando pedidos. Informe un error en la pestaña 'Problemas'.",
+		"openb": "Abrir issues",
+		"titlec": "Gobernancia",
+		"descc": "El proyecto 'Open Delivery Platform' es una DAO (Organización Autónoma Descentralizada). Cree propuestas, evalúe y vote propuestas de la comunidad utilizando el poder de voto de sus tokens ODPT. Obtenga tokens ODPT a través de AIRDROP (para usuarios de la plataforma que tienen uno o más NFT) o comprando.",
+		"openc": "Abrir gobernanza",
+		"titled": "Donando",
+		"descd": "Si aprecia nuestro trabajo y / o le es útil, considere donar a nuestro DAO. El uso de los recursos donados se realiza a través de la tesorería de nuestro contrato inteligente de gobernanza, otorgando total transparencia."
 	},
-	"donations":"Donaciones",
-	"madewith":"Hecho con amor",
-	"madeby":"por"
+	"donations": "Donaciones",
+	"madewith": "Hecho con amor",
+	"madeby": "por",
+	"prices": {
+		"title": "Nuestros precios",
+		"title1": "Crea tu propia aplicación",
+		"desc1": "Crea tus tiendas y tu catálogo de productos y publica tu aplicación de pedidos.",
+		"pdesc1": {
+			"1": "Recibir pedidos de clientes a través de P2P (OrbitDB).",
+			"2": "Recibir pedidos de clientes a través de Whatsapp.",
+			"3": "Actualizar catálogos de productos.",
+			"4": "Publica tu APLICACIÓN."
+		},
+		"price1": "Gratis",
+		"pricedesc1": "para siempre",
+		"title2": "Cunha NFT",
+		"desc2": "Ocúpate del NFT de tu tienda registrando el nombre y el CID de tu tienda en nuestro contrato inteligente.",
+		"pdesc2": {
+			"1": "Reserva un nombre en nuestra dirección pública (opendelivery.app/tunombre).",
+			"2": "Token ERC721 acuñado en la cadena Polygon.",
+			"3": "Conserve el 'CID de los datos de su tienda' en la cadena de bloques."
+		},
+		"pricedesc2": "una vez",
+		"title3": "Actualizar metadatos NFT",
+		"desc3": "Actualice sus metadatos de NFT con el nuevo CID de catálogo actualizado y los datos de precios.",
+		"pdesc3": {
+			"1": "Persiste el nuevo 'CID de los datos de tu tienda' en la cadena de bloques.",
+			"2": "Acelera la aplicación evitando actualizaciones a través de OrbitDB.",
+			"3": "Las tiendas actualizadas recientemente se muestran en la parte superior de nuestro mercado."
+		},
+		"pricedesc3": "una vez"
+	}
 }

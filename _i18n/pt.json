@@ -19,7 +19,7 @@
 		"title": "Plataforma de delivery aberta"
 	},
 	"highlights": {
-		"1": "posse verdadeira",
+		"2": "posse verdadeira",
 		"2": "software livre",
 		"3": "dapp sem servidor",
 		"1d": "cada loja um NFT",
@@ -27,10 +27,10 @@
 		"3d": "infraestrutura descentralizada"
 	},
 	"how": {
-		"1": "Os dados do app são armazenados em IPFS (usando",
+		"2": "Os dados do app são armazenados em IPFS (usando",
 		"2": "em seguida, pinado com ",
 		"3": "O IPFS HASH resultante é armazenado na blockchain ",
-		"3_1": " em contrato-inteligente",
+		"3_2": " em contrato-inteligente",
 		"conclusion": "Um NFT (token não fungível) que você pode negociar livremente em qualquer mercado, como o Opensea, por exemplo.",
 		"desc": "Entenda como eliminamos os custos de infraestrutura e entregamos posse verdadeira",
 		"intro": "A plataforma Open Delivery não possui nem mantém nenhum datacenter, vps e/ou servidores. Em vez disso, cada comerciante que executa o 'App Gerenciador' em sua loja, contribui fornecendo uma infraestrutura descentralizada, que inclui um nó IPFS completo.",
@@ -55,7 +55,8 @@
 		"manager": "Abrir Gerenciador",
 		"start": "Inicio",
 		"contribute":"Contribuir",
-		"goback":"Voltar à página inicial"
+		"goback":"Voltar à página inicial",
+		"prices":"Preços"
 	},
 	"contribute":{
 		"title":"Contribua para o projeto Open Delivery Platform",
@@ -74,5 +75,34 @@
 	},
 	"donations":"Doações",
 	"madewith":"Feito com ",
-	"madeby":"por"
+	"madeby":"por",
+	"prices":{
+		"title":"Nossos preços",
+		"title1":"Crie seu próprio App",
+		"desc1":"Crie suas lojas e seu catálogo de produtos e publique seu aplicativo de pedidos.",
+		"pdesc1":{
+			"1":"Receba pedidos de clientes via P2P (OrbitDB).",
+			"2":"Receba pedidos de clientes via Whatsapp.",
+			"3":"Atualizar catálogos de produtos.",
+			"4":"Publique seu APP."
+		},
+		"price1":"Grátis",
+		"pricedesc1":"para sempre",
+		"title2":"Cunhar NFT",
+		"desc2":"Cuide do NFT da sua loja registrando o nome e o CID da sua loja em nosso contrato inteligente.",
+		"pdesc2":{
+			"1":"Reserve um nome em nosso endereço público (opendelivery.app/seunome).",
+			"2":"ERC721 Token cunhado na cadeia Polygon.",
+			"3":"Persista o 'CID dos dados da sua loja' no blockchain."
+		},
+		"pricedesc2":"uma vez",
+		"title3":"Atualizar metadados NFT",
+		"desc3":"Atualize seus metadados NFT com o novo CID de catálogo atualizado e dados de preços.",
+		"pdesc3":{
+			"1":"Persista o novo 'CID dos dados da sua loja' no blockchain.",
+			"2":"Acelera a aplicação evitando atualizações via OrbitDB.",
+			"3":"As lojas atualizadas recentemente são exibidas no topo do nosso marketplace."
+		},
+		"pricedesc3":"uma vez"
+	}
 }
