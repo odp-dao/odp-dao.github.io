@@ -11,6 +11,7 @@
     },
     "seed":{
         "title":"Vendas de sementes",
+        "closing":"encerramento da campanha",
         "desc1":"Ao adquirir nosso token nesta fase, você terá acesso antecipado a recursos, poderá criar e votar em propostas no contrato de governança, e nos ajudará a construir nossa plataforma.",
         "desc2":"60% mais baratos que no lançamento",
         "desc3":"compra mínima de 10000 tokens",

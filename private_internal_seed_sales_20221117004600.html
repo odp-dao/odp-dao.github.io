@@ -21,10 +21,47 @@
         window.minQtd = 0;
         window.maxQtd = 0;
 
+        window.onresize=resize_input;
+
+        function resize_input(){
+            let inputElm=document.getElementById('buytoken_qtd');
+            let cHeight=(document.getElementById('btnbuy').clientHeight)
+            inputElm.style.maxHeight=cHeight.toString()+"px";
+        };
+
         function connect_wallet() {
             (
                 async () => {
                     var isConnected = await kakaru.connect();
+                    window.localStorage.setItem("connected_before","true");
+
+                    if ((window)["ethereum"].chainId!='0x89'){
+                        var netparams = [{
+                            chainId: '0x89',
+                            chainName: 'Polygon Mainnet',
+                            nativeCurrency: {
+                                name: 'MATIC',
+                                symbol: 'MATIC',
+                                decimals: 18
+                            },
+                            rpcUrls: ['https://polygon-rpc.com/'],
+                            blockExplorerUrls: ['https://polygonscan.com/']
+                        }];
+                    
+                        (window)['web3'].currentProvider.request({ method: 'wallet_addEthereumChain', params:netparams })
+                                        .then((d) => {
+                                        setTimeout(() => {
+                                            if (((window)["ethereum"].chainId=='0x89')){
+                                                window.location.reload();
+                                            } else {
+                                            onNotChange();
+                                            }
+                                        }, 1000);
+                                        })
+                                        .catch((error) => onError(error));
+                    }
+                    
+                    kakaru.gasPrice=Math.floor((await kakaru.web3.eth.getGasPrice())*1.1).toString();
                     var _salesContract = kakaru.contract(SALES_CONTRACT_ADDRESS);
                     var _icoTimeStamp = await _salesContract.endTimestamp();
                     var _cliff = await _salesContract.cliffMonths();
@@ -32,12 +69,13 @@
                     var _total_months = _cliff + _vesting;
                     var currentBlock = await kakaru.web3.eth.getBlock("latest");
                     var currentTimeStamp = currentBlock.timestamp;
+
                     window.token_price = ((await _salesContract.currentErc20Price()) / 1000000);
                     window.minQtd = parseInt(Web3.utils.fromWei(await _salesContract.minTokenAmount()));
                     window.maxQtd = parseInt(Web3.utils.fromWei(await _salesContract.maxTokenAmount()));
                     console.log("amounts")
                     console.log(window.minQtd)
-                    currentTimeStamp = _icoTimeStamp - 0 + (THIRTY_DAYS_IN_SECONDS * 4) + ((THIRTY_DAYS_IN_SECONDS / 30) * 10);
+                    //currentTimeStamp = _icoTimeStamp - 0 + (THIRTY_DAYS_IN_SECONDS * 3)  +(THIRTY_DAYS_IN_SECONDS/30 * 30);
 
                     console.log(_icoTimeStamp);
                     console.log(currentTimeStamp);
@@ -45,7 +83,7 @@
                     console.log(sdate.toISOString());
 
                     console.log(currentTimeStamp - _icoTimeStamp);
-                    var monthIndex = Math.round((currentTimeStamp - _icoTimeStamp) / THIRTY_DAYS_IN_SECONDS);
+                    var monthIndex = Math.floor((currentTimeStamp - _icoTimeStamp) / THIRTY_DAYS_IN_SECONDS);
                     console.log("month index: " + monthIndex);
 
                     var _userInfo = await _salesContract.addressToUserInfo(kakaru.connectedAddress);
@@ -61,7 +99,7 @@
                         if (lastClaimMonthIndex > 0) {
                             vestingIndex - lastClaimMonthIndex;
                         }
-                        totalClammable = ((vestingIndex - 1) * monthValue);
+                        totalClammable = ((vestingIndex) * monthValue);
                     }
                     document.getElementById('total_value').innerText = Web3.utils.fromWei(_userInfo.totalTokens) + ' ODPTs';
                     document.getElementById('total_released').innerText = (Web3.utils.fromWei(_userInfo.totalTokens) - Web3.utils.fromWei(_userInfo.remainingTokens)) + ' ODPTs';
@@ -73,9 +111,12 @@
                     document.getElementById('btnbuy').style.backgroundColor = '#002c85';
                     document.getElementById('btnbuy').style.display = 'block';
                     document.getElementById('buytoken_qtd').style.display = "block";
+                    document.getElementById('enddate').innerText=(new Date(_icoTimeStamp*1000)).toLocaleString();
+                    document.getElementById('claimdate').innerText=(new Date(currentTimeStamp*1000)).toLocaleString();
 
                     var qtd = document.getElementById('buytoken_qtd').value;
                     document.getElementById('tokenprice').innerText = window.token_price * qtd + " USDC";
+                    resize_input();
                 }
             )();
         }
@@ -95,8 +136,11 @@
 
         }
 
+        
         kakaru.onload = () => {
-            connect_wallet();
+            if (window.localStorage.getItem("connected_before")){
+                connect_wallet();
+            }
         }
 
     </script>
@@ -160,7 +204,14 @@
             </div>
             <div class="col-b" style="padding-top:50px;">
                 <header>
-                    <h2 data-i18n="seed.title">Seed sales</h2>
+                    <h2 >
+                        <span data-i18n="seed.title">
+                            Seed sales
+                        </span>
+                        <span style="font-size: 1.1rem">
+                           <span data-i18n="seed.closing">campaign closing:</span>  <span id="enddate"></span>
+                        </span>
+                    </h2>
                 </header>
                 <div class="content">
                     <p>
@@ -226,10 +277,11 @@
                 if (_allowance<_tokenPrice*_quantity){
                     await _paymentTokenContract.approve(_salesContract._contract._address, (String(_tokenPrice*_quantity)));
                 }
-
+                kakaru.gasPrice=Math.floor((await kakaru.web3.eth.getGasPrice())*1.1).toString();
                 var trx=await _salesContract.purchaseTokenWithErc20(Web3.utils.toWei(String(_quantity)),0);
             } else {
                 var _tokenPrice=Number.parseInt(await _salesContract.currentPrice());
+                kakaru.gasPrice=Math.floor((await kakaru.web3.eth.getGasPrice())*1.1).toString();
                 var trx=await _salesContract.purchaseToken(Web3.utils.toWei(String(_quantity)),(String(_tokenPrice*_quantity)));
             }
             
@@ -301,7 +353,11 @@
             </div>
             <div class="col-b" style="padding-top:50px;">
                 <header>
-                    <h2 data-i18n="claim.title">Vested tokens</h2>
+                    <h2 >
+                        <span data-i18n="claim.title">
+                            Vested tokens
+                        </span>
+                    </h2>
                 </header>
                 <div class="content" style="text-align: left;">
                     <p data-i18n="claim.desc">
@@ -317,7 +373,11 @@
                             class="connect_wallet" data-i18n="wallet.connect">connect wallet</span>
                     </span>
                     <span>
-                        <b data-i18n="claim.3">Clammable now: </b> <span id="clammable_value"></span> <span
+                        <b data-i18n="claim.3">Clammable now</b> 
+                        <span style="font-size: 1.1rem">
+                            (<span id="claimdate"></span>):
+                        </span>
+                        <span id="clammable_value"></span> <span
                             class="connect_wallet" data-i18n="wallet.connect">connect wallet</span>
                     </span>
 
@@ -340,6 +400,7 @@
             var isConnected=await kakaru.connect();
             var _salesContract=kakaru.contract(SALES_CONTRACT_ADDRESS);
             var _userInfo=(await _salesContract.addressToUserInfo(kakaru.connectedAddress));
+            kakaru.gasPrice=Math.floor((await kakaru.web3.eth.getGasPrice())*1.1).toString();
             var trx=await _salesContract.claim();
         }
     )();
