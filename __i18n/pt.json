@@ -1,0 +1,32 @@
+{
+	"header": {
+		"title": "Plataforma de delivery aberta"
+	},
+    "menu": {
+		"goback":"Voltar à página inicial"
+	},
+    "sales":{
+        "title":"Token de Parte Interessada da Plataforma de Entrega Aberta",
+        "description":"Obtenha tokens ODPT para ganhar descontos, desbloquear funcionalidades, participar do programa de staking, e da governança de nossa DAO (criando e votando em propostas)."
+    },
+    "seed":{
+        "title":"Vendas de sementes",
+        "desc1":"Ao adquirir nosso token nesta fase, você terá acesso antecipado a recursos, poderá criar e votar em propostas no contrato de governança, e nos ajudará a construir nossa plataforma.",
+        "desc2":"60% mais baratos que no lançamento",
+        "desc3":"compra mínima de 10000 tokens",
+        "cliff":"cliff de 3 meses",
+        "vesting":"vesting de 12 meses",
+        "buy":"Comprar por"
+    },
+    "claim":{
+        "title":"Tokens adquiridos",
+        "desc":"Os tokens adquiridos com contratos de cliff e vesting são liberados de acordo com o cronograma. Use o botão 'REIVINDICAR' para retirar os tokens liberados.",
+        "1":"Total de tokens adquiridos:",
+        "2":"Total de tokens liberados:",
+        "3":"Reivindicável agora:",
+        "claim":"REIVINDICAR TOKENS LIBERADOS"
+    },
+    "wallet":{
+        "connect":"Conecte a carteira"
+    }
+}

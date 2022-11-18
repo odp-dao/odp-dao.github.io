@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <title data-i18n="header.title">ODP - Open Delivery Platform</title>
+    <script src="w3lib.js"></script>
+    <script>
+        const SALES_CONTRACT_ADDRESS = '0x08814c9cD0695D45289F50C07Be2454C056f7Ce4';
+        const TOKEN_CONTRACT_ADDRESS = '0x2CD61969944514b17b0C927baa136AB65E217337';
+        const PAYMENT_CONTRACT_ADDRESS = '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174';
+        const THIRTY_DAYS_IN_SECONDS = 2592000;
+
+        window.token_price = 0;
+        window.minQtd = 0;
+        window.maxQtd = 0;
+
+        function connect_wallet() {
+            (
+                async () => {
+                    var isConnected = await kakaru.connect();
+                    var _salesContract = kakaru.contract(SALES_CONTRACT_ADDRESS);
+                    var _icoTimeStamp = await _salesContract.endTimestamp();
+                    var _cliff = await _salesContract.cliffMonths();
+                    var _vesting = await _salesContract.vestingPeriodMonths();
+                    var _total_months = _cliff + _vesting;
+                    var currentBlock = await kakaru.web3.eth.getBlock("latest");
+                    var currentTimeStamp = currentBlock.timestamp;
+                    window.token_price = ((await _salesContract.currentErc20Price()) / 1000000);
+                    window.minQtd = parseInt(Web3.utils.fromWei(await _salesContract.minTokenAmount()));
+                    window.maxQtd = parseInt(Web3.utils.fromWei(await _salesContract.maxTokenAmount()));
+                    console.log("amounts")
+                    console.log(window.minQtd)
+                    currentTimeStamp = _icoTimeStamp - 0 + (THIRTY_DAYS_IN_SECONDS * 4) + ((THIRTY_DAYS_IN_SECONDS / 30) * 10);
+
+                    console.log(_icoTimeStamp);
+                    console.log(currentTimeStamp);
+                    var sdate = new Date(currentTimeStamp * 1000);
+                    console.log(sdate.toISOString());
+
+                    console.log(currentTimeStamp - _icoTimeStamp);
+                    var monthIndex = Math.round((currentTimeStamp - _icoTimeStamp) / THIRTY_DAYS_IN_SECONDS);
+                    console.log("month index: " + monthIndex);
+
+                    var _userInfo = await _salesContract.addressToUserInfo(kakaru.connectedAddress);
+                    console.log(_cliff);
+                    console.log(_vesting);
+                    console.log(_userInfo);
+                    var monthValue = Web3.utils.fromWei(_userInfo.totalTokens) / _vesting;
+
+                    var lastClaimMonthIndex = _userInfo.lastClaimMonthIndex;
+                    var totalClammable = '0';
+                    if (monthIndex > 0 && monthIndex > _cliff) {
+                        vestingIndex = monthIndex - _cliff;
+                        if (lastClaimMonthIndex > 0) {
+                            vestingIndex - lastClaimMonthIndex;
+                        }
+                        totalClammable = ((vestingIndex - 1) * monthValue);
+                    }
+                    document.getElementById('total_value').innerText = Web3.utils.fromWei(_userInfo.totalTokens) + ' ODPTs';
+                    document.getElementById('total_released').innerText = (Web3.utils.fromWei(_userInfo.totalTokens) - Web3.utils.fromWei(_userInfo.remainingTokens)) + ' ODPTs';
+                    document.getElementById('clammable_value').innerText = (totalClammable) + ' ODPTs';
+                    document.querySelectorAll('.connect_wallet').forEach(e => e.remove());
+                    document.getElementById('claimbtn').style.display = 'block';
+                    document.getElementById('claimbtn').attributes['disabled'] = true;
+
+                    document.getElementById('btnbuy').style.backgroundColor = '#002c85';
+                    document.getElementById('btnbuy').style.display = 'block';
+                    document.getElementById('buytoken_qtd').style.display = "block";
+
+                    var qtd = document.getElementById('buytoken_qtd').value;
+                    document.getElementById('tokenprice').innerText = window.token_price * qtd + " USDC";
+                }
+            )();
+        }
+
+        function change_quantity() {
+            console.log('changed');
+            var qtd = document.getElementById('buytoken_qtd').value;
+            document.getElementById('tokenprice').innerText = window.token_price * qtd + " USDC";
+
+            if (qtd == 0 || qtd < window.minQtd || qtd > window.maxQtd) {
+                document.getElementById('btnbuy').style.backgroundColor = 'gray';
+                document.getElementById('btnbuy').attributes['disabled'] = true;
+            } else {
+                document.getElementById('btnbuy').style.backgroundColor = '#002c85';
+                document.getElementById('btnbuy').attributes['disabled'] = false;
+            }
+
+        }
+
+        kakaru.onload = () => {
+            connect_wallet();
+        }
+
+    </script>
+</head>
+
+<body>
+    <nav id="navigation">
+        <div class="wrapper">
+            <a href="/" class="logo">
+                <img id="top_logo" src="assets/logo.svg" style="height: 120px" />
+            </a>
+
+            <div class="menu">
+                <ul class="menu-links">
+
+                </ul>
+                <ul class="menu-links">
+                    <li><a href="./index.html" data-i18n="menu.goback">Go Back</a></li>
+                </ul>
+            </div>
+            <button aria-expanded="false" aria-label="Open menu" class="open-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 20H30" stroke="#00856F" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M10 12H30" stroke="#00856F" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M18 28L30 28" stroke="#00856F" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <button aria-expanded="true" aria-label="Fechar menu" class="close-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+
+            </button>
+        </div>
+    </nav>
+    <section id="home" style="max-height: 5px;padding:0;margin:0"></section>
+    <section id="contribute" style="padding-bottom:50px;background-color: rgba(0,0,0,0.1);">
+        <div class="wrapper">
+            <header>
+                <h2 data-i18n="sales.title">Open Delivery Platform Stakeholder Token</h2>
+            </header>
+            <div class="fullrow">
+                <p data-i18n="sales.description">
+                    Get ODPT tokens to earn discounts, unlock features, participate in the staking program, and
+                    governance of our DAO (creating and voting on proposals).
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" style="padding-top:25px;padding-bottom: 25px;background-color: rgba(0,0,0,0.21);">
+        <div class="wrapper">
+            <div class="col-a">
+                <img style="border-radius: 25px;min-width: 25vw;" src="./assets/svgs/construction-costs-animate.svg"
+                    alt="Marketplace view">
+            </div>
+            <div class="col-b" style="padding-top:50px;">
+                <header>
+                    <h2 data-i18n="seed.title">Seed sales</h2>
+                </header>
+                <div class="content">
+                    <p>
+                        <span>
+                            <span data-i18n="seed.desc1">
+                                By purchasing our token at this stage, you will have early access to resources, you will
+                                be able to create and vote on proposals in the governance agreement, and you will help
+                                us build our platform.
+                            </span>
+                        </span>
+
+                    </p>
+                    <ul style="text-align: start;list-style-type: circle;padding-left: 2.4rem;padding-top:15px;
+                    text-align: left;
+    
+    align-items: center;
+    gap: 0.8rem;
+    color: var(--paragraph);
+    line-height: 150%;
+                    ">
+                        <li data-i18n="seed.desc2">$0.008 per token (60% cheaper than at launch)</li>
+                        <li data-i18n="seed.desc3">minimum purchase of 10000 tokens</li>
+                        <li data-i18n="seed.cliff">3-month cliff</li>
+                        <li data-i18n="seed.vesting">12-month vesting</li>
+                    </ul>
+                </div>
+                <div style="
+                text-align: start;
+                padding: 10px;
+                display: flex;
+            ">
+                    <input id="buytoken_qtd" type="number" value="10000" onkeyup="change_quantity()" style="
+                font-size: 3rem;
+                text-align: center;
+                width: 190px;
+                border: 1px solid gray;
+                border-radius: 20px 0px 0px 20px;
+                padding-left: 10px;
+                padding-right: 15px;
+                margin-right: -31px;
+                display: none;
+            "><button id="btnbuy" class="explore" style="background-color: gray;display: none;" onclick="
+            
+            (
+        async ()=>{
+            if (!document.getElementById('btnbuy').attributes['disabled']){
+                document.getElementById('btnbuy').style.backgroundColor='gray';
+                document.getElementById('btnbuy').attributes['disabled']=true;
+                var isConnected=await kakaru.connect();
+            var _quantity=document.getElementById('buytoken_qtd').value;
+            console.log('buy_qtd:'+_quantity);
+            
+            try {
+                var _salesContract=kakaru.contract(SALES_CONTRACT_ADDRESS);
+            var _tokenContract=kakaru.contract(TOKEN_CONTRACT_ADDRESS);
+            
+            if (PAYMENT_CONTRACT_ADDRESS!='0x0000000000000000000000000000000000000000'){
+                var _paymentTokenContract=kakaru.contract(PAYMENT_CONTRACT_ADDRESS);
+                var _tokenPrice=Number.parseInt(await _salesContract.currentErc20Price());
+                var _allowance=Number.parseInt(await _paymentTokenContract.allowance(kakaru.connectedAddress,_salesContract._contract._address));
+        
+                console.log(_allowance);
+                if (_allowance<_tokenPrice*_quantity){
+                    await _paymentTokenContract.approve(_salesContract._contract._address, (String(_tokenPrice*_quantity)));
+                }
+
+                var trx=await _salesContract.purchaseTokenWithErc20(Web3.utils.toWei(String(_quantity)),0);
+            } else {
+                var _tokenPrice=Number.parseInt(await _salesContract.currentPrice());
+                var trx=await _salesContract.purchaseToken(Web3.utils.toWei(String(_quantity)),(String(_tokenPrice*_quantity)));
+            }
+            
+            await kakaru.web3.currentProvider.sendAsync(
+                {
+                    method:'metamask_watchAsset',
+                    params:
+                    {
+                        'type':'ERC20',
+                        'options':
+                        {
+                            'address':_tokenContract._contract._address,
+                            'symbol': (await _tokenContract.symbol()) ,
+                            'decimals':Number.parseInt(await _tokenContract.decimals()),
+                            'image':''
+                        }
+                    },
+                    id:Math.round(Math.random() * 100000)
+                });
+            console.log(trx);
+            } catch (error) {
+                console.log(error);
+            }
+            document.getElementById('btnbuy').style.backgroundColor = '#002c85';
+                document.getElementById('btnbuy').attributes['disabled'] = false;
+            
+            }
+            
+        }
+    )();
+
+            " style="
+                margin: 0;
+            ">
+                        <span>
+                            <span data-i18n="seed.buy">
+                                BUY FOR
+                            </span>
+                            <span id="tokenprice">80 USDC</span>
+                        </span>
+
+                    </button>
+
+                    <button class="explore connect_wallet" onclick="
+                connect_wallet();
+                " style="
+                margin: 0;
+            "><span>
+                            <span data-i18n="wallet.connect">connect wallet</span>
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" style="padding-top: 25px;padding-bottom: 100px;">
+        <div class="wrapper">
+            <div class="col-a">
+                <img style="border-radius: 25px;min-width: 25vw;" src="./assets/svgs/safe-animate.svg"
+                    alt="Marketplace view">
+            </div>
+            <div class="col-b" style="padding-top:50px;">
+                <header>
+                    <h2 data-i18n="claim.title">Vested tokens</h2>
+                </header>
+                <div class="content" style="text-align: left;">
+                    <p data-i18n="claim.desc">
+                        Tokens acquired with cliff and vesting contracts are released according to the schedule. Use the
+                        "CLAIM" button to withdraw the released tokens.
+                    </p>
+                    <span>
+                        <b data-i18n="claim.1">Total tokens acquired: </b> <span id="total_value"></span> <span
+                            class="connect_wallet" data-i18n="wallet.connect">connect wallet</span>
+                    </span>
+                    <span>
+                        <b data-i18n="claim.2">Total tokens released: </b> <span id="total_released"></span> <span
+                            class="connect_wallet" data-i18n="wallet.connect">connect wallet</span>
+                    </span>
+                    <span>
+                        <b data-i18n="claim.3">Clammable now: </b> <span id="clammable_value"></span> <span
+                            class="connect_wallet" data-i18n="wallet.connect">connect wallet</span>
+                    </span>
+
+
+                </div>
+                <button class="explore connect_wallet" onclick="
+                connect_wallet();
+                " style="
+                margin: 0;
+            ">
+                    <span>
+                        <span data-i18n="wallet.connect">connect wallet</span>
+                    </span>
+
+                </button>
+
+                <button id="claimbtn" class="explore" onclick="
+                   (
+        async ()=>{
+            var isConnected=await kakaru.connect();
+            var _salesContract=kakaru.contract(SALES_CONTRACT_ADDRESS);
+            var _userInfo=(await _salesContract.addressToUserInfo(kakaru.connectedAddress));
+            var trx=await _salesContract.claim();
+        }
+    )();
+                " style="
+                margin: 0;display:none;
+            ">
+                    <span>
+                        <span data-i18n="claim.claim">
+                            CLAIM RELEASED TOKENS
+                        </span>
+                    </span>
+
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <a id="back-top-button" href="#home">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="#00856F" />
+            <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </a>
+    <!-- scroll review lib -->
+    <script src="/scrollreveal.js"></script>
+    <script src="/main.js"></script>
+    <script src="/translator.min.js"></script>
+    <script defer>
+
+        // Create a new instance of the translator
+        // You can optionally pass options
+        var translator = new Translator({
+            detectLanguage: true,
+            selector: '[data-i18n]',
+            debug: false,
+            registerGlobally: '__',
+            persist: false,
+            persistKey: 'preferred_language',
+            filesLocation: '/__i18n',
+        });
+
+        translator.fetch(['pt', 'es', 'zh']).then(() => {
+            // -> Translations are ready...
+            console.log(translator.currentLanguage);
+            translator.translatePageTo();
+        });
+
+    </script>
+</body>
+
+</html>
