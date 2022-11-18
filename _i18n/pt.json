@@ -36,7 +36,7 @@
 		"intro": "A plataforma Open Delivery não possui nem mantém nenhum datacenter, vps e/ou servidores. Em vez disso, cada comerciante que executa o 'App Gerenciador' em sua loja, contribui fornecendo uma infraestrutura descentralizada, que inclui um nó IPFS completo.",
 		"title": "Como funciona?",
 		"using": "usando",
-		"litepaper":"Se você quiser saber mais sobre a tecnologia por trás do nosso sistema, baixe nosso litepaper aqui."
+		"litepaper":"Se você quiser saber mais sobre a tecnologia por trás do nosso sistema, baixe nosso paper aqui."
 	},
 	"main": {
 		"create": "Criar nova loja",

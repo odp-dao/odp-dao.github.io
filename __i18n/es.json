@@ -1,0 +1,38 @@
+{
+	"header": {
+		"title": "Plataforma de entrega abierta"
+	},
+    "menu": {
+		"goback":"Volver a la página de inicio"
+	},
+    "sales":{
+        "title":"Token de parte interesada de la plataforma de entrega abierta",
+        "description":"Obtenga tokens ODPT para obtener descuentos, desbloquear funciones, participar en el programa de staking y gobernar nuestra DAO (al crear y votar propuestas)"
+    },
+    "seed":{
+        "title":"Ventas de semillas",
+        "closing":"cierre de campaña",
+        "desc1":"Al adquirir nuestro token en esta etapa, tendrá acceso temprano a los recursos, podrá crear y votar propuestas en el acuerdo de gobernanza y ayudarnos a construir nuestra plataforma",
+        "desc2":"60% más barato que en el lanzamiento",
+        "desc3":"compra minima de 10000 tokens",
+        "cliff":"cliff de 3 meses",
+        "vesting":"vesting de 12 meses",
+        "buy":"Comprar por"
+    },
+    "claim":{
+        "title":"Tokens adquiridos",
+        "desc":"Los tokens adquiridos con los contratos cliff y vesting se liberan de acuerdo con el cronograma. Use el botón 'RECLAMAR' para retirar los tokens liberados.",
+        "1":"Total de tokens adquiridos:",
+        "2":"Total de tokens liberados:",
+        "3":"Reclamable ahora:",
+        "claim":"RECLAMAR FICHAS LIBERADAS"
+    },
+    "wallet":{
+        "connect":"Conectar billetera"
+    },
+    "thx":{
+        "title":"¡Gracias!",
+        "desc1":"¡Bienvenido a bordo! Agradecemos enormemente su confianza en nuestro proyecto. Como parte interesada en el proyecto, no dude en auditar nuestras finanzas (que son públicas y transparentes), informar errores, sugerir mejoras en el sistema y crear y votar sobre las propuestas en nuestro contrato de gobierno.",
+        "desc2":"Su apoyo es un pilar fundamental para nuestro proyecto. Nuestro más sincero agradecimiento. &nbsp; ;-)"
+    }
+}

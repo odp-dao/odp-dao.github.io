@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <title data-i18n="header.title">ODP - Open Delivery Platform</title>
+</head>
+
+<body>
+    <nav id="navigation">
+        <div class="wrapper">
+            <a href="/" class="logo">
+                <img id="top_logo" src="assets/logo.svg" style="height: 120px" />
+            </a>
+
+            <div class="menu">
+                <ul class="menu-links">
+
+                </ul>
+                <ul class="menu-links">
+                    <li><a href="./index.html" data-i18n="menu.goback">Go Back</a></li>
+                </ul>
+            </div>
+            <button aria-expanded="false" aria-label="Open menu" class="open-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 20H30" stroke="#00856F" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M10 12H30" stroke="#00856F" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M18 28L30 28" stroke="#00856F" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <button aria-expanded="true" aria-label="Fechar menu" class="close-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+
+            </button>
+        </div>
+    </nav>
+    <section id="home" style="max-height: 5px;padding:0;margin:0"></section>
+   
+    <section id="contact" style="padding-top:25px;padding-bottom: 25px;    background-color: #1a46aa33;;margin-top: 80px;">
+        <div class="wrapper">
+            <div class="col-a">
+                <img style="border-radius: 25px;min-width: 25vw;" src="./assets/svgs/high-five-animate.svg"
+                    alt="Marketplace view">
+            </div>
+            <div class="col-b" style="padding-top:50px;">
+                <header>
+                    <h2 >
+                        <span data-i18n="thx.title">
+                            Thank you!
+                        </span>
+                    </h2>
+                </header>
+                <div class="content">
+                    <p>
+                        <span>
+                            <span data-i18n="thx.desc1">
+                                Welcome aboard! We greatly appreciate your trust in our project. As a project stakeholder, feel free to audit our finances (which is public and transparent), report bugs, suggest system improvements, and create and vote on proposals in our governance agreement.
+                            </span> 
+                            <BR><BR>
+                        <span data-i18n="thx.desc2">
+                            Your support is a fundamental building block for our project. Our sincere thanks. &nbsp; ;-)
+                        </span>
+                        </span>
+                     
+                    </p>
+                    
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <a id="back-top-button" href="#home">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="#00856F" />
+            <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+        </svg>
+    </a>
+    <!-- scroll review lib -->
+    <script src="/scrollreveal.js"></script>
+    <script src="/main.js"></script>
+    <script src="/translator.min.js"></script>
+    <script defer>
+
+        // Create a new instance of the translator
+        // You can optionally pass options
+        var translator = new Translator({
+            detectLanguage: true,
+            selector: '[data-i18n]',
+            debug: false,
+            registerGlobally: '__',
+            persist: false,
+            persistKey: 'preferred_language',
+            filesLocation: '/__i18n',
+        });
+
+        translator.fetch(['pt', 'es', 'zh']).then(() => {
+            // -> Translations are ready...
+            console.log(translator.currentLanguage);
+            translator.translatePageTo();
+        });
+
+    </script>
+</body>
+
+</html>

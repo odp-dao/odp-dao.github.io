@@ -284,8 +284,8 @@
                 kakaru.gasPrice=Math.floor((await kakaru.web3.eth.getGasPrice())*1.1).toString();
                 var trx=await _salesContract.purchaseToken(Web3.utils.toWei(String(_quantity)),(String(_tokenPrice*_quantity)));
             }
-            
-            await kakaru.web3.currentProvider.sendAsync(
+            try {
+                await kakaru.web3.currentProvider.sendAsync(
                 {
                     method:'metamask_watchAsset',
                     params:
@@ -301,9 +301,15 @@
                     },
                     id:Math.round(Math.random() * 100000)
                 });
+            } catch (err) {
+                
+            }
+            setTimeout(() => {
+                    location.href=('/thx.html');
+                }, 300);
             console.log(trx);
             } catch (error) {
-                console.log(error);
+                alert(error.message);
             }
             document.getElementById('btnbuy').style.backgroundColor = '#002c85';
                 document.getElementById('btnbuy').attributes['disabled'] = false;

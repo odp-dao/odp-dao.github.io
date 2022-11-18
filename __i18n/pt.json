@@ -29,5 +29,10 @@
     },
     "wallet":{
         "connect":"Conecte a carteira"
+    },
+    "thx":{
+        "title":"Obrigado!",
+        "desc1":"Bem vindo a bordo! Agradecemos imensamente sua confiança em nosso projeto. Como parte interessada do projeto, sinta-se à vontade para auditar nossas finanças (que são públicas e transparentes), relatar bugs, sugerir melhorias no sistema e criar e votar em propostas em nosso contrato de governança.",
+        "desc2":"Seu apoio é um alicerce fundamental para o nosso projeto. Nossos sinceros agradecimentos. &nbsp; ;-)"
     }
 }
