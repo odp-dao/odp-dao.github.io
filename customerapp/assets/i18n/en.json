@@ -1,0 +1,223 @@
+{
+  "catalog": {
+    "no_catalog_available": "no catalog available"
+  },
+  "catalog-content": {
+    "search_here": "Search here"
+  },
+  "catalog-footer": {
+    "go_to_bag": "Go to bag"
+  },
+  "catalog-header": {
+    "delivery": "Delivery",
+    "takeout": "Takeout"
+  },
+  "catalog-item": {
+    "loadingtext": "loading news..."
+  },
+  "catalog-item-detail": {
+    "loadingproduct": "loading product...",
+    "cantload": "Can't load data try again?",
+    "details": "Details",
+    "loadingnews": "loading news...",
+    "comments": "Comments",
+    "comments_placeholder": "Ex: take the onion, mayonnaise aside, etc.",
+    "add": "Add",
+    "remove": "Remove",
+    "update": "Update"
+  },
+  "choose-address": {
+    "addres_delivery": "DELIVERY ADDRESS",
+    "getting_postal_code_info": "Getting postal code info ...",
+    "use_current_location": "Use Current location",
+    "active_location": "Active Location",
+    "loading": "Loading ..."
+  },
+  "choose-address-delivery": {
+    "postalcode": "Zip Code",
+    "address": "Address",
+    "number": "Number",
+    "complement": "Complement",
+    "receive_at_home": "Receive at home"
+  },
+  "choose-merchant": {
+    "choose": "Choose where you go pickup your order:",
+    "confirm": "Confirm pickup location"
+  },
+  "choose-order-type": {
+    "where": "Where you can receive your order?",
+    "takeout": "Takeout",
+    "pickup": "Pick up in store",
+    "table": "Table",
+    "receive_on_table": "Receive on Table",
+    "save_address": "Do you have a saved address?",
+    "login": "Login",
+    "takeoutorder": "Do you want to takeout order ?",
+    "pay_on_delivery": "Pay on Delivery"
+  },
+  "choose-payment": {
+    "add": "Add New Card",
+    "pay_by_app": "Pay By App",
+    "Payment Way": "Payment Way"
+  },
+  "choose-street-number": {
+    "fill_address_number": "Fill in the address number",
+    "search": "Search Number",
+    "withoutnumber": "Address without number"
+  },
+  "coupons": {
+    "coupons": "COUPONS",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "add": "Add",
+    "confirmation_number": "confirmation_number",
+    "no_coupon": "No coupon applied",
+    "validfor": "valid for orders over",
+    "seerules": "See rules",
+    "validuntil": "Valid until",
+    "expired": "The coupon has expired"
+  },
+  "customer-editor": {
+    "confirm_data": "Confirm your Data",
+    "name": "Name",
+    "email": "E-mail",
+    "phone": "Phone",
+    "document": "Document",
+    "confirm": "Confirm Data",
+    "login": "Login"
+  },
+  "delete-or-edit-address": {
+    "home": "Home",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel"
+  },
+  "splash-screen": {
+    "loadingapp": "Loading App",
+    "loadingcart": "Loading cart...",
+    "loadingmerchantgroup": "Load merchant group...",
+    "loadingmerchant": "Load merchant..."
+  },
+  "switch-order-type": {
+    "how": "How do you want to receive the order?",
+    "delivery": "Delivery",
+    "takeout": "Takeout",
+    "confirm": "Confirm"
+  },
+  "cart": {
+    "cart": "Cart",
+    "clear": "Clear",
+    "payment": "Payment",
+    "continuetext": {
+      "Send order": "Send order",
+      "Continue": "Continue",
+      "Define address": "Define address"
+    }
+  },
+  "cart-buy-too": {
+    "buytoo": "Buy too"
+  },
+  "cart-choose-address": {
+    "deliverin": "Deliver in",
+    "takeoutin": "Take out in",
+    "near": "Near",
+    "noaddress": "Choose an address"
+  },
+  "cart-confirmation": {
+    "confirm_delivery": "Confirm Delivery",
+    "delivery": "Delivery",
+    "pickup": "Pick Up",
+    "in": "In",
+    "payment_online": "Payment Online",
+    "payment_on_delivery": "Payment on Delivery",
+    "confirmandsend": "Confirm and send order",
+    "changedata": "Change data",
+    "confirmation_number": "confirmation_number",
+    "coupons": "Coupons",
+    "availables": "coupons available in this store",
+    "forordersover": "for orders over",
+    "applied": "Coupon applied !"
+  },
+  "cart-items": {
+    "more": "Add more items"
+  },
+  "cart-order-type": {
+    "Order for Delivery": "Order for Delivery",
+    "Take Out in Store": "Take Out in Store"
+  },
+  "cart-order-type-delivery-where-to-leave": {
+    "where": "Where to leave the order ?",
+    "types": {
+      "House / Building Gate": "House / Building Gate",
+      "House / Building Concierge": "House / Building Concierge",
+      "Find the Delivery Man": "Find the Delivery Man"
+    }
+  },
+  "cart-payment": {
+    "paymentmachine": "( Machine )",
+    "way": "Choose the Payment Way",
+    "change": "Change"
+  },
+  "cart-send-splash": {
+    "wait": "Please Wait..."
+  },
+  "cart-total-footer": {
+    "total": "Total"
+  },
+  "cart-values": {
+    "summary": "Summary of values",
+    "subtotal": "Subtotal",
+    "deliveryfee": "Delivery Fee",
+    "free": "Free",
+    "discountfee": "Discount Fee",
+    "discount": "Discount",
+    "total": "Total"
+  },
+  "card": {
+    "number": "Card number",
+    "numberisrequired": "Number is required",
+    "validity": "Validity",
+    "validityrequired": "Validity is required",
+    "cvv": "CVV",
+    "cvvisRequired": "CVV is required",
+    "holdername": "holder name",
+    "nameisrequired": "Name is required",
+    "documentnumber": "Document Number",
+    "documentNumberIsRequired": "Document Number is required",
+    "nickname": "Nickname (optional)",
+    "save": "Save"
+  },
+  "address-header": {
+    "choose": "Choose address...",
+    "choosemerchant": "Choose merchant..."
+  },
+  "address-editor": {
+    "number": "Number",
+    "complement": "Complement",
+    "subcompl": "Apt / Block / House",
+    "refpoint": "Reference point",
+    "favouriteas": "Favorite as",
+    "home": "Home",
+    "work": "Work",
+    "save": "Save Address",
+    "streetname":"Street name",
+    "neighborhood":"Neighborhood"
+  },
+  "cart-choose-time": {
+    "today": "Today",
+    "schedule": "Scheduled",
+    "imediate": "Imediate",
+    "free": "Free"
+  },
+  "customereditor": {
+    "fill": "Fill the field ",
+    "langret": {
+      "name": "name",
+      "email": "email",
+      "phone": "phone",
+      "document": "document"
+    }
+  },
+  "Choose address": "'cart-choose-address.noaddress'",
+  "Choose Address": "'cart-choose-address.noaddress'"
+}

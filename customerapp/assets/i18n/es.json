@@ -1,0 +1,221 @@
+{
+  "catalog": {
+    "no_catalog_available": "no hay catálogo disponible"
+  },
+  "catalog-content": {
+    "search_here": "Busca aquí"
+  },
+  "catalog-footer": {
+    "go_to_bag": "Ir al carrito"
+  },
+  "catalog-header": {
+    "delivery": "Entrega",
+    "takeout": "Para llevar"
+  },
+  "catalog-item": {
+    "loadingtext": "cargando novedades..."
+  },
+  "catalog-item-detail": {
+    "loadingproduct": "cargando producto...",
+    "cantload": "No se pueden cargar datos. ¿intentar otra vez?",
+    "details": "Detalles",
+    "loadingnews": "cargando novedades...",
+    "comments": "Comentarios",
+    "comments_placeholder": "Ej: apartar la cebolla, mayonesa, etc.",
+    "add": "Añadir",
+    "remove": "Remover",
+    "update": "Actualizar"
+  },
+  "choose-address": {
+    "addres_delivery": "DIRECCIÓN de ENTREGA",
+    "getting_postal_code_info": "Obtener información del código postal ...",
+    "use_current_location": "Usar ubicación actual",
+    "active_location": "Ubicación activa",
+    "loading": "Cargando ..."
+  },
+  "choose-address-delivery": {
+    "postalcode": "Código postal",
+    "address": "Dirección",
+    "number": "Número",
+    "complement": "Complemento",
+    "receive_at_home": "Recibir en casa"
+  },
+  "choose-merchant": {
+    "choose": "Elige dónde vas a recoger tu pedido:",
+    "confirm": "Confirmar lugar de recogida"
+  },
+  "choose-order-type": {
+    "where": "¿Dónde puedes recibir tu pedido?",
+    "takeout": "Para llevar",
+    "pickup": "Recoger en tienda",
+    "table": "Mesa",
+    "receive_on_table": "Recibir en la mesa",
+    "save_address": "¿Tienes una dirección guardada?",
+    "login": "Acceso",
+    "takeoutorder": "¿Quieres hacer un pedido para llevar?",
+    "pay_on_delivery": "Pagar cuando reciba"
+  },
+  "choose-payment": {
+    "add": "Agregar nueva tarjeta",
+    "pay_by_app": "Pagar por App",
+    "Payment Way": "Forma de pago"
+  },
+  "choose-street-number": {
+    "fill_address_number": "Complete el número de dirección",
+    "search": "Búsqueda de número",
+    "withoutnumber": "Dirección sin número"
+  },
+  "coupons": {
+    "coupons": "CUPONES",
+    "available": "Disponible",
+    "unavailable": "Indisponible",
+    "add": "Añadir",
+    "confirmation_number": "confirmation_number",
+    "no_coupon": "No se aplicó ningún cupón",
+    "validfor": "Válido para pedidos superiores a",
+    "seerules": "ver reglas",
+    "validuntil": "Válido hasta",
+    "expired": "El cupón ha caducado"
+  },
+  "customer-editor": {
+    "confirm_data": "Confirma tus datos",
+    "name": "Nombre",
+    "email": "E-mail",
+    "phone": "Teléfono",
+    "document": "Documento",
+    "confirm": "Confirmar datos",
+    "login": "Acceso"
+  },
+  "delete-or-edit-address": {
+    "home": "Casa",
+    "delete": "Borrar",
+    "edit": "Editar",
+    "cancel": "Cancelar"
+  },
+  "splash-screen": {
+    "loadingapp": "Cargando aplicación",
+    "loadingcart": "Cargando el carrito...",
+    "loadingmerchantgroup": "Cargar marca...",
+    "loadingmerchant": "Cargar tienda..."
+  },
+  "switch-order-type": {
+    "how": "¿Cómo quieres recibir el pedido?",
+    "delivery": "Entrega",
+    "takeout": "Para llevar",
+    "confirm": "Confirm"
+  },
+  "cart": {
+    "cart": "Carrito",
+    "clear": "Limpiar",
+    "payment": "Pagado",
+    "continuetext": {
+      "Send order": "Enviar orden",
+      "Continue": "Continuar",
+      "Define address": "Definir dirección"
+    }
+  },
+  "cart-buy-too": {
+    "buytoo": "Compra también"
+  },
+  "cart-choose-address": {
+    "deliverin": "Entregar en",
+    "takeoutin": "Sacar en",
+    "near": "Cerca",
+    "noaddress": "Elige una dirección"
+  },
+  "cart-confirmation": {
+    "confirm_delivery": "Confirmar entrega",
+    "delivery": "Entrega",
+    "pickup": "Recoger",
+    "in": "En",
+    "payment_online": "Pago en línea",
+    "payment_on_delivery": "Pago a la entrega",
+    "confirmandsend": "Confirmar y enviar pedido",
+    "changedata": "Cambiar datos",
+    "confirmation_number": "confirmation_number",
+    "coupons": "Cupones",
+    "availables": "cupones disponibles en esta tienda",
+    "forordersover": "para pedidos superiores a",
+    "applied": "¡Cupón aplicado!"
+  },
+  "cart-items": {
+    "more": "Añadir más elementos"
+  },
+  "cart-order-type": {
+    "Order for Delivery": "Orden de entrega",
+    "Take Out in Store": "Para llevar"
+  },
+  "cart-order-type-delivery-where-to-leave": {
+    "where": "¿Dónde dejar el pedido?",
+    "types": {
+      "House / Building Gate": "Casa / Puerta del edificio",
+      "House / Building Concierge": "Conserje de Casa / Edificio",
+      "Find the Delivery Man": "Encontrar al repartidor"
+    }
+  },
+  "cart-payment": {
+    "paymentmachine": "( Máquina )",
+    "way": "Elija la forma de pago",
+    "change": "Cambiar"
+  },
+  "cart-send-splash": {
+    "wait": "Espere por favor..."
+  },
+  "cart-total-footer": {
+    "total": "Total"
+  },
+  "cart-values": {
+    "summary": "Resumen de valores",
+    "subtotal": "Total parcial",
+    "deliveryfee": "Gastos de envío",
+    "free": "Gratis",
+    "discountfee": "Tarifa de descuento",
+    "discount": "Descuento",
+    "total": "Total"
+  },
+  "card": {
+    "number": "Número de tarjeta",
+    "numberisrequired": "El número es requerido",
+    "validity": "Validad",
+    "validityrequired": "Validad es requerido",
+    "cvv": "CVV",
+    "cvvisRequired": "CVV es requerido",
+    "holdername": "Nombre del titular",
+    "nameisrequired": "Se requiere el nombre",
+    "documentnumber": "Número del Documento",
+    "documentNumberIsRequired": "Se requiere número de documento",
+    "nickname": "Apodo (opcional)",
+    "save": "Guardar"
+  },
+  "address-header": {
+    "choose": "Elige la dirección...",
+    "choosemerchant": "Elegir tienda..."
+  },
+  "address-editor": {
+    "number": "Número",
+    "complement": "Complemento",
+    "subcompl": "Apto / Bloque / Casa",
+    "refpoint": "Punto de referencia",
+    "favouriteas": "Favorito como",
+    "home": "Casa",
+    "work": "Trabajo",
+    "save": "Guardar dirección",
+    "streetname":"nombre de calle",
+    "neighborhood":"distrito"
+  },
+  "cart-choose-time": {
+    "today": "Hoje",
+    "schedule": "Programado",
+    "imediate": "Inmediato",
+    "free": "Gratis"
+  },
+  "customereditor": {
+    "fill": "Llenar el campo ",
+    "langret": {
+      "name": "nombre",
+      "email": "email",
+      "phone": "teléfono",
+      "document": "documento"
+    }
+  }
+}

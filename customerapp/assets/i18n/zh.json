@@ -1,0 +1,213 @@
+{
+  "catalog": {
+    "no_catalog_available": "没有可用的目录"
+  },
+  "catalog-content": {
+    "search_here": "在这里搜索"
+  },
+  "catalog-footer": {
+    "go_to_bag": "去购物车"
+  },
+  "catalog-header": {
+    "delivery": "交货",
+    "takeout": "外卖"
+  },
+  "catalog-item": {
+    "loadingtext": "正在加载..."
+  },
+  "catalog-item-detail": {
+    "loadingproduct": "正在加载产品...",
+    "cantload": "无法加载数据。再试一次？",
+    "details": "详情",
+    "loadingnews": "正在加载...",
+    "comments": "评论",
+    "comments_placeholder": "例如：把洋葱、蛋黄酱等放在一边。",
+    "add": "添加",
+    "remove": "消除",
+    "update": "更新"
+  },
+  "choose-address": {
+    "addres_delivery": "送货地址",
+    "getting_postal_code_info": "正在获取邮政编码信息...",
+    "use_current_location": "使用当前位置",
+    "active_location": "活动位置",
+    "loading": "正在加载..."
+  },
+  "choose-address-delivery": {
+    "postalcode": "邮政编码",
+    "address": "地址",
+    "number": "数字",
+    "complement": "补语",
+    "receive_at_home": "在家接收"
+  },
+  "choose-merchant": {
+    "choose": "选择您去哪里取货：",
+    "confirm": "确认取货地点"
+  },
+  "choose-order-type": {
+    "where": "您可以在哪里收到您的订单？",
+    "takeout": "取出",
+    "pickup": "到店取货",
+    "table": "桌子",
+    "receive_on_table": "在桌子上接收",
+    "save_address": "你有保存的地址吗？",
+    "login": "登录",
+    "takeoutorder": "你要外卖吗？",
+    "pay_on_delivery": "货到付款"
+  },
+  "choose-payment": {
+    "add": "添加新卡",
+    "pay_by_app": "应用支付",
+    "Payment Way": "付款方式"
+  },
+  "choose-street-number": {
+    "fill_address_number": "填写地址号码",
+    "search": "号码搜索",
+    "withoutnumber": "无号码的地址"
+  },
+  "coupons": {
+    "coupons": "优惠券",
+    "available": "可用",
+    "unavailable": "不可用",
+    "add": "添加",
+    "confirmation_number": "confirmation_number",
+    "no_coupon": "没有使用优惠券",
+    "validfor": "对超过订单有效",
+    "seerules": "查看规则",
+    "validuntil": "有效期至",
+    "expired": "优惠券已过期"
+  },
+  "customer-editor": {
+    "confirm_data": "确认您的数据",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "手机",
+    "document": "身份证明文件",
+    "confirm": "确认数据",
+    "login": "登录"
+  },
+  "delete-or-edit-address": {
+    "home": "主页",
+    "delete": "删除",
+    "edit": "编辑",
+    "cancel": "取消"
+  },
+  "splash-screen": {
+    "loadingapp": "加载应用",
+    "loadingcart": "正在加载购物车...",
+    "loadingmerchantgroup": "加载品牌...",
+    "loadingmerchant": "正在加载商店..."
+  },
+  "switch-order-type": {
+    "how": "您希望如何接收订单？",
+    "delivery": "交货",
+    "takeout": "外卖",
+    "confirm": "确认"
+  },
+  "cart": {
+    "cart": "购物车",
+    "clear": "清除",
+    "payment": "付款",
+    "continuetext": {
+      "Send order": "发送订单",
+      "Continue": "继续",
+      "Define address": "定义地址"
+    }
+  },
+  "cart-buy-too": {
+    "buytoo": "也买"
+  },
+  "cart-choose-address": {
+    "deliverin": "送货上门",
+    "takeoutin": "外卖",
+    "near": "靠近",
+    "noaddress": "选择一个地址"
+  },
+  "cart-confirmation": {
+    "confirm_delivery": "确认交货",
+    "delivery": "送货上门",
+    "pickup": "捡起",
+    "in": "里面",
+    "payment_online": "在线支付",
+    "payment_on_delivery": "货到付款",
+    "confirmandsend": "确认并发送订单",
+    "changedata": "更改数据",
+    "confirmation_number": "confirmation_number",
+    "coupons": "优惠券",
+    "availables": "这家商店可用的优惠券",
+    "forordersover": "对于超过...的订单",
+    "applied": "优惠券已申请！"
+  },
+  "cart-items": {
+    "more": "添加更多项目"
+  },
+  "cart-order-type-delivery-where-to-leave": {
+    "where": "在哪里留下订单？"
+  },
+  "cart-payment": {
+    "paymentmachine": "（ 机器 ）",
+    "way": "选择支付方式",
+    "change": "改变"
+  },
+  "cart-send-splash": {
+    "wait": "请稍等..."
+  },
+  "cart-total-footer": {
+    "total": "总数"
+  },
+  "cart-values": {
+    "summary": "价值观摘要",
+    "subtotal": "小计",
+    "deliveryfee": "派送费",
+    "free": "免费",
+    "discountfee": "折扣费",
+    "discount": "折扣",
+    "total": "总数"
+  },
+  "card": {
+    "number": "卡号",
+    "numberisrequired": "编号为必填项",
+    "validity": "有效性",
+    "validityrequired": "需要有效期",
+    "cvv": "CVV",
+    "cvvisRequired": "CVV 是必需的",
+    "holdername": "持有人名称",
+    "nameisrequired": "姓名为必填项",
+    "documentnumber": "身份证件编号",
+    "documentNumberIsRequired": "必须提供文件编号",
+    "nickname": "昵称（可选）",
+    "save": "保存"
+  },
+  "address-header": {
+    "choose": "选择地址...",
+    "choosemerchant": "选择店铺..."
+  },
+  "address-editor": {
+    "number": "数字",
+    "complement": "补语",
+    "subcompl": "公寓 / 街区 / 房子",
+    "refpoint": "参照点",
+    "favouriteas": "收藏为",
+    "home": "主页",
+    "work": "工作场所",
+    "save": "保存地址",
+    "streetname":"街名",
+    "neighborhood":"区"
+  },
+  "cart-choose-time": {
+    "today": "今天",
+    "schedule": "预定的",
+    "imediate": "立即",
+    "free": "免费"
+  },
+  "customereditor": {
+    "fill": "填写字段 ",
+    "langret": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "phone": "手机",
+      "document": "身份证明文件"
+
+    }
+  }
+}
