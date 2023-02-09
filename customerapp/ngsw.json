@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1675897431075,
+  "timestamp": 1675948730341,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.625029650eecedeb.js",
+        "/main.js",
         "/manifest.webmanifest",
-        "/polyfills.6330e3e768ce5fce.js",
-        "/runtime.3d560275fce99ad4.js",
-        "/styles.c8164277184f1f09.css"
+        "/polyfills.js",
+        "/runtime.js",
+        "/styles.css"
       ],
       "patterns": []
     },
@@ -91,7 +91,7 @@
         "/assets/imgs/regular/List.svg",
         "/assets/imgs/regular/Meal.svg",
         "/assets/imgs/sushi.png",
-        "/maps.15edfdbc066cd541.png"
+        "/maps.png"
       ],
       "patterns": []
     }
@@ -161,13 +161,13 @@
     "/assets/imgs/regular/Meal.svg": "c6f48c485d27210b77a0ff88032a47d77668ed59",
     "/assets/imgs/sushi.png": "da548ce5d238b35be8128975e706afdc3bd7d9bd",
     "/favicon.ico": "3e27214a5dd7ac94e32e81ea6a92d73df83ad9b4",
-    "/index.html": "018e624499ef0dc9f8ccb94699bb669cdbb175a7",
-    "/main.625029650eecedeb.js": "9c866d57cd917555c7460a84797ff43b853e16d4",
+    "/index.html": "cfb3582780911fef3c33d82a9f89edef938e8d87",
+    "/main.js": "6819817b6f5ef79fee57776d65d116a2d7d32046",
     "/manifest.webmanifest": "642e32ba85e8f1f36cac303e3e4d9f6930198afe",
-    "/maps.15edfdbc066cd541.png": "d671949464e966ddd082678d428cd22188442a8e",
-    "/polyfills.6330e3e768ce5fce.js": "c038bb3d5a0adafe645c604efd81ffc98491c547",
-    "/runtime.3d560275fce99ad4.js": "787fd1d20a470bae62117854304b4d76a9f17401",
-    "/styles.c8164277184f1f09.css": "572124680bbd185604c303e8aa267ead3d47c42e"
+    "/maps.png": "d671949464e966ddd082678d428cd22188442a8e",
+    "/polyfills.js": "c038bb3d5a0adafe645c604efd81ffc98491c547",
+    "/runtime.js": "787fd1d20a470bae62117854304b4d76a9f17401",
+    "/styles.css": "572124680bbd185604c303e8aa267ead3d47c42e"
   },
   "navigationUrls": [
     {
