@@ -39,16 +39,16 @@
     "delete": "Eliminar elemento",
     "dlg": {
       "msg": "¿Quieres eliminar el artículo?",
-      "title": "atención"
+      "title": "Atención"
     },
     "duplicate": "Artículo duplicado",
     "edit": "Editar elemento",
     "editbtn": "Editar",
-    "mandatory": "obligatorio",
+    "mandatory": "Obligatorio",
     "max": "Max:",
     "min": "Min:",
     "optional": "Opcional",
-    "pause": "pausa",
+    "pause": "Pausa",
     "paused": "En pausa"
   },
   "ccategory": {
@@ -58,12 +58,14 @@
     "delete": "Borrar",
     "dlg": {
       "msg": "¿Quieres eliminar la categoría?",
-      "title": "atención"
+      "title": "Atención"
     },
     "duplicate": "Duplicar",
     "edit": "Editar",
-    "pause": "pausa",
-    "paused": "En pausa"
+    "pause": "Pausa",
+    "paused": "En pausa",
+    "catalogchanged": "Vaya a 'Publicar' para publicar su solicitud de pedido de cliente.",
+    "catalogchangedaction": "Cerca"
   },
   "chooseMerchant": {
     "create": "Crear nueva tienda",
@@ -84,10 +86,10 @@
     "howTo2": "Se puede acceder a cada una de estas funciones a través del menú lateral en la esquina izquierda.",
     "howToSteps": "Comience en 3 pasos:",
     "howToUseTitle": "Cómo usar esta aplicación",
-    "step1end": "en el menú lateral y registra tu catálogo de productos con imágenes, precios y opciones.",
-    "step2end": "para publicar su solicitud de pedido de cliente. Elija 'generar y publicar'.",
+    "step1end": "En el menú lateral y registra tu catálogo de productos con imágenes, precios y opciones.",
+    "step2end": "Para publicar su solicitud de pedido de cliente. Elija 'generar y publicar'.",
     "step3": "Comparta su enlace de la aplicación de pedidos de clientes recién generado con sus clientes, apunte su dominio hacia él y reciba sus pedidos en el",
-    "step3end": "opción en el menú lateral.",
+    "step3end": "Opción en el menú lateral.",
     "thentogo": "Luego ve a",
     "title": "Bienvenido a la plataforma Open Delivery",
     "warningMsg": "Este software aún está en desarrollo, puede tener fallas o errores, puede tener características incompletas y puede estar sujeto\n            al cambio material.\n            Por favor, utilícelo bajo su propio riesgo.",
@@ -99,13 +101,13 @@
     "chooseImage": "Elegir imagen",
     "description": "Descripción",
     "descriptionImg": "Aparece en el listado y en el detalle del plato.",
-    "descriptionPlaceholder": "verduras, ensalada y un carbohidrato de tu elección",
+    "descriptionPlaceholder": "Verduras, ensalada y un carbohidrato de tu elección",
     "format": "Formato:",
-    "itemImage": "imagen del artículo",
-    "mandatory": "obligatorio",
+    "itemImage": "Imagen del artículo",
+    "mandatory": "Obligatorio",
     "maxWeight": "Peso máximo:",
     "minResolution": "Resolución mínima:",
-    "name": "nombre del producto",
+    "name": "Nombre del producto",
     "posCode": "Código de punto de venta"
   },
   "itemEditor": {
@@ -130,7 +132,7 @@
     "applyDiscount": "Aplicar descuento",
     "currentPrice": "Precio actual",
     "discountPercent": "Descuento en %",
-    "mandatory": "obligatorio",
+    "mandatory": "Obligatorio",
     "newPrice": "Nuevo precio",
     "price": "Precio",
     "removeDiscount": "Eliminar Descuento"
@@ -152,7 +154,14 @@
       "Orders Endpoints": "Puntos finales de pedidos",
       "Drivers Endpoints": "Puntos finales de los repartidores",
       "Payment Methods": "Métodos de pago"
-    }
+    },
+    "name": "Nombre",
+    "adapter": "Adaptador",
+    "endpointuri": "URI de punto final",
+    "clientid": "Identificación del cliente",
+    "clientsecret": "Secreto del cliente",
+    "sourcename": "Nombre de la fuente",
+    "savesettings": "Guardar ajustes"
   },
   "optionEditor": {
     "activate": "Activar",
@@ -162,10 +171,10 @@
     "descriptionPlaceholder": "Descripción",
     "dlg": {
       "msg": "¿Quieres eliminar la categoría?",
-      "title": "atención"
+      "title": "Atención"
     },
-    "mandatory": "obligatorio",
-    "pause": "pausa",
+    "mandatory": "Obligatorio",
+    "pause": "Pausa",
     "paused": "En pausa",
     "placeholder": "$ 0,00",
     "poscode": "Código de punto de venta",
@@ -176,19 +185,19 @@
     "deleteComplement": "Eliminar complemento",
     "duplicateComplement": "Complemento duplicado",
     "edit": "Editar",
-    "mandatoryu": "obligatorio",
+    "mandatory": "Obligatorio",
     "option": "Opción",
     "optional": "Opcional",
     "options": "Opciones"
   },
   "optionGroupProductEditor": {
-    "aMandatory": "obligatorio",
+    "aMandatory": "Obligatorio",
     "addaddon": "Agregar complemento",
     "cancel": "Cancelar",
     "complementsHeading": "Artículos producidos por su tienda, como loncheras, pasteles y refrigerios.",
     "indicate": "Indique si esta categoría es necesaria para pedir el plato",
     "indicateHowMany": "Indique cuántos elementos se pueden seleccionar",
-    "mandatory": "obligatorio",
+    "mandatory": "Obligatorio",
     "maximum": "Máximo",
     "minimum": "Mínimo",
     "name": "Nombre del grupo de complementos",
@@ -214,7 +223,11 @@
     "prderSubtitle": "Orden",
     "takeoutmsg": "El Cliente recogerá en la tienda. No es necesario enviar este pedido.",
     "total": "Valor total del pedido",
-    "zipcode": "código postal"
+    "zipcode": "Código Postal",
+    "payments":{
+      "createdAt": "Hecho "
+    } 
+    
   },
   "orderStatus": {
     "buttonAccept": "Aceptar",
@@ -230,7 +243,7 @@
     },
     "instructionLabels": {
       "Confirm order": "Confirmar pedido",
-      "Deliver until": "entregar hasta"
+      "Deliver until": "Entregar hasta"
     },
     "takeaway": "Para llevar",
     "todeliver": "Para entregar"
@@ -239,28 +252,28 @@
     "filters": "Filtros",
     "filtersValues": {
       "On Delivery": "En la entrega",
-      "Pending": "pendiente"
+      "Pending": "Pendiente"
     },
     "now": "Ahora",
     "scheduled": "Programado",
     "search": "Búsqueda de pedidos",
     "statusTextValues": {
-      "Canceled": "cancelado",
+      "Canceled": "Cancelado",
       "Concluded": "Concluido",
       "Dispatched": "Enviado",
       "In Preparation": "En la preparación de",
       "Order with ocurrences": "Orden con ocurrencias",
-      "Pending": "pendiente",
+      "Pending": "Pendiente",
       "Ready To Pickup": "Listo para recoger"
     },
     "empty": "Aún no has recibido ningún pedido."
   },
   "pageCategory": {
-    "add": "añadir categoría",
+    "add": "Añadir categoría",
     "addItem": "Añadir artículo",
-    "allcategories": "todas las categorias",
-    "categories": "categorías",
-    "integration": "integración",
+    "allcategories": "Todas las categorias",
+    "categories": "Categorías",
+    "integration": "Integración",
     "reorder": "Reordenar"
   },
   "pizzaSizeEditor": {
@@ -270,10 +283,10 @@
     "indicate": "Indique aquí de qué tamaños se producen sus pizzas, cuántas piezas se cortan e incluso cuántos sabores ensambla su restaurante de cada tamaño:",
     "name": "Nombre",
     "newsize": "Nuevo tamaño",
-    "pause": "pausa",
+    "pause": "Pausa",
     "paused": "En pausa",
     "pieces": "Piezas",
-    "qtyFlavors": "Cant. sabores",
+    "qtyFlavors": "Cant. Sabores",
     "qtyPieces": "Cant. Piezas",
     "salesum": "Resumen y estado de la venta",
     "sizes": "Tamaños"
@@ -281,7 +294,7 @@
   "publish": {
     "alreadyupdated": "Su token NFT ya está actualizado",
     "appname": "Nombre de la aplicación",
-    "available": "nombre disponible",
+    "available": "Nombre disponible",
     "chooseIpfsGateway": "Elija una puerta de enlace Ipfs",
     "customgatewayendpoint": "Punto final de IPFS HTTP Gateway Api:",
     "genbefore": "Genere la 'Aplicación de pedidos de clientes ODP' antes de continuar",
@@ -329,7 +342,7 @@
       }
     },
     "notfound": "Extraviado",
-    "pleaseconnect": "conecte Metamask a PolygonNetwork.",
+    "pleaseconnect": "Conecte Metamask a PolygonNetwork.",
     "posthashdata": "Publicar nuevos datos hash en OrbitDB HashData Channel",
     "pubipns": "Publicar el nuevo CID de la aplicación ODP-Customer Order en IPNS (dirección fija)",
     "publicStoreName": "Nombre de la tienda pública:",
@@ -345,7 +358,7 @@
     "show less options": "Mostrar menos opciones",
     "show more options": "Mostrar más opciones",
     "title": "Publicar la aplicación de pedido",
-    "updateIcon": "actualización de icono",
+    "updateIcon": "Actualización de icono",
     "updatenft": "Actualizar NFT",
     "wrongnet": "Red incorrecta. Por favor,",
     "nftmsg1": "Adquiera un nombre y una dirección pública",
@@ -370,7 +383,16 @@
     "street": "Dirección",
     "title": "Registremos tu tienda",
     "whatsapp": "Número de Whatsapp",
-    "basecurrency": "Moneda base"
+    "basecurrency": "Moneda base",
+    "postalCode": "Código Postal",
+    "neighborhood": "Vecindario",
+    "reference": "Referencia",
+    "city": "Ciudad",
+    "complement": "Complementar",
+    "country": "País",
+    "state": "Estado",
+    "streetName": "Nombre de la calle",
+    "streetNumber": "Número de calle"
   },
   "wizardNewMerchantGroup": {
     "appname": "Nombre de la aplicación",
@@ -382,5 +404,13 @@
   },
   "set-payment-method": {
     "title": "Métodos de pago"
+  },
+  "setpaymentmethod": {
+    "displayname": "Nombre para mostrar",
+    "currency": "Divisa",
+    "method": "Método",
+    "acceptbrands": "Marcas Aceptadas",
+    "type": "Escribe",
+    "gateway": "Puerta"
   }
 }

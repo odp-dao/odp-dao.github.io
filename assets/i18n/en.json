@@ -63,7 +63,9 @@
     "duplicate": "Duplicate",
     "edit": "Edit",
     "pause": "Pause",
-    "paused": "Paused"
+    "paused": "Paused",
+    "catalogchanged": "Go to 'Publish' to publish your customer order application.",
+    "catalogchangedaction": "Close"
   },
   "chooseMerchant": {
     "create": "Create new store",
@@ -130,7 +132,7 @@
     "applyDiscount": "Apply Discount",
     "currentPrice": "Current price",
     "discountPercent": "Discount in %",
-    "mandatory": "mandatory",
+    "mandatory": "Mandatory",
     "newPrice": "New Price",
     "price": "Price",
     "removeDiscount": "Remove discount"
@@ -152,7 +154,14 @@
       "Orders Endpoints": "Orders Endpoints",
       "Drivers Endpoints": "Drivers Endpoints",
       "Payment Methods": "Payment Methods"
-    }
+    },
+    "name": "Name",
+    "adapter": "Adapter",
+    "endpointuri": "Endpoint URI",
+    "clientid": "Client Id",
+    "clientsecret": "Client Secret",
+    "sourcename": "Source name",
+    "savesettings": "Save Settings"
   },
   "optionEditor": {
     "activate": "Activate",
@@ -164,7 +173,7 @@
       "msg": "Do you want to delete the category \"",
       "title": "Atention"
     },
-    "mandatory": "mandatory",
+    "mandatory": "Mandatory",
     "pause": "Pause",
     "paused": "Paused",
     "placeholder": "$ 0,00",
@@ -176,10 +185,10 @@
     "deleteComplement": "Delete complement",
     "duplicateComplement": "Duplicate complement",
     "edit": "Edit",
-    "mandatoryu": "MANDATORY",
-    "option": "option",
+    "mandatory": "MANDATORY",
+    "option": "Option",
     "optional": "OPTIONAL",
-    "options": "options"
+    "options": "Options"
   },
   "optionGroupProductEditor": {
     "aMandatory": "Mandatory",
@@ -188,7 +197,7 @@
     "complementsHeading": "Items produced by your store, such as lunchboxes, cakes and snacks.",
     "indicate": "Indicate whether this category is required to order the dish",
     "indicateHowMany": "Indicate how many items can be selected",
-    "mandatory": "mandatory",
+    "mandatory": "Mandatory",
     "maximum": "Maximum",
     "minimum": "Minimum",
     "name": "Complement group name",
@@ -214,7 +223,10 @@
     "prderSubtitle": "Order",
     "takeoutmsg": "The Customer will pick up at the store. It is not necessary to send this order.",
     "total": "Total order value",
-    "zipcode": "Zip code"
+    "zipcode": "Zip code",
+    "payments":{
+      "createdAt": "Done at "
+    } 
   },
   "orderStatus": {
     "buttonAccept": "Accept",
@@ -222,11 +234,11 @@
     "customerArrived": "The customer arrived, and is waiting in :",
     "customerRequestCancellation": "Customer request cancellation !",
     "driverStatus": {
-      "accepted the request": "accepted the request",
-      "arrived at destination ": "arrived at destination",
-      "arrived at store": "arrived at store",
-      "collected order": "collected order",
-      "going to store": "going to store"
+      "accepted the request": "Accepted the request",
+      "arrived at destination ": "Arrived at destination",
+      "arrived at store": "Arrived at store",
+      "collected order": "Collected order",
+      "going to store": "Going to store"
     },
     "instructionLabels": {
       "Confirm order": "Confirm order",
@@ -294,8 +306,8 @@
     "mintorupdatenft": "Mint or Update your NFT",
     "nft": {
       "storename": "ODP STORE NAME:",
-      "unavailable": "name unavailable",
-      "youowner": "you are the owner",
+      "unavailable": "Name unavailable",
+      "youowner": "You are the owner",
       "description": "DESCRIPTION:",
       "category": "CATEGORY:",
       "subcategory": "SUBCATEGORY:",
@@ -329,7 +341,7 @@
       }
     },
     "notfound": "Not found",
-    "pleaseconnect": "connect Metamask to PolygonNetwork.",
+    "pleaseconnect": "Connect Metamask to PolygonNetwork.",
     "posthashdata": "Post new hashdata to OrbitDB HashData Channel",
     "pubipns": "Publish ODP-Customer Order App new CID to IPNS (fixed address)",
     "publicStoreName": "Public Store Name:",
@@ -342,10 +354,10 @@
     },
     "seeonopensea": "This store already has an owner. Please choose another name, or trade this store on OpenSea.io",
     "shortname": "Short Name",
-    "show less options": "show less options",
-    "show more options": "show more options",
+    "show less options": "Show less options",
+    "show more options": "Show more options",
     "title": "Publish the Order App",
-    "updateIcon": "icon update",
+    "updateIcon": "Icon update",
     "updatenft": "Update NFT",
     "wrongnet": "Wrong network. Please, ",
     "nftmsg1": "Acquire a name and public address",
@@ -370,7 +382,16 @@
     "street": "Street address",
     "title": "Let's register your store",
     "whatsapp": "Whatsapp Number",
-    "basecurrency": "Base Currency"
+    "basecurrency": "Base Currency",
+    "postalCode": "Postal Code",
+    "neighborhood": "Neighborhood",
+    "reference": "Reference",
+    "city": "City",
+    "complement": "Complement",
+    "country": "Country",
+    "state": "State",
+    "streetName": "Street Name",
+    "streetNumber": "Street Number"
   },
   "wizardNewMerchantGroup": {
     "appname": "App Name",
@@ -382,5 +403,13 @@
   },
   "set-payment-method": {
     "title": "Payment Methods"
+  },
+  "setpaymentmethod": {
+    "displayname": "Display name",
+    "currency": "Currency",
+    "method": "Method",
+    "acceptbrands": "Accepted Brands",
+    "type": "Type",
+    "gateway": "Gateway"
   }
 }

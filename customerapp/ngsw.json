@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1675949682700,
+  "timestamp": 1675960266981,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -162,8 +162,8 @@
     "/assets/imgs/sushi.png": "da548ce5d238b35be8128975e706afdc3bd7d9bd",
     "/favicon.ico": "3e27214a5dd7ac94e32e81ea6a92d73df83ad9b4",
     "/index.html": "cfb3582780911fef3c33d82a9f89edef938e8d87",
-    "/main.js": "6819817b6f5ef79fee57776d65d116a2d7d32046",
-    "/manifest.webmanifest": "642e32ba85e8f1f36cac303e3e4d9f6930198afe",
+    "/main.js": "70693f805eb19aad6deb2145f86977681d16aa4b",
+    "/manifest.webmanifest": "335440ea27046c6ae2af8d9ae089f06ad2a325b2",
     "/maps.png": "d671949464e966ddd082678d428cd22188442a8e",
     "/polyfills.js": "c038bb3d5a0adafe645c604efd81ffc98491c547",
     "/runtime.js": "787fd1d20a470bae62117854304b4d76a9f17401",

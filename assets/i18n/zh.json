@@ -63,7 +63,9 @@
     "duplicate": "重复",
     "edit": "编辑",
     "pause": "暂停",
-    "paused": "已暂停"
+    "paused": "已暂停",
+    "catalogchanged": "转到“发布”以发布您的客户订单申请。",
+    "catalogchangedaction": "关闭"
   },
   "chooseMerchant": {
     "create": "创建新商店",
@@ -145,6 +147,22 @@
       "settings": "设置"
     }
   },
+  "settings": {
+    "menu": {
+      "General": "一般的",
+      "Appearence": "外貌",
+      "Orders Endpoints": "订单端点",
+      "Drivers Endpoints": "快递终点",
+      "Payment Methods": "支付方式"
+    },
+    "name": "姓名",
+    "adapter": "适配器",
+    "endpointuri": "端点 URI",
+    "clientid": "客户端编号",
+    "clientsecret": "客户秘密",
+    "sourcename": "来源名称",
+    "savesettings": "保存设置"
+  },
   "optionEditor": {
     "activate": "启用",
     "activated": "活性",
@@ -167,7 +185,7 @@
     "deleteComplement": "删除补语",
     "duplicateComplement": "重复补码",
     "edit": "编辑",
-    "mandatoryu": "强制性的",
+    "mandatory": "强制性的",
     "option": "选项",
     "optional": "可选的",
     "options": "选项"
@@ -205,7 +223,10 @@
     "prderSubtitle": "订购",
     "takeoutmsg": "客户将在商店取货。无需发送此订单。",
     "total": "总订单价值",
-    "zipcode": "邮政编码"
+    "zipcode": "邮政编码",
+    "payments":{
+      "createdAt": "完成于 "
+    } 
   },
   "orderStatus": {
     "buttonAccept": "接受",
@@ -361,7 +382,16 @@
     "street": "街道地址",
     "title": "让我们注册您的商店",
     "whatsapp": "Whatsapp 号码",
-    "basecurrency": "基础货币"
+    "basecurrency": "基础货币",
+    "postalCode": "邮政编码",
+    "neighborhood": "邻里",
+    "reference": "参考",
+    "city": "城市",
+    "complement": "补充",
+    "country": "国家",
+    "state": "状态",
+    "streetName": "街道名称",
+    "streetNumber": "街牌号码"
   },
   "wizardNewMerchantGroup": {
     "appname": "应用名称",
@@ -373,5 +403,13 @@
   },
   "set-payment-method": {
     "title": "支付方式"
+  },
+  "setpaymentmethod": {
+    "displayname": "显示名称",
+    "currency": "货币",
+    "method": "方法",
+    "acceptbrands": "认可品牌",
+    "type": "类型",
+    "gateway": "网关"
   }
 }

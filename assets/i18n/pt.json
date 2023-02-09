@@ -63,7 +63,9 @@
     "duplicate": "Duplicar",
     "edit": "Editar",
     "pause": "Pausa",
-    "paused": "Pausado"
+    "paused": "Pausado",
+    "catalogchanged": "Vá para 'Publicar' para publicar seu aplicativo de pedido do cliente.",
+    "catalogchangedaction": "Fechar"
   },
   "chooseMerchant": {
     "create": "Criar Nova Loja",
@@ -152,11 +154,18 @@
       "Orders Endpoints": "Endpoints de pedidos",
       "Drivers Endpoints": "Endpoints de entregadores",
       "Payment Methods": "Formas de pagamento"
-    }
+    },
+    "name": "Nome",
+    "adapter": "Adaptador",
+    "endpointuri": "URI do ponto de extremidade",
+    "clientid": "ID do Cliente",
+    "clientsecret": "Segredo do cliente",
+    "sourcename": "Nome da fonte",
+    "savesettings": "Salvar configurações"
   },
   "optionEditor": {
     "activate": "Ativar",
-    "activated": "ativado",
+    "activated": "Ativado",
     "addon": "Nome do complemento",
     "description": "Descrição",
     "descriptionPlaceholder": "Descrição",
@@ -165,7 +174,7 @@
       "title": "Atenção"
     },
     "mandatory": "Obrigatório",
-    "pause": "pausa",
+    "pause": "Pausa",
     "paused": "Pausado",
     "placeholder": "$ 0,00",
     "poscode": "Código PDV",
@@ -176,7 +185,7 @@
     "deleteComplement": "Excluir complemento",
     "duplicateComplement": "Complemento duplicado",
     "edit": "Editar",
-    "mandatoryu": "Obrigatório",
+    "mandatory": "Obrigatório",
     "option": "Opção",
     "optional": "Opcional",
     "options": "Opções"
@@ -189,7 +198,7 @@
     "indicate": "Indique se esta categoria é necessária para encomendar o prato",
     "indicateHowMany": "Indique quantos itens podem ser selecionados",
     "mandatory": "Obrigatório",
-    "maximum": "máximo",
+    "maximum": "Máximo",
     "minimum": "Mínimo",
     "name": "Nome do grupo complementar",
     "needadd": "O cliente deve selecionar 1 ou mais itens para adicionar o pedido ao carrinho",
@@ -209,12 +218,15 @@
     "estimatedDelivery": "Tempo de entrega estimado:",
     "firstOrder": "Primeiro pedido em sua loja!",
     "getintouch": "Entrar em contato",
-    "ordersInYourStore": "encomendas na sua loja!",
+    "ordersInYourStore": "Encomendas na sua loja!",
     "placedAt": "Colocado em",
     "prderSubtitle": "Ordem",
     "takeoutmsg": "O Cliente irá retirar na loja. Não é necessário enviar este pedido.",
     "total": "Valor total do pedido",
-    "zipcode": "código postal"
+    "zipcode": "Código Postal",
+    "payments": {
+      "createdAt": "Feito às "
+    }
   },
   "orderStatus": {
     "buttonAccept": "Aceitar",
@@ -222,11 +234,11 @@
     "customerArrived": "O cliente chegou e está esperando em:",
     "customerRequestCancellation": "Cancelamento do pedido do cliente!",
     "driverStatus": {
-      "accepted the request": "aceitou o pedido",
+      "accepted the request": "Aceitou o pedido",
       "arrived at destination ": "Chegou ao destino",
       "arrived at store": "chegou na loja",
       "collected order": "Pedido coletado",
-      "going to store": "indo para a loja"
+      "going to store": "Indo para a loja"
     },
     "instructionLabels": {
       "Confirm order": "Confirmar pedido",
@@ -247,7 +259,7 @@
     "statusTextValues": {
       "Canceled": "Cancelado",
       "Concluded": "Concluído",
-      "Dispatched": "despachou",
+      "Dispatched": "Despachou",
       "In Preparation": "Em preparação",
       "Order with ocurrences": "Ordem com ocorrências",
       "Pending": "Pendente",
@@ -265,12 +277,12 @@
   },
   "pizzaSizeEditor": {
     "activate": "Ativar",
-    "activated": "ativado",
+    "activated": "Ativado",
     "codpdv": "Código PDV",
     "indicate": "Indique aqui quais os tamanhos das suas pizzas, quantas peças são cortadas e até mesmo quantos sabores o seu restaurante monta cada tamanho:",
     "name": "Nome",
     "newsize": "Novo tamanho",
-    "pause": "pausa",
+    "pause": "Pausa",
     "paused": "Pausado",
     "pieces": "Peças",
     "qtyFlavors": "Qtd. sabores",
@@ -281,7 +293,7 @@
   "publish": {
     "alreadyupdated": "Seu token NFT já está atualizado",
     "appname": "Nome do Aplicativo",
-    "available": "nome disponível",
+    "available": "Nome disponível",
     "chooseIpfsGateway": "Escolha um Gateway Ipfs",
     "customgatewayendpoint": "Ponto de extremidade da API do gateway HTTP IPFS:",
     "genbefore": "Por favor, gere o 'ODP-Customer Order App' antes de continuar",
@@ -329,7 +341,7 @@
       }
     },
     "notfound": "Não encontrado",
-    "pleaseconnect": "conecte o Metamask ao PolygonNetwork.",
+    "pleaseconnect": "Conecte o Metamask ao PolygonNetwork.",
     "posthashdata": "Postar novos hashdata no canal OrbitDB HashData",
     "pubipns": "Publicar o novo CID do aplicativo ODP-Customer Order App para IPNS (endereço fixo)",
     "publicStoreName": "Nome da Loja Pública:",
@@ -345,7 +357,7 @@
     "show less options": "Mostrar menos opções",
     "show more options": "Mostrar mais opções",
     "title": "Publique o aplicativo de pedidos",
-    "updateIcon": "atualização de ícone",
+    "updateIcon": "Atualização de ícone",
     "updatenft": "Atualizar NFT",
     "wrongnet": "Rede errada. Por favor,",
     "nftmsg1": "Adquira um nome e um endereço público",
@@ -370,7 +382,16 @@
     "street": "Endereço",
     "title": "Vamos cadastrar sua loja",
     "whatsapp": "Número de Whatsapp",
-    "basecurrency": "Moeda base"
+    "basecurrency": "Moeda base",
+    "postalCode": "CEP",
+    "neighborhood": "Bairro",
+    "reference": "Referência",
+    "city": "Cidade",
+    "complement": "Complemento",
+    "country": "País",
+    "state": "Estado",
+    "streetName": "Endereço",
+    "streetNumber": "Numero"
   },
   "wizardNewMerchantGroup": {
     "appname": "Nome do Aplicativo",
@@ -382,5 +403,13 @@
   },
   "set-payment-method": {
     "title": "Formas de pagamento"
+  },
+  "setpaymentmethod": {
+    "displayname": "Nome em Exibição",
+    "currency": "Moeda",
+    "method": "Método",
+    "acceptbrands": "Marcas aceitas",
+    "type": "Tipo",
+    "gateway": "Porta de entrada"
   }
 }
