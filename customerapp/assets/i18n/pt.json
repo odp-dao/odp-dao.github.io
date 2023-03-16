@@ -1,4 +1,7 @@
 {
+  "index": {
+    "first_loading": "Primeiro carregamento..."
+  },
   "catalog": {
     "no_catalog_available": "Nenhum catalogo disponível"
   },
@@ -80,9 +83,14 @@
   "customer-editor": {
     "confirm_data": "Confirme seus dados",
     "name": "Nome",
+    "name_required": "Nome é obrigatório",
+    "name_minlength": "Nome precisa ter pelo menos 4 caracteres",
     "email": "E-mail",
+    "email_required": " E-mail é obrigatório",
     "phone": "Telefone",
+    "phone_required": "Fone é obrigatório",
     "document": "CPF/Passaporte",
+    "document_required": " Documento é obrigatório",
     "confirm": "Confirmar dados",
     "login": "Login"
   },
@@ -200,8 +208,8 @@
     "home": "Casa",
     "work": "Trabalho",
     "save": "Salvar endereço",
-    "streetname":"Nome da rua",
-    "neighborhood":"Bairro"
+    "streetname": "Nome da rua",
+    "neighborhood": "Bairro"
   },
   "cart-choose-time": {
     "today": "Hoje",
@@ -216,6 +224,47 @@
       "email": "email",
       "phone": "telefone",
       "document": "documento"
+    }
+  },
+  "myorders": {
+    "my_orders": "Meus Pedidos",
+    "order_waiting_confirmation": "Aguardando confirmação",
+    "order_received": "Recebido",
+    "order_confirmed": "Confirmado",
+    "order_ready_for_pickup": "Pronto para retirada",
+    "order_went_out_for_delivery": "Saiu para entrega",
+    "order_completed": "Concluido",
+    "order_canceleded": "Cancelado",
+    "order_number": "Pedido Nº",
+    "more": "mais",
+    "item": "item",
+    "rate_your_order": "Avalie seu pedido",
+    "help": "Ajuda",
+    "add_to_cart": "Adc. carrinho",
+    "history": "Histórico",
+    "dont_have_orders": "Você ainda não tem pedidos :)",
+    "order_detail": {
+      "order_detail": "Detalhe do Pedido",
+      "status": "Status",
+      "order_status": "Status do Pedido",
+      "subtotal": "Subtotal",
+      "coupon": "Cupom",
+      "delivery": "Entrega",
+      "free": "Grátis",
+      "total": "Total",
+      "paid_by_app": "Pago pelo aplicativo",
+      "payment_on_delivery": "Pagamento na entrega",
+      "delivery_address": "Endereço de entrega",
+      "pick_up_address": "Endereço de retirada",
+      "choose_1_to_5": "Escolha de 1 a 5 estrelas para avaliar"
+    },
+    "order_in_progress": {
+      "delivery_forecast": "Previsão de entrega",
+      "delivery": "Entregar em",
+      "takeout": "Retirar em",
+      "waiting_tracking_confirmation": "Esperando confirmação do rastreio",
+      "chat": "Chat",
+      "call": "Fone"
     }
   }
 }

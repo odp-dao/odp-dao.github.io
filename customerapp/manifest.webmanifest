@@ -1,1 +1,47 @@
-{}
+
+{
+  "name": "Bacanazo",
+  "short_name": "Bacanazo",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "merchantGroupId": "f2a3d78e-7404-4051-8379-44e1829ff29b",
+  "endpoints": [
+    {
+      "createdAt": "",
+      "headers": "",
+      "index": 0,
+      "merchantId": "c6524a3f-b792-4cdb-8975-501d7420df92",
+      "params": "",
+      "privateKey": "",
+      "publicKey": "QmbKdiirX986Q78guDY5Zf9W5Nd8NFp7bh7F7ouUUGNCBC",
+      "status": "ACTIVE",
+      "type": "DATA",
+      "protocolType": "IPFS",
+      "uri": "https://crustipfs.info/ipfs/{publicKey}",
+      "uriFallback":"https://cloudflare-ipfs.com/;https://crustipfs.info/;https://crustipfs.art/;https://crustipfs.live/;https://cloudflare-ipfs.com/"
+    },
+    {
+      "createdAt": "",
+      "headers": "",
+      "index": 1,
+      "merchantId": "c6524a3f-b792-4cdb-8975-501d7420df92",
+      "params": "",
+      "privateKey": "",
+      "publicKey": "QmbKdiirX986Q78guDY5Zf9W5Nd8NFp7bh7F7ouUUGNCBC",
+      "status": "ACTIVE",
+      "type":"HASH_DATA",
+      "protocolType": "ORBIT_DB",
+      "uri": "/orbitdb/zdpuAzhHS9UjHg3dGBf7aGpkDoUGkwtzgtPT5kyo7wuU9NUNe/c6524a3f-b792-4cdb-8975-501d7420df92_hashdata"
+    }
+  ],
+  "icons": [
+    {
+      "src": "assets/icons/app-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,4 +1,7 @@
 {
+  "index": {
+    "first_loading": "第一次加载..."
+  },
   "catalog": {
     "no_catalog_available": "没有可用的目录"
   },
@@ -80,9 +83,14 @@
   "customer-editor": {
     "confirm_data": "确认您的数据",
     "name": "姓名",
+    "name_required": "名称是必需的",
+    "name_minlength": "名称的长度必须至少为 4 个字符",
     "email": "电子邮件",
+    "email_required": "电子邮件是必需的",
     "phone": "手机",
+    "phone_required": "Fone é obrigatório",
     "document": "身份证明文件",
+    "document_required": " Documento é obrigatório",
     "confirm": "确认数据",
     "login": "登录"
   },
@@ -141,8 +149,17 @@
   "cart-items": {
     "more": "添加更多项目"
   },
+  "cart-order-type": {
+    "Order for Delivery": "配送订单",
+    "Take Out in Store": "到店自取"
+  },
   "cart-order-type-delivery-where-to-leave": {
-    "where": "在哪里留下订单？"
+    "where": "请问需要将订单放在哪里？",
+    "types": {
+      "House / Building Gate": "房屋/建筑大门",
+      "House / Building Concierge": "房屋/建筑前台",
+      "Find the Delivery Man": "去找快递员"
+    }
   },
   "cart-payment": {
     "paymentmachine": "（ 机器 ）",
@@ -191,8 +208,8 @@
     "home": "主页",
     "work": "工作场所",
     "save": "保存地址",
-    "streetname":"街名",
-    "neighborhood":"区"
+    "streetname": "街名",
+    "neighborhood": "区"
   },
   "cart-choose-time": {
     "today": "今天",
@@ -207,7 +224,47 @@
       "email": "电子邮件",
       "phone": "手机",
       "document": "身份证明文件"
-
+    }
+  },
+  "myorders": {
+    "my_orders": "我的订单",
+    "order_waiting_confirmation": "等待确认",
+    "order_received": "已收到",
+    "order_confirmed": "已确认",
+    "order_ready_for_pickup": "准备好取货",
+    "order_went_out_for_delivery": "已发货",
+    "order_completed": "已完成",
+    "order_canceleded": "已取消",
+    "order_number": "订单编号",
+    "more": "更多",
+    "item": "件",
+    "rate_your_order": "评价您的订单",
+    "help": "帮助",
+    "add_to_cart": "加入购物车",
+    "history": "历史记录",
+    "dont_have_orders": "您还没有订单 :)",
+    "order_detail": {
+      "order_detail": "订单详情",
+      "status": "状态",
+      "order_status": "订单状态",
+      "subtotal": "小计",
+      "coupon": "优惠券",
+      "delivery": "配送",
+      "free": "免费",
+      "total": "总计",
+      "paid_by_app": "应用付款",
+      "payment_on_delivery": "货到付款",
+      "delivery_address": "送货地址",
+      "pick_up_address": "取货地址",
+      "choose_1_to_5": "选择1至5星进行评价"
+    },
+    "order_in_progress": {
+      "delivery_forecast": "配送预计",
+      "delivery": "送到",
+      "takeout": "取货",
+      "waiting_tracking_confirmation": "等待跟踪确认",
+      "chat": "聊天",
+      "call": "电话"
     }
   }
 }

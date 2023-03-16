@@ -1,4 +1,7 @@
 {
+  "index": {
+    "first_loading": "Primera carga..."
+  },
   "catalog": {
     "no_catalog_available": "no hay catálogo disponible"
   },
@@ -80,7 +83,10 @@
   "customer-editor": {
     "confirm_data": "Confirma tus datos",
     "name": "Nombre",
+    "name_required": "Se requiere el nombre",
+    "name_minlength": "El nombre debe tener al menos 4 caracteres",
     "email": "E-mail",
+    "email_required": "Se requiere el E-mail",
     "phone": "Teléfono",
     "document": "Documento",
     "confirm": "Confirmar datos",
@@ -200,8 +206,8 @@
     "home": "Casa",
     "work": "Trabajo",
     "save": "Guardar dirección",
-    "streetname":"nombre de calle",
-    "neighborhood":"distrito"
+    "streetname": "nombre de calle",
+    "neighborhood": "distrito"
   },
   "cart-choose-time": {
     "today": "Hoje",
@@ -216,6 +222,47 @@
       "email": "email",
       "phone": "teléfono",
       "document": "documento"
+    }
+  },
+  "myorders": {
+    "my_orders": "Mis pedidos",
+    "order_waiting_confirmation": "Esperando confirmación",
+    "order_received": "Recibido",
+    "order_confirmed": "Confirmado",
+    "order_ready_for_pickup": "Listo para recoger",
+    "order_went_out_for_delivery": "En camino",
+    "order_completed": "Completado",
+    "order_canceleded": "Cancelado",
+    "order_number": "Orden No.",
+    "more": "más",
+    "item": "artículo",
+    "rate_your_order": "Evalúa tu pedido",
+    "help": "Ayuda",
+    "add_to_cart": "Añadir al carrito",
+    "history": "Historial",
+    "dont_have_orders": "Todavía no tienes pedidos :)",
+    "order_detail": {
+      "order_detail": "Detalle del Pedido",
+      "status": "Estado",
+      "order_status": "Estado del Pedido",
+      "subtotal": "Subtotal",
+      "coupon": "Cupón",
+      "delivery": "Entrega",
+      "free": "Gratis",
+      "total": "Total",
+      "paid_by_app": "Pagado por la Aplicación",
+      "payment_on_delivery": "Pago al Entregar",
+      "delivery_address": "Dirección de Entrega",
+      "pick_up_address": "Dirección de Recogida",
+      "choose_1_to_5": "Elija de 1 a 5 estrellas para calificar"
+    },
+    "order_in_progress": {
+      "delivery_forecast": "Previsión de Entrega",
+      "delivery": "Entregar en",
+      "takeout": "Recoger en",
+      "waiting_tracking_confirmation": "Esperando Confirmación de Seguimiento",
+      "chat": "Chat",
+      "call": "Llamar"
     }
   }
 }
