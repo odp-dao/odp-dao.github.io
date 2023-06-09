@@ -266,5 +266,8 @@
       "chat": "聊天",
       "call": "电话"
     }
+  },
+  "choose-region": {
+    "choose_your_region":"选择您所在的地区"
   }
 }

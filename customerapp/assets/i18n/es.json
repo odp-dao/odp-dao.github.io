@@ -264,5 +264,12 @@
       "chat": "Chat",
       "call": "Llamar"
     }
+  },
+  "chooseRegion":{
+    "chooseYourRegion":"Elige tu región"
+  },
+  "merchant":{
+    "merchant_is_not_open":"La tienda no está abierta",
+    "ok":"ok"
   }
 }

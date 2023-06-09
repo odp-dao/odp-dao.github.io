@@ -144,7 +144,9 @@
       "logout": "Cerrar sesión",
       "orders": "Pedidos",
       "publish": "Publicar",
-      "settings": "Ajustes"
+      "settings": "Ajustes",
+      "opened": "Abierto",
+      "closed": "Cerrada"
     }
   },
   "settings": {
@@ -153,7 +155,9 @@
       "Appearence": "Aparencia",
       "Orders Endpoints": "Puntos finales de pedidos",
       "Drivers Endpoints": "Puntos finales de los repartidores",
-      "Payment Methods": "Métodos de pago"
+      "Payment Methods": "Métodos de pago",
+      "Delivery Regions": "Regiones de entrega",
+      "Working Periods": "Períodos de trabajo"
     },
     "name": "Nombre",
     "adapter": "Adaptador",
@@ -224,10 +228,9 @@
     "takeoutmsg": "El Cliente recogerá en la tienda. No es necesario enviar este pedido.",
     "total": "Valor total del pedido",
     "zipcode": "Código Postal",
-    "payments":{
+    "payments": {
       "createdAt": "Hecho "
-    } 
-    
+    }
   },
   "orderStatus": {
     "buttonAccept": "Aceptar",
@@ -405,6 +408,37 @@
   "set-payment-method": {
     "title": "Métodos de pago"
   },
+  "setting-working-periods": {
+    "title": "Períodos de Trabajo",
+    "schedules": "Horarios",
+    "scheduled_break": "Descanso Programado",
+    "opened_by": "Abierto por",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  },
+  "choosing-working-periods": {
+    "title": "Elige los días y horarios",
+    "choose_week_day": "Elige el día de la semana",
+    "schedules": "Horarios",
+    "scheduled_break": "Descanso programado",
+    "opened_by": "Abierto por",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "add": "Agregar",
+    "cancel": "Cancelar",
+    "from": "Desde: ",
+    "to": "Hasta: "
+  },
   "setpaymentmethod": {
     "displayname": "Nombre para mostrar",
     "currency": "Divisa",
@@ -412,5 +446,24 @@
     "acceptbrands": "Marcas Aceptadas",
     "type": "Escribe",
     "gateway": "Puerta"
+  },
+  "close_merchant": {
+    "15_minutes": "15 minutos",
+    "30_minutes": "30 minutos",
+    "1_hour": "1 hora",
+    "others_hours": "Otros",
+    "end_of_day": "Hasta el final del día",
+    "many_orders": "Muchos pedidos",
+    "kitchen_problems": "Problemas en la cocina",
+    "other_reason": "Otros",
+    "close_now": "CERRAR EL RESTAURANTE AHORA",
+    "description": "Cierra temporalmente tu restaurante y gana tiempo para preparar los pedidos que ya has recibido. Se abrirá automáticamente cuando se acabe el tiempo.",
+    "close_by": "CERRAR POR",
+    "for_the_reason": "POR EL MOTIVO",
+    "cancel": "Cancelar",
+    "close_merchant": "Cerrar Restaurante",
+    "enter_another_reason": "Ingresa otro motivo",
+    "enter_another_time": "Ingresa otra hora",
+    "hours": " horas"
   }
 }

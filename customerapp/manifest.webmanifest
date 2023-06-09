@@ -1,47 +1,113 @@
 
-{
-  "name": "Bacanazo",
-  "short_name": "Bacanazo",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
-  "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
-  "merchantGroupId": "f2a3d78e-7404-4051-8379-44e1829ff29b",
-  "endpoints": [
-    {
-      "createdAt": "",
-      "headers": "",
-      "index": 0,
-      "merchantId": "c6524a3f-b792-4cdb-8975-501d7420df92",
-      "params": "",
-      "privateKey": "",
-      "publicKey": "QmbKdiirX986Q78guDY5Zf9W5Nd8NFp7bh7F7ouUUGNCBC",
-      "status": "ACTIVE",
-      "type": "DATA",
-      "protocolType": "IPFS",
-      "uri": "https://crustipfs.info/ipfs/{publicKey}",
-      "uriFallback":"https://cloudflare-ipfs.com/;https://crustipfs.info/;https://crustipfs.art/;https://crustipfs.live/;https://cloudflare-ipfs.com/"
-    },
-    {
-      "createdAt": "",
-      "headers": "",
-      "index": 1,
-      "merchantId": "c6524a3f-b792-4cdb-8975-501d7420df92",
-      "params": "",
-      "privateKey": "",
-      "publicKey": "QmbKdiirX986Q78guDY5Zf9W5Nd8NFp7bh7F7ouUUGNCBC",
-      "status": "ACTIVE",
-      "type":"HASH_DATA",
-      "protocolType": "ORBIT_DB",
-      "uri": "/orbitdb/zdpuAzhHS9UjHg3dGBf7aGpkDoUGkwtzgtPT5kyo7wuU9NUNe/c6524a3f-b792-4cdb-8975-501d7420df92_hashdata"
-    }
-  ],
-  "icons": [
-    {
-      "src": "assets/icons/app-icon.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
-  ]
-}
+            {
+              "name": "testei",
+              "short_name": "testei",
+              "theme_color": "#1976d2",
+              "background_color": "#fafafa",
+              "display": "standalone",
+              "scope": "./",
+              "start_url": "./",
+              "merchantGroupId": "0dbbcd04-ff25-4ebd-a0a4-dc09fb8a8f51",
+              "endpoints": [
+                {
+                  "createdAt": "",
+                  "headers": "",
+                  "index": 0,
+                  "merchantId": "07385745-d722-4173-8e40-214785c0b814",
+                  "params": "",
+                  "privateKey": "",
+                  "publicKey": "QmbnwdgFJk1n6R7HZ1xGRdgaSNDeC7jX8dMBx1LDSeWrCB",
+                  "status": "ACTIVE",
+                  "type": "DATA",
+                  "protocolType": "IPFS",
+                  "uri": "https://crustipfs.info/ipfs/{publicKey}",
+                  "uriFallback":"https://cloudflare-ipfs.com/;https://crustipfs.info/;https://crustipfs.art/;https://crustipfs.live/"
+                },
+                {
+                  "createdAt": "",
+                  "headers": "",
+                  "index": 1,
+                  "merchantId": "07385745-d722-4173-8e40-214785c0b814",
+                  "params": "",
+                  "privateKey": "",
+                  "publicKey": "QmbnwdgFJk1n6R7HZ1xGRdgaSNDeC7jX8dMBx1LDSeWrCB",
+                  "status": "ACTIVE",
+                  "type":"HASH_DATA",
+                  "protocolType": "ORBIT_DB",
+                  "uri": "/orbitdb/zdpuB1DVea3TwFuBugfto2Ddc7nZopYGReaHakvedrSgg4vjU/07385745-d722-4173-8e40-214785c0b814_hashdata"
+                },
+                {
+                  "createdAt": "",
+                  "headers": "",
+                  "index": 0,
+                  "merchantId": "",
+                  "params": "",
+                  "privateKey": "",
+                  "publicKey": "",
+                  "status": "ACTIVE",
+                  "type":"POSTAL_CODE_INFO",
+                  "protocolType": "VIACEP",
+                  "uri": "https://viacep.com.br/ws/{postalCode}/json/"
+                },
+                {
+                  "createdAt": "",
+                  "headers": "",
+                  "index": 1,
+                  "merchantId": "",
+                  "params": "",
+                  "privateKey": "",
+                  "publicKey": "",
+                  "status": "ACTIVE",
+                  "type":"POSTAL_CODE_INFO",
+                  "protocolType": "POSTMON",
+                  "uri": "https://api.postmon.com.br/v1/cep/{postalCode}"
+                },
+                {
+                  "createdAt": "",
+                  "headers": "",
+                  "index": 2,
+                  "merchantId": "",
+                  "params": "",
+                  "privateKey": "",
+                  "publicKey": "AIzaSyAo3xhe3AQL9N3y1vpnS1FuBdG0ZdICoE4",
+                  "status": "ACTIVE",
+                  "type":"POSTAL_CODE_INFO",
+                  "protocolType": "GOOGLE",
+                  "uri": "https://maps.googleapis.com/maps/api/geocode/json?components=postal_code:{postalCode}&key={publicKey}"
+                },
+                {
+                  "createdAt": "",
+                  "headers": "",
+                  "index": 3,
+                  "merchantId": "",
+                  "params": "",
+                  "privateKey": "",
+                  "publicKey": "AleeDayOvXbtkf6fJXWjdJrJj3iGE_qTXFVD9lzP8BAtaZLx7T_DvJLTKQdxn0BU",
+                  "status": "ACTIVE",
+                  "type":"POSTAL_CODE_INFO",
+                  "protocolType": "BING",
+                  "uri": "https://dev.virtualearth.net/REST/v1/Locations?postalCode={postalCode}&key={publicKey}"
+                },
+                {
+                  "createdAt": "",
+                  "headers": "",
+                  "index": 4,
+                  "merchantId": "",
+                  "params": "",
+                  "privateKey": "",
+                  "publicKey": "",
+                  "status": "ACTIVE",
+                  "type":"POSTAL_CODE_INFO",
+                  "protocolType": "NOMINATIM",
+                  "uri": "https://nominatim.openstreetmap.org/search?postalcode={postalCode}&format=json&addressdetails=1&limit=1&polygon_svg=1"
+                }
+              ],
+              "icons": [
+                {
+                  "src": "assets/icons/app-icon.png",
+                  "sizes": "192x192",
+                  "type": "image/png"
+                }
+              ]
+            }
+            

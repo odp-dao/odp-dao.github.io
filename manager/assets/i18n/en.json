@@ -144,7 +144,9 @@
       "logout": "Logout",
       "orders": "Orders",
       "publish": "Publish",
-      "settings": "Settings"
+      "settings": "Settings",
+      "opened": "Opened",
+      "closed": "Closed"
     }
   },
   "settings": {
@@ -153,14 +155,20 @@
       "Appearence": "Appearence",
       "Orders Endpoints": "Orders Endpoints",
       "Drivers Endpoints": "Drivers Endpoints",
-      "Payment Methods": "Payment Methods"
+      "Payment Methods": "Payment Methods",
+      "Delivery Regions": "Delivery Regions",
+      "Working Periods": "Working Periods"
     },
     "name": "Name",
     "adapter": "Adapter",
     "endpointuri": "Endpoint URI",
     "clientid": "Client Id",
     "clientsecret": "Client Secret",
+    "privatekey": "Private Key",
+    "publickey": "Public Key",
     "sourcename": "Source name",
+    "headers": "Headers",
+    "params": "Params",
     "savesettings": "Save Settings"
   },
   "optionEditor": {
@@ -224,9 +232,9 @@
     "takeoutmsg": "The Customer will pick up at the store. It is not necessary to send this order.",
     "total": "Total order value",
     "zipcode": "Zip code",
-    "payments":{
+    "payments": {
       "createdAt": "Done at "
-    } 
+    }
   },
   "orderStatus": {
     "buttonAccept": "Accept",
@@ -404,6 +412,37 @@
   "set-payment-method": {
     "title": "Payment Methods"
   },
+  "setting-working-periods": {
+    "title": "Working Periods",
+    "schedules": "Schedules",
+    "scheduled_break": "Scheduled Break",
+    "opened_by": "Opened by",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "choosing-working-periods": {
+    "title": "Choose the days and hours",
+    "choose_week_day": "Choose the day of the week",
+    "schedules": "Schedules",
+    "scheduled_break": "Scheduled Break",
+    "opened_by": "Opened by",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "add": "Add",
+    "cancel": "Cancel",
+    "from": "From: ",
+    "to": "To: "
+  },
   "setpaymentmethod": {
     "displayname": "Display name",
     "currency": "Currency",
@@ -411,5 +450,24 @@
     "acceptbrands": "Accepted Brands",
     "type": "Type",
     "gateway": "Gateway"
+  },
+  "close_merchant": {
+    "15_minutes": "15 minutes",
+    "30_minutes": "30 minutes",
+    "1_hour": "1 hour",
+    "others_hours": "Others",
+    "end_of_day": "By the end of the day",
+    "many_orders": "Many orders",
+    "kitchen_problems": "Kitchen problems",
+    "other_reason": "Others",
+    "close_now": "CLOSE THE RESTAURANT NOW",
+    "description": "Temporarily close your restaurant and gain time to prepare the orders you have already received. You will automatically reopen when the time is up.",
+    "close_by": "CLOSE BY",
+    "for_the_reason": "FOR THE REASON",
+    "cancel": "Cancel",
+    "close_merchant": "Close Restaurant",
+    "enter_another_reason": "Enter another reason",
+    "enter_another_time": "Enter another time",
+    "hours": " hours"
   }
 }

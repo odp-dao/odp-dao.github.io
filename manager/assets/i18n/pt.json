@@ -144,7 +144,9 @@
       "logout": "Sair",
       "orders": "Pedidos",
       "publish": "Publicar",
-      "settings": "Definições"
+      "settings": "Definições",
+      "opened": "Aberto",
+      "closed": "Fechado"
     }
   },
   "settings": {
@@ -153,7 +155,9 @@
       "Appearence": "Aparência",
       "Orders Endpoints": "Endpoints de pedidos",
       "Drivers Endpoints": "Endpoints de entregadores",
-      "Payment Methods": "Formas de pagamento"
+      "Payment Methods": "Formas de pagamento",
+      "Delivery Regions": "Áreas de entrega",
+      "Working Periods": "Períodos de Funcionamento"
     },
     "name": "Nome",
     "adapter": "Adaptador",
@@ -404,6 +408,37 @@
   "set-payment-method": {
     "title": "Formas de pagamento"
   },
+  "setting-working-periods": {
+    "title": "Horários de Funcionamento",
+    "schedules": "Horários",
+    "scheduled_break": "Pausa Programada",
+    "opened_by": "Aberto por",
+    "monday": "Segunda",
+    "tuesday": "Terça",
+    "wednesday": "Quarta",
+    "thursday": "Quinta",
+    "friday": "Sexta",
+    "saturday": "Sábado",
+    "sunday": "Domingo"
+  },
+  "choosing-working-periods": {
+    "title": "Escolha os dias e horários",
+    "choose_week_day": "Escolha o dia da semana",
+    "schedules": "Horários",
+    "scheduled_break": "Pausa Programada",
+    "opened_by": "Aberto por",
+    "monday": "Segunda",
+    "tuesday": "Terça",
+    "wednesday": "Quarta",
+    "thursday": "Quinta",
+    "friday": "Sexta",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "add": "Adicionar",
+    "cancel": "Cancelar",
+    "from": "Das: ",
+    "to": "Até: "
+  },
   "setpaymentmethod": {
     "displayname": "Nome em Exibição",
     "currency": "Moeda",
@@ -411,5 +446,24 @@
     "acceptbrands": "Marcas aceitas",
     "type": "Tipo",
     "gateway": "Porta de entrada"
+  },
+  "close_merchant": {
+    "15_minutes": "15 minutos",
+    "30_minutes": "30 minutos",
+    "1_hour": "1 hora",
+    "others_hours": "Outros",
+    "end_of_day": "Até o fim do dia",
+    "many_orders": "Muitos pedidos",
+    "kitchen_problems": "Problemas na cozinha",
+    "other_reason": "Outros",
+    "close_now": "FECHAR O RESTAURANTE AGORA",
+    "description": "Feche seu restaurante temporariamente e ganhe tempo para preparar os pedidos que já recebeu. Você reabre automaticamente quando o tempo acabar.",
+    "close_by": "FECHAR POR",
+    "for_the_reason": "PELO MOTIVO",
+    "cancel": "Cancelar",
+    "close_merchant": "Fechar Restaurante",
+    "enter_another_reason": "Digite outro motivo",
+    "enter_another_time": "Digite outra hora",
+    "hours": " horas"
   }
 }
