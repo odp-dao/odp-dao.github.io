@@ -139,12 +139,14 @@
   },
   "leftBarMenu": {
     "title": {
-      "catalogs": "产品目录",
+      "catalogs": "目录",
       "help": "帮助",
       "logout": "登出",
-      "orders": "命令",
+      "orders": "订单",
       "publish": "发布",
-      "settings": "设置"
+      "settings": "设置",
+      "opened": "已开启",
+      "closed": "已关闭"
     }
   },
   "settings": {
@@ -155,15 +157,22 @@
       "Drivers Endpoints": "快递终点",
       "Payment Methods": "支付方式",
       "Delivery Regions": "配送区域",
-      "Working Periods": "工作时间"
+      "Working Periods": "工作时间",
+      "Address": "地址",
+      "Postal Services": "邮政服务"
     },
-    "name": "姓名",
+    "name": "名称",
     "adapter": "适配器",
-    "endpointuri": "端点 URI",
-    "clientid": "客户端编号",
-    "clientsecret": "客户秘密",
-    "sourcename": "来源名称",
-    "savesettings": "保存设置"
+    "endpointuri": "端点URI",
+    "clientid": "客户端ID",
+    "clientsecret": "客户端密钥",
+    "privatekey": "私钥",
+    "publickey": "公钥",
+    "sourcename": "源名称",
+    "headers": "头部",
+    "params": "参数",
+    "savesettings": "保存设置",
+    "index":"索引"
   },
   "optionEditor": {
     "activate": "启用",
@@ -373,27 +382,48 @@
     "msg": "你确定要退出吗？"
   },
   "wizardMerchant": {
-    "customEndpoint": "自定义端点：",
+    "customEndpoint": "自定义终点：",
     "email": "电子邮件",
-    "emailPlaceholder": "前任。 your@email.com",
+    "emailPlaceholder": "例如：your@email.com",
     "name": "名称",
     "orderschannel": "订单渠道",
     "phone": "电话号码",
-    "phoneMask": "前任。 +9 (99) 999-999-999",
+    "phoneMask": "例如：+9 (99) 999-999-999",
     "register": "注册商店",
-    "street": "街道地址",
+    "street": "地址",
     "title": "让我们注册您的商店",
-    "whatsapp": "Whatsapp 号码",
+    "whatsapp": "WhatsApp号码",
     "basecurrency": "基础货币",
     "postalCode": "邮政编码",
-    "neighborhood": "邻里",
+    "neighborhood": "街区",
     "reference": "参考",
     "city": "城市",
     "complement": "补充",
     "country": "国家",
-    "state": "状态",
-    "streetName": "街道名称",
-    "streetNumber": "街牌号码"
+    "state": "州",
+    "streetName": "地址",
+    "streetNumber": "号码"
+  },
+  "addressMerchant": {
+    "title": "更改地址",
+    "save": "保存",
+    "email": "电子邮件",
+    "emailPlaceholder": "例如：your@email.com",
+    "name": "名称",
+    "orderschannel": "订单渠道",
+    "phone": "电话号码",
+    "phoneMask": "例如：+9 (99) 999-999-999",
+    "register": "注册商店",
+    "street": "地址",
+    "postalCode": "邮政编码",
+    "neighborhood": "街区",
+    "reference": "参考",
+    "city": "城市",
+    "complement": "补充",
+    "country": "国家",
+    "state": "州",
+    "streetName": "地址",
+    "streetNumber": "号码"
   },
   "wizardNewMerchantGroup": {
     "appname": "应用名称",
@@ -407,24 +437,34 @@
     "title": "支付方式"
   },
   "setting-working-periods": {
-    "title": "工作时段",
+    "title": "营业时间",
+    "weekly_total": "每周总计",
+    "lunch_peak": "午餐高峰时段",
+    "dinner_peak": "晚餐高峰时段",
     "schedules": "时间表",
-    "scheduled_break": "计划休息",
-    "opened_by": "由...开启",
+    "scheduled_break": "计划中的休息时间",
+    "opened_by": "开放者",
     "monday": "星期一",
     "tuesday": "星期二",
     "wednesday": "星期三",
     "thursday": "星期四",
     "friday": "星期五",
     "saturday": "星期六",
-    "sunday": "星期日"
+    "sunday": "星期日",
+    "holidays": "假期",
+    "h": "点",
+    "confirm_delete": "确认删除",
+    "msg_delete": "确定要删除吗？"
   },
   "choosing-working-periods": {
-    "title": "选择日期和时间",
+    "title_add": "选择日期和时间",
+    "title_edit": "编辑时间 ",
+    "msg_open": "选择商店的时间",
+    "msg_open_bold": "开放时间",
     "choose_week_day": "选择星期几",
     "schedules": "时间表",
     "scheduled_break": "计划休息",
-    "opened_by": "开放者",
+    "opened_by": "由...开放",
     "monday": "星期一",
     "tuesday": "星期二",
     "wednesday": "星期三",
@@ -434,8 +474,9 @@
     "sunday": "星期日",
     "add": "添加",
     "cancel": "取消",
-    "from": "从",
-    "to": "到"
+    "from": "从：",
+    "to": "至：",
+    "confirm_schedules": "确认时间表"
   },
   "setpaymentmethod": {
     "displayname": "显示名称",
@@ -463,5 +504,22 @@
     "enter_another_reason": "输入其他原因",
     "enter_another_time": "输入其他时间",
     "hours": "小时"
+  },
+  "edit_closing_holidays": {
+    "programing_pause": "计划暂停",
+    "holidays": "假期",
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "preventive_closing": {
+    "closed_by": "关闭者",
+    "hour": "小时",
+    "hours": "小时",
+    "minute": "分钟",
+    "minutes": "分钟",
+    "from": "从",
+    "to": "至",
+    "h": "点",
+    "m": "分"
   }
 }

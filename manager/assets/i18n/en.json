@@ -157,7 +157,9 @@
       "Drivers Endpoints": "Drivers Endpoints",
       "Payment Methods": "Payment Methods",
       "Delivery Regions": "Delivery Regions",
-      "Working Periods": "Working Periods"
+      "Working Periods": "Working Periods",
+      "Address" : "Address",
+      "Postal Services":  "Postal Services"
     },
     "name": "Name",
     "adapter": "Adapter",
@@ -169,7 +171,8 @@
     "sourcename": "Source name",
     "headers": "Headers",
     "params": "Params",
-    "savesettings": "Save Settings"
+    "savesettings": "Save Settings",
+    "index":"Index"
   },
   "optionEditor": {
     "activate": "Activate",
@@ -379,17 +382,17 @@
     "msg": "Are you sure you want to log out?"
   },
   "wizardMerchant": {
-    "customEndpoint": "Custom endpoint:",
-    "email": "E-Mail",
-    "emailPlaceholder": "Ex. your@email.com ",
+    "customEndpoint": "Custom Endpoint:",
+    "email": "Email",
+    "emailPlaceholder": "E.g. your@email.com",
     "name": "Name",
     "orderschannel": "Orders Channel",
     "phone": "Phone Number",
-    "phoneMask": "Ex. +9 (99) 999-999-999",
-    "register": "Register store",
-    "street": "Street address",
-    "title": "Let's register your store",
-    "whatsapp": "Whatsapp Number",
+    "phoneMask": "E.g. +9 (99) 999-999-999",
+    "register": "Register Store",
+    "street": "Address",
+    "title": "Let's Register Your Store",
+    "whatsapp": "WhatsApp Number",
     "basecurrency": "Base Currency",
     "postalCode": "Postal Code",
     "neighborhood": "Neighborhood",
@@ -398,8 +401,29 @@
     "complement": "Complement",
     "country": "Country",
     "state": "State",
-    "streetName": "Street Name",
-    "streetNumber": "Street Number"
+    "streetName": "Address",
+    "streetNumber": "Number"
+  },
+  "addressMerchant":{
+    "title" : "Change Address",
+    "save" : "Save",
+    "email": "Email",
+    "emailPlaceholder": "E.g. your@email.com",
+    "name": "Name",
+    "orderschannel": "Orders Channel",
+    "phone": "Phone Number",
+    "phoneMask": "E.g. +9 (99) 999-999-999",
+    "register": "Register Store",
+    "street": "Address",
+    "postalCode": "Postal Code",
+    "neighborhood": "Neighborhood",
+    "reference": "Reference",
+    "city": "City",
+    "complement": "Complement",
+    "country": "Country",
+    "state": "State",
+    "streetName": "Address",
+    "streetNumber": "Number"
   },
   "wizardNewMerchantGroup": {
     "appname": "App Name",
@@ -413,7 +437,10 @@
     "title": "Payment Methods"
   },
   "setting-working-periods": {
-    "title": "Working Periods",
+    "title": "Working Hours",
+    "weekly_total": "Weekly Total",
+    "lunch_peak": "During Lunch Peak",
+    "dinner_peak": "During Dinner Peak",
     "schedules": "Schedules",
     "scheduled_break": "Scheduled Break",
     "opened_by": "Opened by",
@@ -423,10 +450,17 @@
     "thursday": "Thursday",
     "friday": "Friday",
     "saturday": "Saturday",
-    "sunday": "Sunday"
+    "sunday": "Sunday",
+    "holidays": "Holidays",
+    "h": "h",
+    "confirm_delete": "Confirm Delete",
+    "msg_delete": "Are you sure you want to delete?"
   },
   "choosing-working-periods": {
-    "title": "Choose the days and hours",
+    "title_add": "Choose Days and Time",
+    "title_edit": "Edit Schedule for ",
+    "msg_open" : "Select the operating hours for the store ",
+    "msg_open_bold" : "to be open",
     "choose_week_day": "Choose the day of the week",
     "schedules": "Schedules",
     "scheduled_break": "Scheduled Break",
@@ -441,8 +475,9 @@
     "add": "Add",
     "cancel": "Cancel",
     "from": "From: ",
-    "to": "To: "
-  },
+    "to": "To: ",
+    "confirm_schedules":"Confirm Schedules"
+},
   "setpaymentmethod": {
     "displayname": "Display name",
     "currency": "Currency",
@@ -469,5 +504,22 @@
     "enter_another_reason": "Enter another reason",
     "enter_another_time": "Enter another time",
     "hours": " hours"
-  }
+  },
+  "edit_closing_holidays":{
+    "programing_pause": "Scheduled Pause",
+    "holidays": "Holidays",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+    "preventive_closing": {
+    "closed_by": "Closed by",
+    "hour": "hour",
+    "hours": "hours",
+    "minute": "minute",
+    "minutes": "minutes",
+    "from": "from",
+    "to": "to",
+    "h": "h",
+    "m": "m"
+    }
 }

@@ -157,15 +157,22 @@
       "Drivers Endpoints": "Puntos finales de los repartidores",
       "Payment Methods": "Métodos de pago",
       "Delivery Regions": "Regiones de entrega",
-      "Working Periods": "Períodos de trabajo"
+      "Working Periods": "Períodos de trabajo",
+      "Address" : "Dirección",
+      "Postal Services":  "Servicios postales",
+      "index":"Índice"
     },
     "name": "Nombre",
     "adapter": "Adaptador",
-    "endpointuri": "URI de punto final",
-    "clientid": "Identificación del cliente",
-    "clientsecret": "Secreto del cliente",
-    "sourcename": "Nombre de la fuente",
-    "savesettings": "Guardar ajustes"
+    "endpointuri": "URI del punto final",
+    "clientid": "ID de cliente",
+    "clientsecret": "Clave de cliente",
+    "privatekey": "Clave privada",
+    "publickey": "Clave pública",
+    "sourcename": "Nombre de origen",
+    "headers": "Encabezados",
+    "params": "Parámetros",
+    "savesettings": "Guardar configuración"
   },
   "optionEditor": {
     "activate": "Activar",
@@ -408,21 +415,55 @@
   "set-payment-method": {
     "title": "Métodos de pago"
   },
-  "setting-working-periods": {
-    "title": "Períodos de Trabajo",
-    "schedules": "Horarios",
-    "scheduled_break": "Descanso Programado",
-    "opened_by": "Abierto por",
-    "monday": "Lunes",
-    "tuesday": "Martes",
-    "wednesday": "Miércoles",
-    "thursday": "Jueves",
-    "friday": "Viernes",
-    "saturday": "Sábado",
-    "sunday": "Domingo"
+  "wizardMerchant": {
+    "customEndpoint": "Punto de Extremo Personalizado:",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "Ej. tu@email.com",
+    "name": "Nombre",
+    "orderschannel": "Canal de Pedidos",
+    "phone": "Número de Teléfono",
+    "phoneMask": "Ej. +9 (99) 999-999-999",
+    "register": "Registrar Tienda",
+    "street": "Dirección",
+    "title": "Vamos a Registrar tu Tienda",
+    "whatsapp": "Número de WhatsApp",
+    "basecurrency": "Moneda Base",
+    "postalCode": "Código Postal",
+    "neighborhood": "Barrio",
+    "reference": "Referencia",
+    "city": "Ciudad",
+    "complement": "Complemento",
+    "country": "País",
+    "state": "Estado",
+    "streetName": "Dirección",
+    "streetNumber": "Número"
+  },
+  "addressMerchant":{
+    "title" : "Cambiar Dirección",
+    "save" : "Guardar",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "Ej. tu@email.com",
+    "name": "Nombre",
+    "orderschannel": "Canal de Pedidos",
+    "phone": "Número de Teléfono",
+    "phoneMask": "Ej. +9 (99) 999-999-999",
+    "register": "Registrar Tienda",
+    "street": "Dirección",
+    "postalCode": "Código Postal",
+    "neighborhood": "Barrio",
+    "reference": "Referencia",
+    "city": "Ciudad",
+    "complement": "Complemento",
+    "country": "País",
+    "state": "Estado",
+    "streetName": "Dirección",
+    "streetNumber": "Número"
   },
   "choosing-working-periods": {
-    "title": "Elige los días y horarios",
+    "title_add": "Elige los días y horarios",
+    "title_edit": "Editar horario de ",
+    "msg_open": "Selecciona el horario en que la tienda ",
+    "msg_open_bold": "estará abierta",
     "choose_week_day": "Elige el día de la semana",
     "schedules": "Horarios",
     "scheduled_break": "Descanso programado",
@@ -437,7 +478,8 @@
     "add": "Agregar",
     "cancel": "Cancelar",
     "from": "Desde: ",
-    "to": "Hasta: "
+    "to": "Hasta: ",
+    "confirm_schedules": "Confirmar horarios"
   },
   "setpaymentmethod": {
     "displayname": "Nombre para mostrar",
@@ -465,5 +507,22 @@
     "enter_another_reason": "Ingresa otro motivo",
     "enter_another_time": "Ingresa otra hora",
     "hours": " horas"
+  },
+  "edit_closing_holidays":{
+    "programing_pause": "Pausa Programada",
+    "holidays": "Festivos",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  },
+  "preventive_closing": {
+    "closed_by": "Cerrado por",
+    "hour": "hora",
+    "hours": "horas",
+    "minute": "minuto",
+    "minutes": "minutos",
+    "from": "desde",
+    "to": "hasta",
+    "h": "h",
+    "m": "m"
   }
 }

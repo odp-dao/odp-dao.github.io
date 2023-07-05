@@ -157,15 +157,22 @@
       "Drivers Endpoints": "Endpoints de entregadores",
       "Payment Methods": "Formas de pagamento",
       "Delivery Regions": "Áreas de entrega",
-      "Working Periods": "Períodos de Funcionamento"
+      "Working Periods": "Horários de Funcionamento",
+      "Address" : "Endereço",
+      "Postal Services":  "Serviços Postais"
     },
     "name": "Nome",
     "adapter": "Adaptador",
     "endpointuri": "URI do ponto de extremidade",
     "clientid": "ID do Cliente",
     "clientsecret": "Segredo do cliente",
+    "privatekey": "Chave Privada",
+    "publickey": "Chave Pública",
     "sourcename": "Nome da fonte",
-    "savesettings": "Salvar configurações"
+    "headers": "Cabeçalhos",
+    "params": "Parametros",
+    "savesettings": "Salvar configurações",
+    "index":"Índice"
   },
   "optionEditor": {
     "activate": "Ativar",
@@ -397,6 +404,27 @@
     "streetName": "Endereço",
     "streetNumber": "Numero"
   },
+  "addressMerchant":{
+    "title" : "Alterar Endereço",
+    "save" : "Salvar",
+    "email": "O email",
+    "emailPlaceholder": "Ex. seu@email.com",
+    "name": "Nome",
+    "orderschannel": "Canal de pedidos",
+    "phone": "Número de telefone",
+    "phoneMask": "Ex. +9 (99) 999-999-999",
+    "register": "Registrar loja",
+    "street": "Endereço",
+    "postalCode": "CEP",
+    "neighborhood": "Bairro",
+    "reference": "Referência",
+    "city": "Cidade",
+    "complement": "Complemento",
+    "country": "País",
+    "state": "Estado",
+    "streetName": "Endereço",
+    "streetNumber": "Numero"
+  },
   "wizardNewMerchantGroup": {
     "appname": "Nome do Aplicativo",
     "name": "Nome",
@@ -410,6 +438,9 @@
   },
   "setting-working-periods": {
     "title": "Horários de Funcionamento",
+    "weekly_total": "Totais na semana",
+    "lunch_peak": "No pico de almoço",
+    "dinner_peak": "No pico do jantar",
     "schedules": "Horários",
     "scheduled_break": "Pausa Programada",
     "opened_by": "Aberto por",
@@ -419,10 +450,17 @@
     "thursday": "Quinta",
     "friday": "Sexta",
     "saturday": "Sábado",
-    "sunday": "Domingo"
+    "sunday": "Domingo",
+    "holidays": "Feriados",
+    "h": "h",
+    "confirm_delete":"Confirmar Apagar",
+    "msg_delete":"Tem certeza que deseja apagar?"
   },
   "choosing-working-periods": {
-    "title": "Escolha os dias e horários",
+    "title_add": "Escolha os dias e horários",
+    "title_edit": "Edite o horário de ",
+    "msg_open" : "Selecione o horário em que a loja ",
+    "msg_open_bold" : "ficará aberta",
     "choose_week_day": "Escolha o dia da semana",
     "schedules": "Horários",
     "scheduled_break": "Pausa Programada",
@@ -437,7 +475,8 @@
     "add": "Adicionar",
     "cancel": "Cancelar",
     "from": "Das: ",
-    "to": "Até: "
+    "to": "Até: ",
+    "confirm_schedules":"Confirmar horários"
   },
   "setpaymentmethod": {
     "displayname": "Nome em Exibição",
@@ -465,5 +504,23 @@
     "enter_another_reason": "Digite outro motivo",
     "enter_another_time": "Digite outra hora",
     "hours": " horas"
+  },
+  "edit_closing_holidays":{
+    "programing_pause": "Pausa Programada",
+    "holidays": "Feriados",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar"
+  },
+  "preventive_closing":{
+    "closed_by": "Fechado por",
+    "hour": "hora",
+    "hours": "horas",
+    "minute": "minuto",
+    "minutes": "minutos",
+    "from": "de",
+    "to": "até",
+    "h": "h",
+    "m": "m"
   }
+
 }
