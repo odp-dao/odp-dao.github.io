@@ -269,5 +269,16 @@
   },
   "choose-region": {
     "choose_your_region":"选择您所在的地区"
-  }
+  },
+  "merchant":{
+    "merchant_is_not_open":"店铺未开张",
+    "ok":"确定"
+    },
+  "user-detail":{
+    "title":"用户资料",
+    "mydata":"我的数据",
+    "myaddresses":"我的地址",
+    "mypayments":"我的付款",
+    "myorders":"我的订单"
+    }
 }

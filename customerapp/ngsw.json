@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1688597866470,
+  "timestamp": 1690409077651,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -98,10 +98,10 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/i18n/en.json": "aab2782ca02acb51cdd188fb7056464cf3ce256f",
-    "/assets/i18n/es.json": "1b5a49457a275e2b92b58cba77d4cbf7a09e1ffb",
-    "/assets/i18n/pt.json": "8233421eae0794967bc7d06f52f125d72e21f6ee",
-    "/assets/i18n/zh.json": "652a788d3644c6881930f0fa8911db9211f864aa",
+    "/assets/i18n/en.json": "18d0f2e69005529aa3962c4eb5abab1eb3a1889e",
+    "/assets/i18n/es.json": "bd50425de917f8e43509d9878bd1a5112bff1451",
+    "/assets/i18n/pt.json": "f96895d3da681d8ab3ea6ca4f682c57056adcb11",
+    "/assets/i18n/zh.json": "716c0d82fe91333285d61593f64ff56b7bbaa789",
     "/assets/icons/Icon_Regular_Bag.svg": "f29b60726a1d7a5e5493b05789ff49b5077717d2",
     "/assets/icons/big/Bag.svg": "ba6886bac4663a0c936da36ab18ac5537703cc7f",
     "/assets/icons/big/House.svg": "20b39733e9f9e2826fb68fcae430c5bd9a45d0cb",
@@ -162,8 +162,8 @@
     "/assets/imgs/sushi.png": "da548ce5d238b35be8128975e706afdc3bd7d9bd",
     "/favicon.ico": "3e27214a5dd7ac94e32e81ea6a92d73df83ad9b4",
     "/index.html": "946a893ec5a49650dadfc34d65b3d06f4a239858",
-    "/main.js": "1b9210bb6f610dabf3c923e31745f185cf9d65f5",
-    "/manifest.webmanifest": "087cc0b85348b60e07ce44b962ea0362ee6570da",
+    "/main.js": "33d6503695973da1b1cb9daac7cd96ce21861a44",
+    "/manifest.webmanifest": "74bc43587402086d154f86c729793c2cdbf03cb8",
     "/maps.png": "d671949464e966ddd082678d428cd22188442a8e",
     "/polyfills.js": "c038bb3d5a0adafe645c604efd81ffc98491c547",
     "/runtime.js": "787fd1d20a470bae62117854304b4d76a9f17401",

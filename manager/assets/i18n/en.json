@@ -158,8 +158,8 @@
       "Payment Methods": "Payment Methods",
       "Delivery Regions": "Delivery Regions",
       "Working Periods": "Working Periods",
-      "Address" : "Address",
-      "Postal Services":  "Postal Services"
+      "Address": "Address",
+      "Postal Services": "Postal Services"
     },
     "name": "Name",
     "adapter": "Adapter",
@@ -172,7 +172,7 @@
     "headers": "Headers",
     "params": "Params",
     "savesettings": "Save Settings",
-    "index":"Index"
+    "index": "Index"
   },
   "optionEditor": {
     "activate": "Activate",
@@ -402,11 +402,13 @@
     "country": "Country",
     "state": "State",
     "streetName": "Address",
-    "streetNumber": "Number"
+    "streetNumber": "Number",
+    "latitude": "Latitude",
+    "longitude": "Longitude"
   },
-  "addressMerchant":{
-    "title" : "Change Address",
-    "save" : "Save",
+  "addressMerchant": {
+    "title": "Change Address",
+    "save": "Save",
     "email": "Email",
     "emailPlaceholder": "E.g. your@email.com",
     "name": "Name",
@@ -423,7 +425,9 @@
     "country": "Country",
     "state": "State",
     "streetName": "Address",
-    "streetNumber": "Number"
+    "streetNumber": "Number",
+    "latitude": "Latitude",
+    "longitude": "Longitude"
   },
   "wizardNewMerchantGroup": {
     "appname": "App Name",
@@ -459,8 +463,8 @@
   "choosing-working-periods": {
     "title_add": "Choose Days and Time",
     "title_edit": "Edit Schedule for ",
-    "msg_open" : "Select the operating hours for the store ",
-    "msg_open_bold" : "to be open",
+    "msg_open": "Select the operating hours for the store ",
+    "msg_open_bold": "to be open",
     "choose_week_day": "Choose the day of the week",
     "schedules": "Schedules",
     "scheduled_break": "Scheduled Break",
@@ -476,8 +480,8 @@
     "cancel": "Cancel",
     "from": "From: ",
     "to": "To: ",
-    "confirm_schedules":"Confirm Schedules"
-},
+    "confirm_schedules": "Confirm Schedules"
+  },
   "setpaymentmethod": {
     "displayname": "Display name",
     "currency": "Currency",
@@ -505,13 +509,13 @@
     "enter_another_time": "Enter another time",
     "hours": " hours"
   },
-  "edit_closing_holidays":{
+  "edit_closing_holidays": {
     "programing_pause": "Scheduled Pause",
     "holidays": "Holidays",
     "cancel": "Cancel",
     "confirm": "Confirm"
   },
-    "preventive_closing": {
+  "preventive_closing": {
     "closed_by": "Closed by",
     "hour": "hour",
     "hours": "hours",
@@ -521,5 +525,41 @@
     "to": "to",
     "h": "h",
     "m": "m"
-    }
+  },
+  "region_form": {
+    "my_area": "My area",
+    "fees_times": "Fees & times",
+    "ideal_area": "Configure the ideal area",
+    "set_delivery_area_msg": "Set a delivery area of at least 5 km and receive a good number of orders.",
+    "select_areas": "Selected areas:",
+    "km_range": "km range",
+    "delivery_calculation_method": "Delivery Calculation Method",
+    "only_area_in_radius": "Only Area in Radius",
+    "by_region": "By Regions",
+    "by_region_and_radius": "By Regions and Radius",
+    "radius_km": "Radius (km)",
+    "enter_distance": "Please enter the distance in kilometers",
+    "select_region": "Select Region",
+    "none": "None",
+    "region_name": "Region Name",
+    "enter_region_name": "Please enter a name for the region",
+    "delivery_value": "Delivery Value",
+    "valid_delivery_value": "Please enter a valid delivery value",
+    "save_region": "Save Region",
+    "remove_region": "Remove Region",
+    "undo": "Undo",
+    "edit_areas": "Edit areas",
+    "go_back": "Go back",
+    "set_delivery_time_fees": "Set your own delivery times and fees",
+    "estimated_delivery_time": "Set the estimated delivery time, taking into account the preparation and delivery time.",
+    "distance": "Distance",
+    "fee": "Fee",
+    "time": "Time",
+    "mins": "mins",
+    "up_to": "Up to",
+    "km": "km",
+    "save_and_continue": "Salve and continue",
+    "nogeocoderalert_title": "Geolocation Delivery Calculation Unavailable",
+    "nogeocoderalert_msg": "To activate geolocation delivery calculation, please register a postal service that supports Geocoder (Google, Bing, or Nominatim)."
+  }
 }

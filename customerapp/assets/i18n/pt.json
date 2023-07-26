@@ -273,5 +273,12 @@
   "merchant":{
     "merchant_is_not_open":"A loja não está aberta",
     "ok":"ok"
+  },
+  "user-detail":{
+    "title":"Perfil do usuário",
+    "mydata":"Meus dados",
+    "myaddresses":"Meus Endereços",
+    "mypayments":"Meus Pagamentos",
+    "myorders":"Meus Pedidos"
   }
 }

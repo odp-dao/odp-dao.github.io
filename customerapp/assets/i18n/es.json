@@ -83,14 +83,16 @@
   "customer-editor": {
     "confirm_data": "Confirma tus datos",
     "name": "Nombre",
-    "name_required": "Se requiere el nombre",
-    "name_minlength": "El nombre debe tener al menos 4 caracteres",
-    "email": "E-mail",
-    "email_required": "Se requiere el E-mail",
+    "name_required": "Nombre es obligatorio",
+    "name_minlength": "La longitud del nombre debe ser al menos de 4 caracteres",
+    "email": "Correo electrónico",
+    "email_required": "Correo electrónico es obligatorio",
     "phone": "Teléfono",
-    "document": "Documento",
+    "phone_required": "Teléfono es obligatorio",
+    "document": "Documento de identificación",
+    "document_required": "Documento es obligatorio",
     "confirm": "Confirmar datos",
-    "login": "Acceso"
+    "login": "Iniciar sesión"
   },
   "delete-or-edit-address": {
     "home": "Casa",
@@ -271,5 +273,12 @@
   "merchant":{
     "merchant_is_not_open":"La tienda no está abierta",
     "ok":"ok"
-  }
+  },
+  "user-detail":{
+    "title":"Perfil del usuario",
+    "mydata":"Mis datos",
+    "myaddresses":"Mis direcciones",
+    "mypayments":"Mis pagos",
+    "myorders":"Mis pedidos"
+    }
 }
